@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_801">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice801.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExchangeTemp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExchangeXor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FourDigitSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NarcNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +35,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Main">
@@ -95,8 +85,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690887559570</updated>
-      <workItem from="1690887561013" duration="5857000" />
+      <workItem from="1690887561013" duration="6569000" />
+      <workItem from="1690894549479" duration="974000" />
+      <workItem from="1690898761917" duration="614000" />
+      <workItem from="1690899737632" duration="71000" />
     </task>
+    <task id="LOCAL-00001" summary="java Practice_801">
+      <created>1690893834968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690893834968</updated>
+    </task>
+    <task id="LOCAL-00002" summary="java Practice_801">
+      <created>1690893999524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690893999524</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
