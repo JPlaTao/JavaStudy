@@ -44,21 +44,27 @@ public class Main {
         int sideLength2 = scanner.nextInt();
         System.out.print("请输入第三个边长:");
         int sideLength3 = scanner.nextInt();
-        boolean condition1 = sideLength1 + sideLength2 > sideLength3
+
+        boolean conditionFinal = sideLength1 + sideLength2 > sideLength3
+                && sideLength1 + sideLength3 > sideLength2
+                && sideLength2 + sideLength3 > sideLength1
+                ? true:false;
+
+        /*boolean condition1 = sideLength1 + sideLength2 > sideLength3
                 && sideLength1 + sideLength3 > sideLength2
                 && sideLength2 + sideLength3 > sideLength1;
         boolean condition2 = sideLength1 - sideLength2 < sideLength3
                 && sideLength1 - sideLength3 < sideLength2
                 && sideLength2 - sideLength3 < sideLength1;
-        boolean conditionFinal = condition1 & condition2;
+        boolean conditionFinal = condition1 & condition2;*/
         System.out.println("判断这三条边是否能够构成三角形：" + conditionFinal);
     }
 
     public static void ExchangeTemp() {
         int a = 10;
         int b = 20;
-        int temp;
-        temp = a;
+
+        int temp = a;
         a = b;
         b = temp;
     }
