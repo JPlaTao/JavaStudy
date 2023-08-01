@@ -28,8 +28,7 @@ public class Main {
         int hundred = num / 100;
         int ten = num / 10 % 10;
         int one = num % 10;
-        boolean flag = (hundred * hundred * hundred) + (ten * ten * ten) + (one * one * one) == num
-                ? true:false;
+        boolean flag = (hundred * hundred * hundred) + (ten * ten * ten) + (one * one * one) == num;
         System.out.println(hundred);
         System.out.println(ten);
         System.out.println(one);
@@ -47,13 +46,11 @@ public class Main {
         int sideLength3 = scanner.nextInt();
         boolean condition1 = sideLength1 + sideLength2 > sideLength3
                 && sideLength1 + sideLength3 > sideLength2
-                && sideLength2 + sideLength3 > sideLength1
-                ? true : false;
+                && sideLength2 + sideLength3 > sideLength1;
         boolean condition2 = sideLength1 - sideLength2 < sideLength3
                 && sideLength1 - sideLength3 < sideLength2
-                && sideLength2 - sideLength3 < sideLength1
-                ? true : false;
-        boolean conditionFinal = condition1 & condition2 ? true : false;
+                && sideLength2 - sideLength3 < sideLength1;
+        boolean conditionFinal = condition1 & condition2;
         System.out.println("判断这三条边是否能够构成三角形：" + conditionFinal);
     }
 
