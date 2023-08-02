@@ -1,3 +1,5 @@
+package Practice801;
+
 import java.util.Scanner;
 
 public class FourDigitSum {

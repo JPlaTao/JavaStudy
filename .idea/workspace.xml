@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_802">
+      <change afterPath="$PROJECT_DIR$/src/Practice802/Demo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/ExchangeTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice801/ExchangeTemp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/ExchangeXor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice801/ExchangeXor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/FourDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice801/FourDigitSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/IsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice801/IsTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice801/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/NarcNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice801/NarcNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/802/Demo01.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -45,49 +54,73 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Demo01">
-    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01" />
+  <component name="RunManager" selected="Application.Bonus">
+    <configuration name="Bonus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice802.Bonus" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice802.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Constellation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice802.Constellation" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice802.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice802.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice802.Calculator" />
       <module name="practice801" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FourDigitSum" />
+    <configuration name="Season" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice802.Season" />
       <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice802.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsTriangle" />
+    <configuration name="TranslateCF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice802.TranslateCF" />
       <module name="practice801" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="practice801" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NarcNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NarcNumber" />
-      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice802.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo01" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.IsTriangle" />
-        <item itemvalue="Application.NarcNumber" />
-        <item itemvalue="Application.FourDigitSum" />
+        <item itemvalue="Application.Bonus" />
+        <item itemvalue="Application.Constellation" />
+        <item itemvalue="Application.Season" />
+        <item itemvalue="Application.TranslateCF" />
+        <item itemvalue="Application.Practice802.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +139,8 @@
       <workItem from="1690901783679" duration="36000" />
       <workItem from="1690938145119" duration="1912000" />
       <workItem from="1690959060081" duration="3191000" />
-      <workItem from="1690963528074" duration="2286000" />
+      <workItem from="1690963528074" duration="12748000" />
+      <workItem from="1690984539719" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="java Practice_801">
       <created>1690893834968</created>
@@ -136,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690964497044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java Practice_802">
+      <created>1690966263129</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690966263129</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
