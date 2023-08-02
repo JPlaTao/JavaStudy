@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_801">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_802">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/801/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/801/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -107,7 +106,7 @@
       <workItem from="1690901783679" duration="36000" />
       <workItem from="1690938145119" duration="1912000" />
       <workItem from="1690959060081" duration="3191000" />
-      <workItem from="1690963528074" duration="879000" />
+      <workItem from="1690963528074" duration="2286000" />
     </task>
     <task id="LOCAL-00001" summary="java Practice_801">
       <created>1690893834968</created>
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690899844674</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java Practice_802">
+      <created>1690964497044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690964497044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java Practice_801" />
-    <option name="LAST_COMMIT_MESSAGE" value="java Practice_801" />
+    <MESSAGE value="java Practice_802" />
+    <option name="LAST_COMMIT_MESSAGE" value="java Practice_802" />
   </component>
 </project>
