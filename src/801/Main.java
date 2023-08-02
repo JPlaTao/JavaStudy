@@ -47,8 +47,7 @@ public class Main {
 
         boolean conditionFinal = sideLength1 + sideLength2 > sideLength3
                 && sideLength1 + sideLength3 > sideLength2
-                && sideLength2 + sideLength3 > sideLength1
-                ? true:false;
+                && sideLength2 + sideLength3 > sideLength1;
 
         /*boolean condition1 = sideLength1 + sideLength2 > sideLength3
                 && sideLength1 + sideLength3 > sideLength2

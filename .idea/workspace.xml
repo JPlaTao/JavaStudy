@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_801">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExchangeTemp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExchangeXor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourDigitSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IsTriangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NarcNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/801/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/801/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +32,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Demo01">
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo01" />
+      <module name="practice801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FourDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FourDigitSum" />
       <module name="practice801" />
@@ -77,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.IsTriangle" />
         <item itemvalue="Application.NarcNumber" />
@@ -97,6 +105,9 @@
       <workItem from="1690898761917" duration="614000" />
       <workItem from="1690899737632" duration="1477000" />
       <workItem from="1690901783679" duration="36000" />
+      <workItem from="1690938145119" duration="1912000" />
+      <workItem from="1690959060081" duration="3191000" />
+      <workItem from="1690963528074" duration="879000" />
     </task>
     <task id="LOCAL-00001" summary="java Practice_801">
       <created>1690893834968</created>
