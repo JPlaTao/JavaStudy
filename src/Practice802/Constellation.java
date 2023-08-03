@@ -109,7 +109,7 @@ public class Constellation {
                 else yield  "日期输入错误";
 
             }
-            default -> {yield "";}
+            default -> "月份输入错误";
         } ;
 
         if (constellation == "月份输入错误")
