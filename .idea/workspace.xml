@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_803">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/731/test0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/731/test0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/EvenNumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/EvenNumSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/For7sMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/For7sMultiple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice803/LoopTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/LoopTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/NarcissisticNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/NarcissisticNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/NestTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/NestTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/NineNine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/NineNine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/OddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/OddProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/OddSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/OddSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/PrimeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/PrimeNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/PrimeNumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/PrimeNumSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/Qomolangma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/Qomolangma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice803/RandomGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/RandomGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/Rhombus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/Rhombus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/Squares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/Squares.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/VegetableNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/VegetableNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/not803.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/not803.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +160,7 @@
       <workItem from="1691069499699" duration="2881000" />
       <workItem from="1691074589825" duration="48000" />
       <workItem from="1691074655728" duration="268000" />
-      <workItem from="1691110925005" duration="6846000" />
+      <workItem from="1691110925005" duration="7489000" />
     </task>
     <task id="LOCAL-00001" summary="java Practice_801">
       <created>1690893834968</created>
