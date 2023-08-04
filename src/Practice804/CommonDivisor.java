@@ -9,8 +9,8 @@ public class CommonDivisor {
         int num1 = scanner.nextInt();
         System.out.print("请输入第二个数");
         int num2 = scanner.nextInt();
-        int bigNum = num1 > num2 ? num1 : num2;
-        int smallNum = num1 < num2 ? num1 : num2;
+        int bigNum = Math.max(num1, num2);
+        int smallNum = Math.min(num1, num2);
         int commDivisor = 0;
         for (int i = 1; i < bigNum; i++) {
             if ( bigNum % i == 0 && smallNum % i == 0) {

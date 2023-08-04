@@ -3,7 +3,6 @@ package Practice804;
 
 public class PrintNum {
     public static void main(String[] args) {
-        //git test
         for (int i = 1; i <= 100; i++) {
             int count = 0;
             int j = i;
