@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_802">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="java Practice_803">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/731/test0.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/Constellation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice802/Constellation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/LoopTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/LoopTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice803/RandomGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice803/RandomGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +34,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.gitee.ui.GiteeSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.PrimeNumSum">
-    <configuration name="LoopTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice803.LoopTree" />
+}]]></component>
+  <component name="RunManager" selected="Application.PrintNum">
+    <configuration name="CommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice804.CommonDivisor" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice803.*" />
+          <option name="PATTERN" value="Practice804.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice803.PrimeNum" />
+    <configuration name="LoopTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice803.LoopTree" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Rhombus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice803.Rhombus" />
+    <configuration name="PrintNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice804.PrintNum" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice803.*" />
+          <option name="PATTERN" value="Practice804.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VegetableNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice803.VegetableNumber" />
+    <configuration name="RandomGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice803.RandomGame" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeNumSum" />
+        <item itemvalue="Application.PrintNum" />
+        <item itemvalue="Application.CommonDivisor" />
         <item itemvalue="Application.LoopTree" />
-        <item itemvalue="Application.Rhombus" />
-        <item itemvalue="Application.VegetableNumber" />
-        <item itemvalue="Application.PrimeNum" />
+        <item itemvalue="Application.RandomGame" />
+        <item itemvalue="Application.PrimeNumSum" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +144,10 @@
       <workItem from="1690984539719" duration="2413000" />
       <workItem from="1690988331118" duration="517000" />
       <workItem from="1691024723845" duration="20439000" />
-      <workItem from="1691069499699" duration="1759000" />
+      <workItem from="1691069499699" duration="2881000" />
+      <workItem from="1691074589825" duration="48000" />
+      <workItem from="1691074655728" duration="268000" />
+      <workItem from="1691110925005" duration="6846000" />
     </task>
     <task id="LOCAL-00001" summary="java Practice_801">
       <created>1690893834968</created>
@@ -214,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java Practice_801" />
     <MESSAGE value="java Practice_802" />
-    <option name="LAST_COMMIT_MESSAGE" value="java Practice_802" />
+    <MESSAGE value="java Practice_803" />
+    <option name="LAST_COMMIT_MESSAGE" value="java Practice_803" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

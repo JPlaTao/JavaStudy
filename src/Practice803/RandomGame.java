@@ -8,22 +8,19 @@ public class RandomGame {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int randomNum = random.nextInt(100)+1;
+        System.out.print("猜一个数:");
 
         while(true){
-            System.out.print("猜一个数:");
             int guessNum = scanner.nextInt();
             if (guessNum == randomNum)
             {
                 System.out.println("恭喜你，猜中了");
                 break;
             } else if (guessNum > randomNum) {
-                System.out.println("你猜的大了");
-                continue;
+                System.out.println("你猜的大了，再猜一次吧");
             } else if (guessNum < randomNum) {
-                System.out.println("你猜的小了");
-                continue;
+                System.out.println("你猜的小了，再猜一次吧");
             }
         }
-
     }
 }
