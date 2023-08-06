@@ -1,8 +1,7 @@
 
-
 import java.util.Scanner;
 
-public class NestTriangle {
+public class NestTriangle {//git test
     public static void main(String[] args) {
         System.out.println("请输入三角形的行高");
         Scanner scanner = new Scanner(System.in);
