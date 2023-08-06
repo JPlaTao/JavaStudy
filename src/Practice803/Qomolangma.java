@@ -12,4 +12,3 @@ public class Qomolangma {
         System.out.println(count);
     }
 }
-//git test
