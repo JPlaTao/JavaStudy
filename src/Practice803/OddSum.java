@@ -8,3 +8,4 @@ public class OddSum {
         System.out.println(sum);
     }
 }
+//git test
