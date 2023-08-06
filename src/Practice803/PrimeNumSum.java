@@ -18,4 +18,3 @@ public class PrimeNumSum {
         System.out.println("100以内质数和为：" + sum);
     }
 }
-//git test
