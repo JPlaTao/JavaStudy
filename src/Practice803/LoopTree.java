@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class LoopTree {
+public class LoopTree {//git test
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入大小");
