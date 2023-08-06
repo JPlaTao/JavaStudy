@@ -1,5 +1,5 @@
 
-public class NarcissisticNumber {
+public class NarcissisticNumber {//git test
     public static void main(String[] args) {
         for(int i = 100; i<= 999; i++){
             int hundred = i / 100;
