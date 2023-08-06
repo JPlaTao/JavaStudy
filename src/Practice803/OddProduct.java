@@ -8,4 +8,3 @@ public class OddProduct {
         System.out.println(result);
     }
 }
-//git test
