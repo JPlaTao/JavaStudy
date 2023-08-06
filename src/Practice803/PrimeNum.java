@@ -19,4 +19,3 @@ public class PrimeNum {
         }
     }
 }
-//git test
