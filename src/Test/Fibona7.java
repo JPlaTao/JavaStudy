@@ -17,5 +17,6 @@ public class Fibona7 {
             sum = num1 + num2;
             System.out.println(sum);
         }
+        System.out.println("第" + n + "个斐波那契数为：" + sum);
     }
 }
