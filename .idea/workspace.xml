@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="git test _806">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Fibona7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Fibona7.java" afterDir="false" />
-    </list>
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="不知道是什么文件，但貌似很推荐我上传" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,20 +150,7 @@
       <workItem from="1691309269878" duration="29000" />
       <workItem from="1691379031982" duration="1795000" />
       <workItem from="1691388006603" duration="16292000" />
-    </task>
-    <task id="LOCAL-00001" summary="java Practice_801">
-      <created>1690893834968</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1690893834968</updated>
-    </task>
-    <task id="LOCAL-00002" summary="java Practice_801">
-      <created>1690893999524</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1690893999524</updated>
+      <workItem from="1691415271743" duration="486000" />
     </task>
     <task id="LOCAL-00003" summary="java Practice_801">
       <created>1690899844673</created>
@@ -406,7 +390,112 @@
       <option name="project" value="LOCAL" />
       <updated>1691309143251</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="斐波那契数列">
+      <created>1691415295711</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415295711</updated>
+    </task>
+    <task id="LOCAL-00038" summary="斐波那契数列 数组实现">
+      <created>1691415316950</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415316950</updated>
+    </task>
+    <task id="LOCAL-00039" summary="数组寻找最小值">
+      <created>1691415348812</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415348812</updated>
+    </task>
+    <task id="LOCAL-00040" summary="数组随堂小练习">
+      <created>1691415386417</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415386417</updated>
+    </task>
+    <task id="LOCAL-00041" summary="将存储个位数的数组转为合为整数">
+      <created>1691415433702</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415433702</updated>
+    </task>
+    <task id="LOCAL-00042" summary="下标与值都为奇数">
+      <created>1691415459705</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415459705</updated>
+    </task>
+    <task id="LOCAL-00043" summary="计数某数出现的次数">
+      <created>1691415492177</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415492177</updated>
+    </task>
+    <task id="LOCAL-00044" summary="6评委打分">
+      <created>1691415502691</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415502691</updated>
+    </task>
+    <task id="LOCAL-00045" summary="6评委打分 另一个">
+      <created>1691415518529</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415518529</updated>
+    </task>
+    <task id="LOCAL-00046" summary="筛选倍数">
+      <created>1691415537051</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415537051</updated>
+    </task>
+    <task id="LOCAL-00047" summary="筛选6的倍数">
+      <created>1691415551853</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415551853</updated>
+    </task>
+    <task id="LOCAL-00048" summary="将一个数组中的奇数放左边，偶数放右边">
+      <created>1691415581162</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415581162</updated>
+    </task>
+    <task id="LOCAL-00049" summary="将一个随机数数组求和">
+      <created>1691415605598</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415605598</updated>
+    </task>
+    <task id="LOCAL-00050" summary="将一个随机数数组反转">
+      <created>1691415622262</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415622262</updated>
+    </task>
+    <task id="LOCAL-00051" summary="不知道是什么文件，但貌似很推荐我上传">
+      <created>1691415754020</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415754020</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,7 +520,22 @@
     <MESSAGE value="git test 2" />
     <MESSAGE value="add java practice _804" />
     <MESSAGE value="git test _806" />
-    <option name="LAST_COMMIT_MESSAGE" value="git test _806" />
+    <MESSAGE value="斐波那契数列" />
+    <MESSAGE value="斐波那契数列 数组实现" />
+    <MESSAGE value="数组寻找最小值" />
+    <MESSAGE value="数组随堂小练习" />
+    <MESSAGE value="将存储个位数的数组转为合为整数" />
+    <MESSAGE value="下标与值都为奇数" />
+    <MESSAGE value="计数某数出现的次数" />
+    <MESSAGE value="6评委打分" />
+    <MESSAGE value="6评委打分 另一个" />
+    <MESSAGE value="筛选倍数" />
+    <MESSAGE value="筛选6的倍数" />
+    <MESSAGE value="将一个数组中的奇数放左边，偶数放右边" />
+    <MESSAGE value="将一个随机数数组求和" />
+    <MESSAGE value="将一个随机数数组反转" />
+    <MESSAGE value="不知道是什么文件，但貌似很推荐我上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="不知道是什么文件，但貌似很推荐我上传" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

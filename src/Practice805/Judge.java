@@ -26,4 +26,4 @@ public class Judge {
         sum = sum - max - min;
         System.out.println("最终得分为：" + sum/ (judge.length-2));
     }
-}
+}//git test
