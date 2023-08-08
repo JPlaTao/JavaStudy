@@ -1,4 +1,4 @@
-package Practice805;
+package Practice807;
 
 import java.util.Random;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Practice805;
+package Practice807;
 
 public class MultiplesOf6 {
     public static void main(String[] args) {

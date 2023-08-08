@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="不知道是什么文件，但貌似很推荐我上传" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="git test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrayFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrayFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrayMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrayMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/BothOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/BothOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/CountNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/CountNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/Judge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/JudgeScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/JudgeScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/Multiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/Multiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/MultiplesOf6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/MultiplesOf6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/OddLeftEvenRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/OddLeftEvenRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/RandomSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/RandomSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice805/Revers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/Revers.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
@@ -44,13 +60,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrToInt">
-    <configuration name="ArrToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice805.ArrToInt" />
+  <component name="RunManager" selected="Application.Q5AddValue">
+    <configuration name="Q1ClassRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice808.Q1ClassRank" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice805.*" />
+          <option name="PATTERN" value="Practice808.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice805.CountNum" />
+    <configuration name="Q2SearchElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice808.Q2SearchElement" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice805.*" />
+          <option name="PATTERN" value="Practice808.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Judge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice805.Judge" />
+    <configuration name="Q3Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice808.Q3Distinct" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice805.*" />
+          <option name="PATTERN" value="Practice808.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddLeftEvenRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice805.OddLeftEvenRight" />
+    <configuration name="Q4NthBig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice808.Q4NthBig" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice805.*" />
+          <option name="PATTERN" value="Practice808.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Revers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice805.Revers" />
+    <configuration name="Q5AddValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice808.Q5AddValue" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice805.*" />
+          <option name="PATTERN" value="Practice808.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrToInt" />
-        <item itemvalue="Application.Judge" />
-        <item itemvalue="Application.Revers" />
-        <item itemvalue="Application.OddLeftEvenRight" />
-        <item itemvalue="Application.CountNum" />
+        <item itemvalue="Application.Q5AddValue" />
+        <item itemvalue="Application.Q4NthBig" />
+        <item itemvalue="Application.Q3Distinct" />
+        <item itemvalue="Application.Q2SearchElement" />
+        <item itemvalue="Application.Q1ClassRank" />
       </list>
     </recent_temporary>
   </component>
@@ -151,13 +167,10 @@
       <workItem from="1691379031982" duration="1795000" />
       <workItem from="1691388006603" duration="16292000" />
       <workItem from="1691415271743" duration="486000" />
-    </task>
-    <task id="LOCAL-00003" summary="java Practice_801">
-      <created>1690899844673</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1690899844674</updated>
+      <workItem from="1691415811238" duration="76000" />
+      <workItem from="1691456532019" duration="4258000" />
+      <workItem from="1691474632679" duration="21603000" />
+      <workItem from="1691504202888" duration="969000" />
     </task>
     <task id="LOCAL-00004" summary="java Practice_802">
       <created>1690964497044</created>
@@ -495,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691415754020</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="git test">
+      <created>1691415877381</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1691415877381</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +536,6 @@
     <MESSAGE value="java Practice_801" />
     <MESSAGE value="java Practice_802" />
     <MESSAGE value="java Practice_803" />
-    <MESSAGE value="git test" />
     <MESSAGE value="git test 2" />
     <MESSAGE value="add java practice _804" />
     <MESSAGE value="git test _806" />
@@ -535,7 +554,8 @@
     <MESSAGE value="将一个随机数数组求和" />
     <MESSAGE value="将一个随机数数组反转" />
     <MESSAGE value="不知道是什么文件，但貌似很推荐我上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="不知道是什么文件，但貌似很推荐我上传" />
+    <MESSAGE value="git test" />
+    <option name="LAST_COMMIT_MESSAGE" value="git test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,7 +565,7 @@
           <option name="timeStamp" value="7" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Practice805/RandomSum.java</url>
+          <url>file://$PROJECT_DIR$/src/Practice807/RandomSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
