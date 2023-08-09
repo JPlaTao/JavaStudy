@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="git test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrToInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrayFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrayFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrayMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrayMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/ArrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/BothOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/BothOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/CountNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/CountNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/Judge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/JudgeScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/JudgeScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/Multiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/Multiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/MultiplesOf6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/MultiplesOf6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/OddLeftEvenRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/OddLeftEvenRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/RandomSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/RandomSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice805/Revers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice807/Revers.java" afterDir="false" />
-    </list>
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="808_选择排序与插入排序" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,14 +155,7 @@
       <workItem from="1691415811238" duration="76000" />
       <workItem from="1691456532019" duration="4258000" />
       <workItem from="1691474632679" duration="21603000" />
-      <workItem from="1691504202888" duration="969000" />
-    </task>
-    <task id="LOCAL-00004" summary="java Practice_802">
-      <created>1690964497044</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1690964497044</updated>
+      <workItem from="1691504202888" duration="1051000" />
     </task>
     <task id="LOCAL-00005" summary="java Practice_802">
       <created>1690966263129</created>
@@ -515,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691415877381</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="808_选择排序与插入排序">
+      <created>1691508143553</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1691508143553</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +540,8 @@
     <MESSAGE value="将一个随机数数组反转" />
     <MESSAGE value="不知道是什么文件，但貌似很推荐我上传" />
     <MESSAGE value="git test" />
-    <option name="LAST_COMMIT_MESSAGE" value="git test" />
+    <MESSAGE value="808_选择排序与插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="808_选择排序与插入排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
