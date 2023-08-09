@@ -22,7 +22,7 @@ public class Q5AddValue {
         int k = scanner.nextInt();
 
         int[] arrNew = new int[arr.length+1];
-        for (int j = 0, i = 0; i < arrNew.length; i++,j++) {
+        for (int i = 0,j = 0 ; i < arrNew.length; i++,j++) {
             if ((i+1) == n){
                 arrNew[n-1] = k;
                 i++;

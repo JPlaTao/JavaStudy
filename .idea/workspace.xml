@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="808_选择排序与插入排序" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="808_选择排序与插入排序">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice808/InsertSortMy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice808/Q5AddValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice808/Q5AddValue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,13 +49,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Q5AddValue">
-    <configuration name="Q1ClassRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice808.Q1ClassRank" />
+  <component name="RunManager" selected="Application.Q2Rank">
+    <configuration name="P2RandomRank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice809.P2RandomRank" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice808.*" />
+          <option name="PATTERN" value="Practice809.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2SearchElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice808.Q2SearchElement" />
+    <configuration name="Practice809.Q3YangHui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice809.Q3YangHui" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice808.*" />
+          <option name="PATTERN" value="Practice809.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice808.Q3Distinct" />
+    <configuration name="Q1ChunXiao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice809.Q1ChunXiao" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice808.*" />
+          <option name="PATTERN" value="Practice809.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4NthBig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice808.Q4NthBig" />
+    <configuration name="Q2Rank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice809.Q2Rank" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice808.*" />
+          <option name="PATTERN" value="Practice809.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5AddValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice808.Q5AddValue" />
+    <configuration name="Q4Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice809.Q4Copy" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice808.*" />
+          <option name="PATTERN" value="Practice809.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q5AddValue" />
-        <item itemvalue="Application.Q4NthBig" />
-        <item itemvalue="Application.Q3Distinct" />
-        <item itemvalue="Application.Q2SearchElement" />
-        <item itemvalue="Application.Q1ClassRank" />
+        <item itemvalue="Application.Q2Rank" />
+        <item itemvalue="Application.Practice809.Q3YangHui" />
+        <item itemvalue="Application.Q4Copy" />
+        <item itemvalue="Application.Practice809.Q1ChunXiao" />
+        <item itemvalue="Application.Practice809.P2RandomRank" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +160,9 @@
       <workItem from="1691456532019" duration="4258000" />
       <workItem from="1691474632679" duration="21603000" />
       <workItem from="1691504202888" duration="1051000" />
-    </task>
-    <task id="LOCAL-00005" summary="java Practice_802">
-      <created>1690966263129</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1690966263129</updated>
+      <workItem from="1691542600213" duration="73000" />
+      <workItem from="1691542926567" duration="3753000" />
+      <workItem from="1691562810451" duration="19230000" />
     </task>
     <task id="LOCAL-00006" summary="java Practice_802">
       <created>1690988305571</created>
@@ -500,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691508143553</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="808_选择排序与插入排序">
+      <created>1691542625746</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1691542625746</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
