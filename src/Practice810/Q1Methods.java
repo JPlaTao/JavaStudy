@@ -25,7 +25,7 @@ public class Q1Methods {
     public static boolean isPalindromeNumber(int number) {
         int num = number;
         int newNum = 0;
-        while (num !=0) {
+        while (num != 0) {
             newNum *= 10;
             newNum += num % 10;
             num = num / 10;

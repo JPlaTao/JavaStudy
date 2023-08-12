@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="809 多维数组">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="练习题4 完美数 _810">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Q4Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice809/Q4Copy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice809/Q3YangHui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice809/Q3YangHui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice810/Q1Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice810/Q1Methods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice810/Q2Leibniz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice810/Q2Leibniz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice810/Q3Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice810/Q3Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/InsertSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/InsertSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,25 +36,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Q4PerfectNum">
-    <configuration name="Practice810.P3SeekMinSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.P3SeekMinSum" />
+}]]></component>
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam03.BinarySearch" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exam03.ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam03.ArraySort" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2_MoreMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice811_Methods.P2_MoreMethods" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice811_Methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PerfectNumFromGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice810.PerfectNumFromGPT" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
@@ -62,47 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.Q1Methods" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice810.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q2Leibniz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.Q2Leibniz" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice810.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q3Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.Q3Login" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice810.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q4PerfectNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.Q4PerfectNum" />
+    <configuration name="PerfectNumberFromMisGao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice810.PerfectNumberFromMisGao" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q4PerfectNum" />
-        <item itemvalue="Application.Q3Login" />
-        <item itemvalue="Application.Q2Leibniz" />
-        <item itemvalue="Application.Q1Methods" />
-        <item itemvalue="Application.Practice810.P3SeekMinSum" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.Exam03.ArraySort" />
+        <item itemvalue="Application.PerfectNumberFromMisGao" />
+        <item itemvalue="Application.PerfectNumFromGPT" />
+        <item itemvalue="Application.P2_MoreMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -164,62 +168,11 @@
       <workItem from="1691562810451" duration="19332000" />
       <workItem from="1691629088432" duration="3358000" />
       <workItem from="1691647146269" duration="18881000" />
-    </task>
-    <task id="LOCAL-00007" summary="java Practice_802">
-      <created>1690988362571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1690988362571</updated>
-    </task>
-    <task id="LOCAL-00008" summary="git test">
-      <created>1691129789570</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1691129789570</updated>
-    </task>
-    <task id="LOCAL-00009" summary="git test 2">
-      <created>1691129924190</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1691129924190</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add java practice _804">
-      <created>1691155888876</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1691155888876</updated>
-    </task>
-    <task id="LOCAL-00011" summary="git test _806">
-      <created>1691308804180</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308804180</updated>
-    </task>
-    <task id="LOCAL-00012" summary="git test _806">
-      <created>1691308816227</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308816227</updated>
-    </task>
-    <task id="LOCAL-00013" summary="git test _806">
-      <created>1691308827098</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308827098</updated>
-    </task>
-    <task id="LOCAL-00014" summary="git test _806">
-      <created>1691308837285</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308837285</updated>
+      <workItem from="1691676518595" duration="232000" />
+      <workItem from="1691715712583" duration="14897000" />
+      <workItem from="1691751306485" duration="6126000" />
+      <workItem from="1691809445540" duration="2273000" />
+      <workItem from="1691827098535" duration="2959000" />
     </task>
     <task id="LOCAL-00015" summary="git test _806">
       <created>1691308846710</created>
@@ -508,7 +461,63 @@
       <option name="project" value="LOCAL" />
       <updated>1691592702659</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="809 复制数组">
+      <created>1691676548353</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676548355</updated>
+    </task>
+    <task id="LOCAL-00057" summary="练习1 翻转诗词">
+      <created>1691676576905</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676576905</updated>
+    </task>
+    <task id="LOCAL-00058" summary="练习2 寻找最大值下标">
+      <created>1691676595264</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676595264</updated>
+    </task>
+    <task id="LOCAL-00059" summary="练习3 寻找最小值，周围值求和">
+      <created>1691676645105</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676645105</updated>
+    </task>
+    <task id="LOCAL-00060" summary="练习题1 一些方法">
+      <created>1691676669612</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676669612</updated>
+    </task>
+    <task id="LOCAL-00061" summary="练习题2 莱布尼茨级数">
+      <created>1691676687053</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676687053</updated>
+    </task>
+    <task id="LOCAL-00062" summary="练习题3 登录循环">
+      <created>1691676703874</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676703874</updated>
+    </task>
+    <task id="LOCAL-00063" summary="练习题4 完美数 _810">
+      <created>1691676743802</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1691676743802</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,13 +535,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java Practice_801" />
-    <MESSAGE value="java Practice_802" />
-    <MESSAGE value="java Practice_803" />
-    <MESSAGE value="git test 2" />
-    <MESSAGE value="add java practice _804" />
-    <MESSAGE value="git test _806" />
-    <MESSAGE value="斐波那契数列" />
     <MESSAGE value="斐波那契数列 数组实现" />
     <MESSAGE value="数组寻找最小值" />
     <MESSAGE value="数组随堂小练习" />
@@ -550,7 +552,15 @@
     <MESSAGE value="git test" />
     <MESSAGE value="808_选择排序与插入排序" />
     <MESSAGE value="809 多维数组" />
-    <option name="LAST_COMMIT_MESSAGE" value="809 多维数组" />
+    <MESSAGE value="809 复制数组" />
+    <MESSAGE value="练习1 翻转诗词" />
+    <MESSAGE value="练习2 寻找最大值下标" />
+    <MESSAGE value="练习3 寻找最小值，周围值求和" />
+    <MESSAGE value="练习题1 一些方法" />
+    <MESSAGE value="练习题2 莱布尼茨级数" />
+    <MESSAGE value="练习题3 登录循环" />
+    <MESSAGE value="练习题4 完美数 _810" />
+    <option name="LAST_COMMIT_MESSAGE" value="练习题4 完美数 _810" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -566,5 +576,14 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="keep" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

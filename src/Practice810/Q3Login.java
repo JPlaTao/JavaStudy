@@ -4,18 +4,22 @@ import java.util.Scanner;
 
 public class Q3Login {
     public static void main(String[] args) {
-        int userName = 123;
+        logIn();
+    }
+
+    public static void logIn(){
+        String userName = "jwt";
         int passWord = 123;
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; true; i++) {
             System.out.print("请输入用户名:");
-            int userNameIn = scanner.nextInt();
+            String userNameIn = scanner.next();
             System.out.print("请输入密码:");
             int passWordIn = scanner.nextInt();
-            if (userName == userNameIn && passWord == passWordIn) {
+            if (userName.equals(userNameIn) && passWord == passWordIn) {
                 System.out.println("登录成功!");
                 break;
-            }else if (i == 3) {
+            } else if (i == 3) {
                 System.out.println("错误次数超过三次,登陆失败");
                 break;
             } else {

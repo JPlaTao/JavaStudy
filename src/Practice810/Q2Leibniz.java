@@ -12,15 +12,15 @@ public class Q2Leibniz {
 
     public static double leibniz(int level) {
         double pi = 0;
-        double leveles = 0;
+        double levels = 0;
         for (double i = 1; i <= level; i++) {
             if (i % 2 == 1) {
-                leveles += 1 / (2 * i - 1);
+                levels += 1 / (2 * i - 1);
             } else {
-                leveles -= 1 / (2 * i - 1);
+                levels -= 1 / (2 * i - 1);
             }
         }
-        pi = 4 * leveles;
+        pi = 4 * levels;
         return pi;
     }
 

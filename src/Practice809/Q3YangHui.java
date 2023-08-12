@@ -9,7 +9,6 @@ public class Q3YangHui {
         }
 
 
-
         for (int i = 2; i < tri.length ; i++) {
             for (int j = 1; j <=i ; j++) {
                 tri[i][j] = tri[i - 1][j-1] + tri[i-1][j];

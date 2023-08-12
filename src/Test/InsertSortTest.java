@@ -6,7 +6,7 @@ public class InsertSortTest {
         for (int i = 1; i < arr.length; i++) {
             int currNum = arr[i];
             int index = i - 1;
-            while (index >= 0 && currNum < arr[index]) {
+            while (index >= 0 && arr[index]>currNum) {
                 arr[index + 1] = arr[index];
                 index--;
             }
