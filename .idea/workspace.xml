@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="练习题4 完美数 _810">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="More Practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Q3YangHui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice809/Q3YangHui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q1Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice810/Q1Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q2Leibniz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice810/Q2Leibniz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q3Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice810/Q3Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/InsertSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/InsertSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exam03/YangHuiTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exam03/YangHuiTriangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BinarySearch">
+}</component>
+  <component name="RunManager" selected="Application.YangHuiTriangle">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exam03.BinarySearch" />
       <module name="practice801" />
@@ -79,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_MoreMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice811_Methods.P2_MoreMethods" />
+    <configuration name="P3_ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam03.P3_ArrayInsert" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice811_Methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PerfectNumFromGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.PerfectNumFromGPT" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice810.*" />
+          <option name="PATTERN" value="Exam03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +101,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YangHuiTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YangHuiTriangle" />
+      <module name="practice801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YangHuiTriangle" />
+        <item itemvalue="Application.P3_ArrayInsert" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Exam03.ArraySort" />
         <item itemvalue="Application.PerfectNumberFromMisGao" />
-        <item itemvalue="Application.PerfectNumFromGPT" />
-        <item itemvalue="Application.P2_MoreMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -172,14 +162,8 @@
       <workItem from="1691715712583" duration="14897000" />
       <workItem from="1691751306485" duration="6126000" />
       <workItem from="1691809445540" duration="2273000" />
-      <workItem from="1691827098535" duration="2959000" />
-    </task>
-    <task id="LOCAL-00015" summary="git test _806">
-      <created>1691308846710</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308846710</updated>
+      <workItem from="1691827098535" duration="3026000" />
+      <workItem from="1691930429304" duration="4414000" />
     </task>
     <task id="LOCAL-00016" summary="git test _806">
       <created>1691308853883</created>
@@ -517,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691676743802</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="More Practice">
+      <created>1691832838065</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1691832838067</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +526,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="斐波那契数列 数组实现" />
     <MESSAGE value="数组寻找最小值" />
     <MESSAGE value="数组随堂小练习" />
     <MESSAGE value="将存储个位数的数组转为合为整数" />
@@ -560,7 +550,8 @@
     <MESSAGE value="练习题2 莱布尼茨级数" />
     <MESSAGE value="练习题3 登录循环" />
     <MESSAGE value="练习题4 完美数 _810" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习题4 完美数 _810" />
+    <MESSAGE value="More Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="More Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,7 +569,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="keep" />
+        <watch expression="arr" />
       </configuration>
     </watches-manager>
   </component>
