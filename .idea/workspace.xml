@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="programing in exam_Q4 Q3_insertValueToArray">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="practices _814">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,29 +31,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.YangHuiTriangle">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam03.BinarySearch" />
+}]]></component>
+  <component name="RunManager" selected="Application.Practice814_Array_QuickSort_PrimeFactor.QuickSort">
+    <configuration name="DuoWeiShuZu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.DuoWeiShuZu" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam03.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exam03.ArraySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam03.ArraySort" />
+    <configuration name="Except" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice814_Array_QuickSort_PrimeFactor.Except" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam03.*" />
+          <option name="PATTERN" value="Practice814_Array_QuickSort_PrimeFactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3_ArrayInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam03.P3_ArrayInsert" />
+    <configuration name="PrimeFactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice814_Array_QuickSort_PrimeFactor.PrimeFactor" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam03.*" />
+          <option name="PATTERN" value="Practice814_Array_QuickSort_PrimeFactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectNumberFromMisGao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice810.PerfectNumberFromMisGao" />
+    <configuration name="PrimeNumSumNewTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.PrimeNumSumNewTest" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice810.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,20 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YangHuiTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="YangHuiTriangle" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice814_Array_QuickSort_PrimeFactor.QuickSort" />
       <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice814_Array_QuickSort_PrimeFactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.YangHuiTriangle" />
-        <item itemvalue="Application.P3_ArrayInsert" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Exam03.ArraySort" />
-        <item itemvalue="Application.PerfectNumberFromMisGao" />
+        <item itemvalue="Application.Practice814_Array_QuickSort_PrimeFactor.QuickSort" />
+        <item itemvalue="Application.Practice814_Array_QuickSort_PrimeFactor.PrimeFactor" />
+        <item itemvalue="Application.Practice814_Array_QuickSort_PrimeFactor.Except" />
+        <item itemvalue="Application.DuoWeiShuZu" />
+        <item itemvalue="Application.PrimeNumSumNewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,28 +173,9 @@
       <workItem from="1691809445540" duration="2273000" />
       <workItem from="1691827098535" duration="3026000" />
       <workItem from="1691930429304" duration="4414000" />
-      <workItem from="1691938071148" duration="891000" />
-    </task>
-    <task id="LOCAL-00020" summary="git test _806">
-      <created>1691308909207</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308909207</updated>
-    </task>
-    <task id="LOCAL-00021" summary="git test _806">
-      <created>1691308915226</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308915226</updated>
-    </task>
-    <task id="LOCAL-00022" summary="git test _806">
-      <created>1691308977734</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1691308977734</updated>
+      <workItem from="1691938071148" duration="2149000" />
+      <workItem from="1691974737980" duration="144000" />
+      <workItem from="1691976210565" duration="23336000" />
     </task>
     <task id="LOCAL-00023" summary="git test _806">
       <created>1691308987290</created>
@@ -508,7 +499,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691938356369</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="don know wtf this is">
+      <created>1691939774100</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1691939774101</updated>
+    </task>
+    <task id="LOCAL-00070" summary="as it says">
+      <created>1692021074819</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1692021074819</updated>
+    </task>
+    <task id="LOCAL-00071" summary="practices _814">
+      <created>1692021221504</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1692021221504</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,9 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="计数某数出现的次数" />
-    <MESSAGE value="6评委打分" />
-    <MESSAGE value="6评委打分 另一个" />
     <MESSAGE value="筛选倍数" />
     <MESSAGE value="筛选6的倍数" />
     <MESSAGE value="将一个数组中的奇数放左边，偶数放右边" />
@@ -551,7 +560,10 @@
     <MESSAGE value="programing in exam_Q4 YangHuiTriangle" />
     <MESSAGE value="programing in exam_Q4 YangHuiTriangle (a better way)" />
     <MESSAGE value="programing in exam_Q4 Q3_insertValueToArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="programing in exam_Q4 Q3_insertValueToArray" />
+    <MESSAGE value="don know wtf this is" />
+    <MESSAGE value="as it says" />
+    <MESSAGE value="practices _814" />
+    <option name="LAST_COMMIT_MESSAGE" value="practices _814" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
