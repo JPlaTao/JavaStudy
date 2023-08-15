@@ -2,7 +2,12 @@ package Test;
 
 public class InsertSortTest {
     public static void main(String[] args) {
-        int[] arr = {3, 1, 8, 4, 2};
+        int[] arr = {4,6,2,5,1,3};
+        insertSort(arr);
+    }
+
+
+    public static void insertSort(int[] arr){
         for (int i = 1; i < arr.length; i++) {
             int currNum = arr[i];
             int index = i - 1;
@@ -13,7 +18,10 @@ public class InsertSortTest {
             arr[index + 1] = currNum;
         }
         for (int i : arr) {
-            System.out.println(i);
+            System.out.print(i+"\t");
         }
     }
+
+
+
 }
