@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="OO practices">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="access modify, Methods Practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice816/Q2BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q2BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4LibrarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4LibrarySystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -93,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice816.Q2Test" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice816.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q4LibrarySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice816.Q4LibrarySystem" />
       <module name="practice801" />
@@ -106,26 +124,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice815_Object_QuickSort.StudentTest" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice815_Object_QuickSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Q4LibrarySystem" />
+        <item itemvalue="Application.Q2Test" />
         <item itemvalue="Application.Practice816.Static" />
         <item itemvalue="Application.PetTest" />
         <item itemvalue="Application.GirlFriendTest" />
-        <item itemvalue="Application.StudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,13 +187,7 @@
       <workItem from="1692102281346" duration="191000" />
       <workItem from="1692102493876" duration="201000" />
       <workItem from="1692147878348" duration="20703000" />
-    </task>
-    <task id="LOCAL-00026" summary="git test _806">
-      <created>1691309018101</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309018101</updated>
+      <workItem from="1692233897844" duration="8049000" />
     </task>
     <task id="LOCAL-00027" summary="git test _806">
       <created>1691309080440</created>
@@ -526,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692102208123</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="access modify, Methods Practice">
+      <created>1692234093524</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1692234093524</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将一个随机数数组求和" />
     <MESSAGE value="将一个随机数数组反转" />
     <MESSAGE value="不知道是什么文件，但貌似很推荐我上传" />
     <MESSAGE value="git test" />
@@ -569,7 +574,8 @@
     <MESSAGE value="some update" />
     <MESSAGE value="learning OO" />
     <MESSAGE value="OO practices" />
-    <option name="LAST_COMMIT_MESSAGE" value="OO practices" />
+    <MESSAGE value="access modify, Methods Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="access modify, Methods Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
