@@ -11,7 +11,7 @@ public class Object {
 
     public static void main(String[] args) {
         Object object = new Object();
-        object.id = 001;
+        object.id = 1;
         print(object.id);
         Worker worker = new Worker();
         worker.says();

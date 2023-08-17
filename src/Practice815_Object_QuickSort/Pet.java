@@ -39,3 +39,16 @@ class Dog{
         System.out.println(this.color + "的" + this.breed + "正在看家....");
     }
 }
+public class Pet {
+    public Pet() {
+    }
+
+    @Override
+    public String toString() {
+        return "Pet{}";
+    }
+
+    public static void main(String[] args) {
+        Cat cat = new Cat();
+    }
+}
