@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="access modify, Methods Practice">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q2BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q2BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4LibrarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4LibrarySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4LibrarySystem.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -58,13 +57,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Q4LibrarySystem">
-    <configuration name="GirlFriendTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice815_Object_QuickSort.GirlFriendTest" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q4_LibrarySystem.Main" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice815_Object_QuickSort.*" />
+          <option name="PATTERN" value="Q4_LibrarySystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice816.Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice816.Static" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice816.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Practice816.Q2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice816.Q2Test" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice816.*" />
+          <option name="PATTERN" value="Q4_LibrarySystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4LibrarySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice816.Q4LibrarySystem" />
+    <configuration name="Q4_LibrarySystem.Q4LibrarySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q4_LibrarySystem.Q4LibrarySystem" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice816.*" />
+          <option name="PATTERN" value="Q4_LibrarySystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice816.Static" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q4_LibrarySystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q4LibrarySystem" />
-        <item itemvalue="Application.Q2Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Q4_LibrarySystem.Q4LibrarySystem" />
+        <item itemvalue="Application.Practice816.Q2Test" />
         <item itemvalue="Application.Practice816.Static" />
         <item itemvalue="Application.PetTest" />
-        <item itemvalue="Application.GirlFriendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +186,8 @@
       <workItem from="1692102281346" duration="191000" />
       <workItem from="1692102493876" duration="201000" />
       <workItem from="1692147878348" duration="20703000" />
-      <workItem from="1692233897844" duration="8049000" />
-    </task>
-    <task id="LOCAL-00027" summary="git test _806">
-      <created>1691309080440</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309080440</updated>
+      <workItem from="1692233897844" duration="10291000" />
+      <workItem from="1692269643157" duration="1798000" />
     </task>
     <task id="LOCAL-00028" summary="git test _806">
       <created>1691309086749</created>
@@ -532,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692234093524</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="some changes">
+      <created>1692252054006</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1692252054006</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将一个随机数数组反转" />
     <MESSAGE value="不知道是什么文件，但貌似很推荐我上传" />
     <MESSAGE value="git test" />
     <MESSAGE value="808_选择排序与插入排序" />
@@ -575,7 +574,8 @@
     <MESSAGE value="learning OO" />
     <MESSAGE value="OO practices" />
     <MESSAGE value="access modify, Methods Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="access modify, Methods Practice" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
