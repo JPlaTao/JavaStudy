@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some changes">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="Optimize">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4LibrarySystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q4_LibrarySystem/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q4_LibrarySystem/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q4_LibrarySystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,33 +39,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q4_LibrarySystem.Main" />
+}]]></component>
+  <component name="RunManager" selected="Application.Practice819Weekend.movie_theater.Main">
+    <configuration name="Practice818.Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice818.Animal.Main" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q4_LibrarySystem.*" />
+          <option name="PATTERN" value="Practice818.Animal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice815_Object_QuickSort.PetTest" />
+    <configuration name="Practice818.BankAccount.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice818.BankAccount.Main" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice815_Object_QuickSort.*" />
+          <option name="PATTERN" value="Practice818.BankAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice816.Q2Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice816.Q2Test" />
+    <configuration name="Practice818.Vehicle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice818.Vehicle.Main" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q4_LibrarySystem.*" />
+          <option name="PATTERN" value="Practice818.Vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4_LibrarySystem.Q4LibrarySystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q4_LibrarySystem.Q4LibrarySystem" />
+    <configuration name="Practice818.calculateArea.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice818.calculateArea.Main" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q4_LibrarySystem.*" />
+          <option name="PATTERN" value="Practice818.calculateArea.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice816.Static" />
+    <configuration name="Practice819Weekend.movie_theater.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice819Weekend.movie_theater.Main" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Q4_LibrarySystem.*" />
+          <option name="PATTERN" value="Practice819Weekend.movie_theater.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Q4_LibrarySystem.Q4LibrarySystem" />
-        <item itemvalue="Application.Practice816.Q2Test" />
-        <item itemvalue="Application.Practice816.Static" />
-        <item itemvalue="Application.PetTest" />
+        <item itemvalue="Application.Practice819Weekend.movie_theater.Main" />
+        <item itemvalue="Application.Practice818.BankAccount.Main" />
+        <item itemvalue="Application.Practice818.Animal.Main" />
+        <item itemvalue="Application.Practice818.calculateArea.Main" />
+        <item itemvalue="Application.Practice818.Vehicle.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -187,14 +190,11 @@
       <workItem from="1692102493876" duration="201000" />
       <workItem from="1692147878348" duration="20703000" />
       <workItem from="1692233897844" duration="10291000" />
-      <workItem from="1692269643157" duration="1798000" />
-    </task>
-    <task id="LOCAL-00028" summary="git test _806">
-      <created>1691309086749</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309086749</updated>
+      <workItem from="1692269643157" duration="3655000" />
+      <workItem from="1692320458212" duration="12808000" />
+      <workItem from="1692338425316" duration="38000" />
+      <workItem from="1692338506664" duration="22333000" />
+      <workItem from="1692519150236" duration="28995000" />
     </task>
     <task id="LOCAL-00029" summary="git test _806">
       <created>1691309092269</created>
@@ -532,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692252054006</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Optimize">
+      <created>1692274815919</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1692274815920</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="不知道是什么文件，但貌似很推荐我上传" />
     <MESSAGE value="git test" />
     <MESSAGE value="808_选择排序与插入排序" />
     <MESSAGE value="809 多维数组" />
@@ -575,7 +581,8 @@
     <MESSAGE value="OO practices" />
     <MESSAGE value="access modify, Methods Practice" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="Optimize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,11 +600,43 @@
           <line>9</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java</url>
+          <line>25</line>
+          <properties class="Practice819Weekend.movie_theater.User" method="addMovies">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java</url>
+          <line>39</line>
+          <properties class="Practice819Weekend.movie_theater.User" method="toString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java</url>
+          <line>55</line>
+          <properties class="Practice819Weekend.movie_theater.User" method="getMovies">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="arr" />
+        <watch expression="movies" />
       </configuration>
     </watches-manager>
   </component>
