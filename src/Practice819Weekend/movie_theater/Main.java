@@ -6,6 +6,12 @@ public class Main {
     static Scanner scanner = new Scanner(System.in);
     static User currentUser;
 
+
+    /**
+     * 主界面
+     *
+     * @param args Main方法
+     */
     public static void main(String[] args) {
         while (true) {
             menu();
@@ -16,7 +22,7 @@ public class Main {
                 case 3 -> loginAdministrator();
                 case 4 -> loginUser();
                 case 5 -> userSignUp();
-                case 6 -> {
+                case 0 -> {
                     System.out.println("退出");
                     return;
                 }
@@ -25,6 +31,9 @@ public class Main {
 
     }
 
+    /**
+     * 主菜单
+     */
     public static void menu() {
         System.out.println("**********************************");
         System.out.println("请输入操作：");
@@ -33,10 +42,13 @@ public class Main {
         System.out.println("3.管理员登录");
         System.out.println("4.用户登录");
         System.out.println("5.用户注册");
-        System.out.println("6.退出");
+        System.out.println("0.退出");
         System.out.println("**********************************");
     }
 
+    /**
+     * 管理员界面
+     */
     public static void adminMain() {
         while (true) {
             adminMenu();
@@ -54,6 +66,10 @@ public class Main {
         }
     }
 
+
+    /**
+     * 管理员菜单
+     */
     public static void adminMenu() {
         System.out.println("**********************************");
         System.out.println("请输入操作：");
@@ -61,10 +77,14 @@ public class Main {
         System.out.println("2.删除电影");
         System.out.println("3.修改电影");
         System.out.println("4.查看所有用户信息");
-        System.out.println("5.退出");
+        System.out.println("0.返回上一级");
         System.out.println("**********************************");
     }
 
+
+    /**
+     * 添加电影
+     */
     private static void addMovie() {
         System.out.print("请输入电影名：");
         String name = scanner.next();
@@ -83,16 +103,24 @@ public class Main {
         System.out.println(newMovie.toString());
     }
 
+
+    /**
+     * 删除电影
+     */
     private static void deleteMovie() {
         System.out.println("请输入电影名");
         String name = scanner.next();
         MovieTheater.deleteMovie(name);
     }
 
+
+    /**
+     * 修改电影信息
+     */
     private static void modifyMovieInfo() {
         System.out.print("请输入电影名：");
         String name = scanner.next();
-        if (!MovieTheater.isAMovie(name))
+        if (!MovieTheater.isMovie(name))
             return;
         selectMovie(name);
         int index = MovieTheater.selectMovieReturnIndex(name);
@@ -126,10 +154,18 @@ public class Main {
         }
     }
 
+
+    /**
+     * 展示所有用户
+     */
     private static void showAllUsers() {
         MovieTheater.showAllUsers();
     }
 
+
+    /**
+     * 用户交互
+     */
     public static void userMain() {
         while (true) {
             userMenu();
@@ -138,7 +174,7 @@ public class Main {
                 case 1 -> modifyUserInfo();
                 case 2 -> showUserInfo();
                 case 3 -> byTicket();
-                case 4 -> {
+                case 0 -> {
                     System.out.println("退出");
                     return;
                 }
@@ -146,16 +182,23 @@ public class Main {
         }
     }
 
+
+    /**
+     * 用户菜单
+     */
     public static void userMenu() {
         System.out.println("**********************************");
         System.out.println("请输入操作：");
         System.out.println("1.修改用户信息");
         System.out.println("2.查询用户信息");
         System.out.println("3.买票");
-        System.out.println("4.退出");
+        System.out.println("0.退出");
         System.out.println("**********************************");
     }
 
+    /**
+     * 修改用户信息
+     */
     private static void modifyUserInfo() {
         System.out.println("**********************************");
         System.out.println(currentUser.toString());
@@ -169,7 +212,7 @@ public class Main {
             case 1 -> {
                 System.out.print("请输入新用户名：");
                 String newUserName = scanner.next();
-                currentUser.setUsername(newUserName);
+                currentUser = MovieTheater.modifyUserName(currentUser, newUserName);
                 System.out.println("修改成功");
             }
             case 2 -> {
@@ -187,43 +230,116 @@ public class Main {
         }
     }
 
+
+    /**
+     * 买票方法
+     */
     private static void byTicket() {
+        //显示所有电影
         showAllMovies();
+        //交互
         System.out.print("请输入要购票的电影名：");
         String name = scanner.next();
         System.out.print("请输入要购买的数量：");
         int num = scanner.nextInt();
-        if (!MovieTheater.isAMovie(name))
+        //输入合法判断
+        if (!MovieTheater.isMovie(name))
             return;
+        //拿下标
         int index = MovieTheater.selectMovieReturnIndex(name);
-        currentUser.addMovies(MovieTheater.getMovie(index));
+        //用户电影数组添加
+        userAddMovie(index, num);
+        //显示此电影
         MovieTheater.showMovie(index);
+        //改电影票数量 获取此电影的票数
         int currTickets = MovieTheater.getTicketCount(index);
-        MovieTheater.setTicketCount(currTickets-num, index);
+        //修改票数
+        MovieTheater.setTicketCount(currTickets - num, index);
         System.out.println("购买成功");
         MovieTheater.showMovie(index);
     }
 
+
+    /**
+     * 用户电影信息添加
+     *
+     * @param index 下标
+     * @param num   数量
+     */
+    public static void userAddMovie(int index, int num) {
+        Movie movieToAdd = new Movie(
+                MovieTheater.getMovie(index).getName(),
+                MovieTheater.getMovie(index).getPrice(),
+                MovieTheater.getMovie(index).getDirector(),
+                MovieTheater.getMovie(index).getDate(),
+                num
+        );
+        currentUser.addMovies(movieToAdd);
+        currentUser.setMoviesTickets(num);
+        MovieTheater.setUsers(currentUser);
+        currentUser = MovieTheater.getUser(currentUser);
+    }
+
+
+    /**
+     * 展示用户信息
+     */
     private static void showUserInfo() {
         System.out.println(currentUser.toString());
     }
 
-
+    /**
+     * 查询电影
+     */
     public static void selectMovie() {
         System.out.println("请输入电影名：");
         String name = scanner.next();
         MovieTheater.selectMovie(name);
     }
 
+    /**
+     * 选择电影重载，直接接收电影名查找，用来在方法里调用
+     *
+     * @param name 接收电影名
+     */
     public static void selectMovie(String name) {
         MovieTheater.selectMovie(name);
     }
 
-
+    /**
+     * 展示所有电影
+     */
     private static void showAllMovies() {
         MovieTheater.showAllMovies();
     }
 
+
+    /**
+     * 登录方法
+     */
+    private static void login(){
+        System.out.print("请输入用户名：");
+        String adminUserName = scanner.next();
+        System.out.print("请输入密码：");
+        String adminPassword = scanner.next();
+        System.out.println("请再次输入密码");
+
+    }
+
+    /**
+     * 验证手机号是否被注册过
+     */
+    private static void verifyPhone(){
+
+    }
+
+    private static void verifyPassword(){
+
+    }
+
+    /**
+     * 管理员登录
+     */
     private static void loginAdministrator() {
         System.out.print("请输入管理员用户名：");
         String adminUserName = scanner.next();
@@ -233,12 +349,15 @@ public class Main {
         String adminPassword = scanner.next();
         User loginUser = new User(adminUserName, phone, adminPassword);
         if (MovieTheater.isUser(loginUser)) {
-            System.out.println("登录成功");
             currentUser = loginUser;
+            System.out.println("登录成功");
             adminMain();
         } else System.out.println("输入错误");
     }
 
+    /**
+     * 用户登录 跟管理员登录基本一样，待会改
+     */
     private static void loginUser() {
         System.out.print("请输入用户名：");
         String adminUserName = scanner.next();
@@ -246,14 +365,26 @@ public class Main {
         int phone = scanner.nextInt();
         System.out.print("请输入密码：");
         String adminPassword = scanner.next();
-        User loginUser = new User(adminUserName, phone, adminPassword);
-        if (MovieTheater.isUser(loginUser)) {
-            currentUser = loginUser;
-            System.out.println("登录成功");
-            userMain();
-        } else System.out.println("没有此用户或输入错误");
+        currentUser = MovieTheater.selectUser(adminUserName);
+        if (currentUser == null) {
+            System.out.println("没有此用户");
+            return;
+        }
+
+        System.out.println(currentUser);
+        System.out.println("登录成功");
+        userMain();
+
+//        if (MovieTheater.isUser(loginUser)) {
+//            currentUser = loginUser;
+//            System.out.println("登录成功");
+//            userMain();
     }
 
+
+    /**
+     * 用户注册
+     */
     private static void userSignUp() {
         System.out.print("请输入用户名：");
         String adminUserName = scanner.next();
@@ -266,9 +397,13 @@ public class Main {
         System.out.println("注册成功");
     }
 
-
-//    private static boolean isIllegal(User[] user) {
-//        return user[1] == null;
-//    }
+    /**
+     * 是否非法判断
+     * @param user 接收
+     * @return 返回布尔值
+     */
+    private static boolean isIllegal(User[] user) {
+        return user[1] == null;
+    }
 
 }

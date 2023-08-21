@@ -1,6 +1,6 @@
 package Practice819Weekend.movie_theater;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
+import java.util.Objects;
 
 public class MovieTheater {
     static private Movie[] movies;
@@ -62,7 +62,7 @@ public class MovieTheater {
         return -1;
     }
 
-    public static boolean isAMovie(String name){
+    public static boolean isMovie(String name){
         for (Movie movie : movies) {
             if (movie == null) return false;
             if (movie.getName().equals(name)/*Objects.equals(movie.getName(), name)*/) {
@@ -117,6 +117,28 @@ public class MovieTheater {
         usersCnt++;
         if (users.length == usersCnt)
             usersExpansion();
+    }
+
+    public static User selectUser(String name){
+        for (int i = 0; i < usersCnt; i++) {
+            if (Objects.equals(users[i].getUsername(),name)){
+                return users[i];
+            }
+        }
+        return null;
+    }
+
+    /**
+     * 修改用户信息，并传值
+     */
+    public static User modifyUserName(User user, String userName){
+        for (int i = 0; i < users.length; i++) {
+            if (users[i].equals(user)){
+                users[i].setUsername(userName);
+                return users[i];
+            }
+        }
+        return null;
     }
 
     public static void addMovie(Movie newMovie) {
@@ -176,6 +198,23 @@ public class MovieTheater {
 
     public static User[] getUsers() {
         return users;
+    }
+
+    public static void setUsers(User user) {
+        for (int i = 0; i < usersCnt; i++) {
+            if (users[i].equals(user)){
+                users[i] = user;
+            }
+        }
+    }
+
+
+    public static User getUser(User user){
+        for (int i = 0; i < usersCnt; i++) {
+            if (users[i].equals(user))
+                return users[i];
+        }
+        return null;
     }
 
     public static void setUsers(User[] users) {

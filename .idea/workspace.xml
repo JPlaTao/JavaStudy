@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="Optimize">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="weekend practice work, more challenging, but i made it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4_LibrarySystem/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4_LibrarySystem/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4_LibrarySystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/MovieTheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/MovieTheater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,27 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "create.test.in.the.same.root": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Practice819Weekend.movie_theater.Main">
     <configuration name="Practice818.Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice818.Animal.Main" />
@@ -194,28 +194,11 @@
       <workItem from="1692320458212" duration="12808000" />
       <workItem from="1692338425316" duration="38000" />
       <workItem from="1692338506664" duration="22333000" />
-      <workItem from="1692519150236" duration="28995000" />
-    </task>
-    <task id="LOCAL-00029" summary="git test _806">
-      <created>1691309092269</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309092269</updated>
-    </task>
-    <task id="LOCAL-00030" summary="git test _806">
-      <created>1691309098781</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309098781</updated>
-    </task>
-    <task id="LOCAL-00031" summary="git test _806">
-      <created>1691309104037</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309104037</updated>
+      <workItem from="1692519150236" duration="29313000" />
+      <workItem from="1692579854042" duration="8661000" />
+      <workItem from="1692600514307" duration="1498000" />
+      <workItem from="1692602101357" duration="5159000" />
+      <workItem from="1692615233560" duration="7183000" />
     </task>
     <task id="LOCAL-00032" summary="git test _806">
       <created>1691309111211</created>
@@ -539,7 +522,28 @@
       <option name="project" value="LOCAL" />
       <updated>1692274815920</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="some optimize">
+      <created>1692550980886</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1692550980887</updated>
+    </task>
+    <task id="LOCAL-00079" summary="object-oriented practice">
+      <created>1692551107613</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1692551107613</updated>
+    </task>
+    <task id="LOCAL-00080" summary="weekend practice work, more challenging, but i made it">
+      <created>1692551226399</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1692551226399</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,9 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git test" />
-    <MESSAGE value="808_选择排序与插入排序" />
-    <MESSAGE value="809 多维数组" />
     <MESSAGE value="809 复制数组" />
     <MESSAGE value="练习1 翻转诗词" />
     <MESSAGE value="练习2 寻找最大值下标" />
@@ -582,7 +583,10 @@
     <MESSAGE value="access modify, Methods Practice" />
     <MESSAGE value="some changes" />
     <MESSAGE value="Optimize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimize" />
+    <MESSAGE value="some optimize" />
+    <MESSAGE value="object-oriented practice" />
+    <MESSAGE value="weekend practice work, more challenging, but i made it" />
+    <option name="LAST_COMMIT_MESSAGE" value="weekend practice work, more challenging, but i made it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,43 +604,14 @@
           <line>9</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java</url>
-          <line>198</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java</url>
-          <line>25</line>
-          <properties class="Practice819Weekend.movie_theater.User" method="addMovies">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java</url>
-          <line>39</line>
-          <properties class="Practice819Weekend.movie_theater.User" method="toString">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java</url>
-          <line>55</line>
-          <properties class="Practice819Weekend.movie_theater.User" method="getMovies">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
+        <watch expression="movies" language="JAVA" />
+        <watch expression="currentUser" />
         <watch expression="movies" />
+        <watch expression="users" />
       </configuration>
     </watches-manager>
   </component>

@@ -1,12 +1,13 @@
 package Practice819Weekend.movie_theater;
 
-import java.util.Arrays;
 import java.util.Objects;
 
 public class User {
     private String username;
     private int phone;
     private String password;
+
+    private boolean isAdmin;
     private Movie[] movies ;
     private int moviesCnt;
 
@@ -21,6 +22,13 @@ public class User {
         this.username = username;
         this.phone = phone;
         this.password = password;
+    }
+
+    public User(String username, int phone, String password,boolean isAdmin) {
+        this.username = username;
+        this.phone = phone;
+        this.password = password;
+        this.isAdmin = isAdmin;
     }
 
     public void addMovies(Movie movie){
@@ -57,14 +65,15 @@ public class User {
         String str = "";
         for (Movie movie : movies) {
             if (movie == null) break;
-            str +="\nmovies:\n" +" Name:"+movie.getName()+
-                    ",directed by:"+ movie.getDirector()+
-                    ",release date:"+movie.getDate()+
-                    ",price:"+movie.getPrice() +
-                    ",ticket count:" +movie.getTicketCount() + ";\n";
+            str = str + ("\nmovies:\n" + " Name:" + movie.getName() +
+                    ",directed by:" + movie.getDirector() +
+                    ",release date:" + movie.getDate() +
+                    ",price:" + movie.getPrice() +
+                    ",ticket count:" + movie.getTicketCount() + ";");
         }
-        return str + "end";
+        return str + "\nend";
     }
+
 
     public String getUsername() {
         return username;
@@ -89,4 +98,13 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public int getMovieTicketCount(){
+        return movies[moviesCnt-1].getTicketCount();
+    }
+
+    public void setMoviesTickets(int num){
+        this.movies[moviesCnt-1].setTicketCount(num);
+    }
+
 }
