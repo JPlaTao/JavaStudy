@@ -11,7 +11,7 @@ public class MovieTheater {
     static {
         movies = new Movie[10];
         users = new User[10];
-        users[0] = new User("admin", 12138, "root");
+        users[0] = new User("admin", 1234567891, "root",true);
         usersCnt =1;
 
         movies[0] = new Movie("蜘蛛侠：纵横宇宙", 26, "乔伊姆", 20230602,31);
@@ -62,14 +62,14 @@ public class MovieTheater {
         return -1;
     }
 
-    public static boolean isMovie(String name){
+    public static boolean isNotMovie(String name){
         for (Movie movie : movies) {
-            if (movie == null) return false;
+            if (movie == null) return true;
             if (movie.getName().equals(name)/*Objects.equals(movie.getName(), name)*/) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     public static void sortMovies(){
@@ -119,9 +119,11 @@ public class MovieTheater {
             usersExpansion();
     }
 
-    public static User selectUser(String name){
+    public static User selectUser(String name,String password,boolean isAdmin){
         for (int i = 0; i < usersCnt; i++) {
-            if (Objects.equals(users[i].getUsername(),name)){
+            if (Objects.equals(users[i].getUsername(),name)
+            &&  Objects.equals(users[i].getPassword(),password)
+            && users[i].isAdmin() == isAdmin){
                 return users[i];
             }
         }

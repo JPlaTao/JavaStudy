@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Movie {
     private String name;
-    private double price;
     private String director;
     private int date;
+    private double price;
     private int ticketCount;
 
     public Movie() {
@@ -21,12 +21,15 @@ public class Movie {
     }
 
 
-    public String toString(){
-        return " Name:"+getName()+
-                ",directed by:"+ getDirector()+
-                ",release date:"+ getDate()+
-                ",price:"+ getPrice() +
-                ",ticket count:" + getTicketCount();
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "电影名：'" + name + '\'' +
+                ", 导演：'" + director + '\'' +
+                ", 上映日期：" + date +
+                ", 价格：" + price +
+                ", 票数：" + ticketCount +
+                '}';
     }
 
     public boolean equals(Movie obj) {

@@ -107,4 +107,11 @@ public class User {
         this.movies[moviesCnt-1].setTicketCount(num);
     }
 
+    public boolean isAdmin() {
+        return isAdmin;
+    }
+
+    public void setAdmin(boolean admin) {
+        isAdmin = admin;
+    }
 }

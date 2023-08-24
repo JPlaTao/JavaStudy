@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="weekend practice work, more challenging, but i made it">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/MovieTheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/MovieTheater.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java" afterDir="false" />
     </list>
@@ -48,7 +49,7 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -60,13 +61,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice819Weekend.movie_theater.Main">
-    <configuration name="Practice818.Animal.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice818.Animal.Main" />
+  <component name="RunManager" selected="Application.Practice823.VerifyCode">
+    <configuration name="LoginInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice823.LoginInterface" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice818.Animal.*" />
+          <option name="PATTERN" value="Practice823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice818.BankAccount.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice818.BankAccount.Main" />
+    <configuration name="Palindromes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice823.Palindromes" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice818.BankAccount.*" />
+          <option name="PATTERN" value="Practice823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice818.Vehicle.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice818.Vehicle.Main" />
+    <configuration name="Practice823.VerifyCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice823.VerifyCode" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice818.Vehicle.*" />
+          <option name="PATTERN" value="Practice823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice818.calculateArea.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice818.calculateArea.Main" />
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice823.Reverse" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice818.calculateArea.*" />
+          <option name="PATTERN" value="Practice823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice819Weekend.movie_theater.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice819Weekend.movie_theater.Main" />
+    <configuration name="Suffix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice823.Suffix" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice819Weekend.movie_theater.*" />
+          <option name="PATTERN" value="Practice823.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Practice819Weekend.movie_theater.Main" />
-        <item itemvalue="Application.Practice818.BankAccount.Main" />
-        <item itemvalue="Application.Practice818.Animal.Main" />
-        <item itemvalue="Application.Practice818.calculateArea.Main" />
-        <item itemvalue="Application.Practice818.Vehicle.Main" />
+        <item itemvalue="Application.Practice823.VerifyCode" />
+        <item itemvalue="Application.Suffix" />
+        <item itemvalue="Application.Reverse" />
+        <item itemvalue="Application.Palindromes" />
+        <item itemvalue="Application.Practice823.LoginInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -198,14 +199,10 @@
       <workItem from="1692579854042" duration="8661000" />
       <workItem from="1692600514307" duration="1498000" />
       <workItem from="1692602101357" duration="5159000" />
-      <workItem from="1692615233560" duration="7183000" />
-    </task>
-    <task id="LOCAL-00032" summary="git test _806">
-      <created>1691309111211</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309111211</updated>
+      <workItem from="1692615233560" duration="7278000" />
+      <workItem from="1692670099790" duration="12805000" />
+      <workItem from="1692762391718" duration="7471000" />
+      <workItem from="1692788481698" duration="8033000" />
     </task>
     <task id="LOCAL-00033" summary="git test _806">
       <created>1691309121279</created>
@@ -543,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692551226399</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="some update">
+      <created>1692622954106</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1692622954106</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +581,6 @@
     <MESSAGE value="don know wtf this is" />
     <MESSAGE value="as it says" />
     <MESSAGE value="practices _814" />
-    <MESSAGE value="some update" />
     <MESSAGE value="learning OO" />
     <MESSAGE value="OO practices" />
     <MESSAGE value="access modify, Methods Practice" />
@@ -586,7 +589,8 @@
     <MESSAGE value="some optimize" />
     <MESSAGE value="object-oriented practice" />
     <MESSAGE value="weekend practice work, more challenging, but i made it" />
-    <option name="LAST_COMMIT_MESSAGE" value="weekend practice work, more challenging, but i made it" />
+    <MESSAGE value="some update" />
+    <option name="LAST_COMMIT_MESSAGE" value="some update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -606,14 +610,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="movies" language="JAVA" />
-        <watch expression="currentUser" />
-        <watch expression="movies" />
-        <watch expression="users" />
-      </configuration>
-    </watches-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
