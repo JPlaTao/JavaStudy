@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some changes and String Methods practice">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some changes and String methods practice;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice823/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice824/P1Marry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice824/P1Marry/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice824/P4ValidBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice824/P4ValidBracket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,43 +41,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "create.test.in.the.same.root": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm07_code&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Font&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice824.P1Marry.Main" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice824.P1Marry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P2LuckyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice824.P2LuckyNumber" />
+}</component>
+  <component name="RunManager" selected="Application.P1LongestSubstring">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice824.Calculator" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +77,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice824.P3Distinct" />
+    <configuration name="E1CalendarStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice825.E1CalendarStudy" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice824.*" />
+          <option name="PATTERN" value="Practice825.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P1LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice825.P1LongestSubstring" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice825.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice824.P1Marry.P1Marry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice824.P1Marry.P1Marry" />
+    <configuration name="Practice825.Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice825.Calendar" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice824.*" />
+          <option name="PATTERN" value="Practice825.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.P1LongestSubstring" />
+        <item itemvalue="Application.E1CalendarStudy" />
+        <item itemvalue="Application.Practice825.Calendar" />
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.P4ValidBracket" />
-        <item itemvalue="Application.Practice824.P3Distinct" />
-        <item itemvalue="Application.Practice824.P2LuckyNumber" />
-        <item itemvalue="Application.Practice824.P1Marry.P1Marry" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +205,10 @@
       <workItem from="1692670099790" duration="12805000" />
       <workItem from="1692762391718" duration="7471000" />
       <workItem from="1692788481698" duration="8033000" />
-      <workItem from="1692838943133" duration="24564000" />
-    </task>
-    <task id="LOCAL-00034" summary="git test _806">
-      <created>1691309128593</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1691309128593</updated>
+      <workItem from="1692838943133" duration="25813000" />
+      <workItem from="1692925318602" duration="6012000" />
+      <workItem from="1692943021614" duration="6678000" />
+      <workItem from="1692960987337" duration="8181000" />
     </task>
     <task id="LOCAL-00035" summary="git test _806">
       <created>1691309133810</created>
@@ -548,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692839020317</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="some changes and String methods practice;">
+      <created>1692889062611</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1692889062611</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="练习1 翻转诗词" />
     <MESSAGE value="练习2 寻找最大值下标" />
     <MESSAGE value="练习3 寻找最小值，周围值求和" />
     <MESSAGE value="练习题1 一些方法" />
@@ -591,7 +595,8 @@
     <MESSAGE value="weekend practice work, more challenging, but i made it" />
     <MESSAGE value="some update" />
     <MESSAGE value="some changes and String Methods practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes and String Methods practice" />
+    <MESSAGE value="some changes and String methods practice;" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes and String methods practice;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -608,6 +613,25 @@
           <url>file://$PROJECT_DIR$/src/Practice807/RandomSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice824/Calculator.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practice824/Calculator.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Practice824/Calculator.java</url>
+          <line>19</line>
+          <properties class="Practice824.Calculator" method="calculator">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

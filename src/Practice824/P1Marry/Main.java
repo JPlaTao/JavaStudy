@@ -1,11 +1,13 @@
 package Practice824.P1Marry;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        Person[] persons = new Person[10];
+        System.out.println(Arrays.toString(persons));
         System.out.print("请输入第一个人的姓名:");
         String p1name = scanner.next();
         System.out.print("请输入第一个人的年龄：");
@@ -30,4 +32,7 @@ public class Main {
         Person p2 = new Person(p2name,p2gender,p2age,p2IsMarried);
         System.out.println("此二人"+(CAB.canMarry(p1, p2)? "可以":"不可以" )+ "结婚");
     }
+
+
+
 }

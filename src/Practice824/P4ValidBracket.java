@@ -14,7 +14,7 @@ public class P4ValidBracket {
     public static boolean isValid(String str) {
         if (str.isBlank())
             return true;
-        str = str.replaceAll("\\s","");
+        str = str.replaceAll("([^()])","");
         while (str.contains("()")){
             str = str.replace("()","");
         }
