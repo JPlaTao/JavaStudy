@@ -1,6 +1,6 @@
 package Day829_InnerClass;
 
-public class InnerClassTest {
+public class E1_InnerClassTest {
 
     static class InnerStatic {
         private String notStaticString;
