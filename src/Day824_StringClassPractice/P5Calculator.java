@@ -15,9 +15,97 @@ public class P5Calculator {
         System.out.println("请输入算式：");
         String str = scanner.nextLine();
         System.out.println(calculator(str));
+//        System.out.println(calculatorRegex(str));
     }
 
-    public static StringBuilder calculator(String str) {
+
+    public static String result(String str) {
+        str.replace(" ", "");
+        while (str.contains("*") || str.contains("/")) {
+            int index = str.indexOf('*');
+            int index2 = str.indexOf('/');
+            if (index == -1) {
+                index = index2;
+            } else if (index > index2) {
+                index = index2;
+            }
+            int leftIndex = index - 1, rightIndex = index + 1;
+            while (leftIndex >= 0 && Character.isDigit(str.charAt(leftIndex))) {
+                leftIndex--;
+            }
+            while (rightIndex < str.length() && Character.isDigit(str.charAt(rightIndex))) {
+                rightIndex++;
+            }
+            int leftNum = Integer.parseInt(str.substring(leftIndex + 1, index));
+            int rightNum = Integer.parseInt(str.substring(index + 1, rightIndex));
+            int result = 0;
+            if (str.charAt(index) == '*') {
+                result = leftNum * rightNum;
+            } else {
+                result = leftNum / rightNum;
+            }
+            str = str.substring(0, leftIndex + 1) + result + str.substring(rightIndex);
+        }
+        return str;
+    }
+
+    public static String calculator(String str) {
+        str.replace(" ", "");
+        while (str.contains("*") || str.contains("/")) {
+            int index = str.indexOf('*');
+            int index2 = str.indexOf('/');
+            if (index == -1) {
+                index = index2;
+            } else if (index != -1 && index > index2) {
+                index = index2;
+            }
+            int leftIndex = index - 1, rightIndex = index + 1;
+            while (leftIndex >= 0 && Character.isDigit(str.charAt(leftIndex))) {
+                leftIndex--;
+            }
+            while (rightIndex < str.length() && Character.isDigit(str.charAt(rightIndex))) {
+                rightIndex++;
+            }
+            int leftNum = Integer.parseInt(str.substring(leftIndex + 1, index));
+            int rightNum = Integer.parseInt(str.substring(index + 1, rightIndex));
+            int result = 0;
+            if (str.charAt(index) == '*') {
+                result = leftNum * rightNum;
+            } else {
+                result = leftNum / rightNum;
+            }
+            str = str.substring(0, leftIndex + 1) + result + str.substring(rightIndex);
+        }
+        while (str.contains("+") || str.contains("-")) {
+            int index = str.indexOf('+');
+            int index2 = str.indexOf('-', 1);
+            if (index == -1) {
+                index = index2;
+            } else if (index != -1 && index > index2) {
+                index = index2;
+            }
+            if (index == -1) break;
+            int leftIndex = index - 1, rightIndex = index + 1;
+            while (leftIndex >= 0 && (Character.isDigit(str.charAt(leftIndex)) || str.charAt(leftIndex) == '-')) {
+                leftIndex--;
+            }
+            while (rightIndex < str.length() && Character.isDigit(str.charAt(rightIndex))) {
+                rightIndex++;
+            }
+            int leftNum = Integer.parseInt(str.substring(leftIndex + 1, index));
+            int rightNum = Integer.parseInt(str.substring(index + 1, rightIndex));
+            int result = 0;
+            if (str.charAt(index) == '+') {
+                result = leftNum + rightNum;
+            } else {
+                result = leftNum - rightNum;
+            }
+            str = str.substring(0, leftIndex + 1) + result + str.substring(rightIndex);
+        }
+        return str;
+    }
+
+    public static StringBuilder calculatorRegex(String str) {
         StringBuilder stringBuilder = new StringBuilder(str);
         Matcher matcherMD = regexMD.matcher(stringBuilder);
         while (matcherMD.find()) {
@@ -35,6 +123,7 @@ public class P5Calculator {
         }
         return stringBuilder;
     }
+
     public static int evaluateExpressionMutDiv(String expression) {
         String[] parts = expression.split("[*/]");
         int operand1 = Integer.parseInt(parts[0].trim());
@@ -46,6 +135,7 @@ public class P5Calculator {
         }
         return 0;
     }
+
     public static int evaluateExpressionPluSub(String expression) {
         String[] parts = expression.split("[+-]");
         int operand1 = Integer.parseInt(parts[0].trim());

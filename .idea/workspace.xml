@@ -1,154 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="String and datetime methods practice">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some test">
+      <change afterPath="$PROJECT_DIR$/src/Day828_Abstract/P2_ValidBracket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice801/ExchangeTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day801/ExchangeTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice801/ExchangeXor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day801/ExchangeXor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice801/FourDigitSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day801/FourDigitSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice801/IsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day801/IsTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice801/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day801/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice801/NarcNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day801/NarcNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/802note.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/802note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/Bonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/Constellation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/Constellation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice802/TranslateCF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day802/TranslateCF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/EvenNumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/EvenNumSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/For7sMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/For7sMultiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/LoopTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/LoopTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/NarcissisticNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/NarcissisticNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/NestTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/NestTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/NineNine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/NineNine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/OddProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/OddProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/OddSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/OddSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/PrimeNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/PrimeNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/PrimeNumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/PrimeNumSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/Qomolangma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/Qomolangma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/RandomGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/RandomGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/Rhombus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/Rhombus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/Squares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/Squares.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/VegetableNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/VegetableNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice803/not803.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day803/not803.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/BeggerHong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/BeggerHong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/CommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/CommonDivisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/FactorialN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/FactorialN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/HollowTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/HollowTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/PalindromicNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/PalindromicNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/PrimeNumIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/PrimeNumIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/PrintNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/PrintNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/RunnerLiSi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/RunnerLiSi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice804/SquareShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day804/SquareShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/ArrToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/ArrToInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/ArrayFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/ArrayFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/ArrayMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/ArrayMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/ArrayPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/BothOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/BothOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/CountNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/CountNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/Judge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/JudgeScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/JudgeScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/Multiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/Multiple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/MultiplesOf6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/MultiplesOf6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/OddLeftEvenRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/OddLeftEvenRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/RandomSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/RandomSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice807/Revers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day807/Revers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/Q1ClassRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/Q1ClassRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/Q2SearchElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/Q2SearchElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/Q3Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/Q3Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/Q4NthBig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/Q4NthBig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/Q5AddValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/Q5AddValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice808/SelectSortNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day808/SelectSortNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Dome01PopSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/Dome01PopSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/P1BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/P1BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/P2RandomRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/P2RandomRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Q1ChunXiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/Q1ChunXiao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Q2Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/Q2Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Q3YangHui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/Q3YangHui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice809/Q4Copy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day809/Q4Copy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/P1Poetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/P1Poetry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/P2SeekMaxIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/P2SeekMaxIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/P3SeekMinSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/P3SeekMinSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/PerfectNumFromGPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/PerfectNumFromGPT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/PerfectNumberFromMisGao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/PerfectNumberFromMisGao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q1Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/Q1Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q2Leibniz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/Q2Leibniz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q3Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/Q3Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice810/Q4PerfectNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day810/Q4PerfectNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice811_Methods/P1TreeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day811_Methods/P1TreeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice811_Methods/P2Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day811_Methods/P2Recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice811_Methods/P2_MoreMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day811_Methods/P2_MoreMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice811_Methods/PO_Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day811_Methods/PO_Rank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice814_Array_QuickSort_PrimeFactor/Except.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day814_Array_QuickSort_PrimeFactor/Except.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice814_Array_QuickSort_PrimeFactor/PrimeFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day814_Array_QuickSort_PrimeFactor/PrimeFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice814_Array_QuickSort_PrimeFactor/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day814_Array_QuickSort_PrimeFactor/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/GirlFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/GirlFriend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/GirlFriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/GirlFriendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/Object.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/PetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/PetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice815_Object_QuickSort/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day815_Object_QuickSort/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/ACT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/ACT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/ACT_SamePackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/ACT_SamePackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q1Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q1Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q2BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q2BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q3GeometryCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q3GeometryCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q4_LibrarySystem/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q4_LibrarySystem/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Q4_LibrarySystem/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Q4_LibrarySystem/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Static.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice816/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day816_SmallSys/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Animal/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Animal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Animal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Animal/SnowPanther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Animal/SnowPanther.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/BankAccount/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/BankAccount/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/BankAccount/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/BankAccount/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/BankAccount/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/BankAccount/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/BankAccount/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/BankAccount/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/ToolClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/ToolClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Vehicle/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Vehicle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Vehicle/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Vehicle/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Vehicle/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/Vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/Vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/calculateArea/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/calculateArea/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/calculateArea/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/calculateArea/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/calculateArea/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/calculateArea/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice818/calculateArea/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day818_Sys_Methods/calculateArea/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/Util/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day819_Weekend/Util/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/Util/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day819_Weekend/Util/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day819_Weekend/movie_theater/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day819_Weekend/movie_theater/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/MovieTheater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day819_Weekend/movie_theater/MovieTheater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice819Weekend/movie_theater/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day819_Weekend/movie_theater/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/LoginInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day823_StringAPI/LoginInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/Palindromes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day823_StringAPI/Palindromes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day823_StringAPI/Reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/StringLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day823_StringAPI/StringLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/Suffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day823_StringAPI/Suffix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice823/VerifyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day823_StringAPI/VerifyCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P5Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/E1RegularExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/E1RegularExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/E2WrapperClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/E2WrapperClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/E3BoxingAndUnBoxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/E3BoxingAndUnBoxing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/P1Marry/CAB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P1Marry/CAB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/P1Marry/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P1Marry/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/P1Marry/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P1Marry/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/P2LuckyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P2LuckyNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/P3Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P3Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice824/P4ValidBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P4ValidBracket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice825/E1CalendarStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day825_DateTimeClass/E1CalendarStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practice825/P1LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day825_DateTimeClass/P1LongestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shape/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/731/test0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day731/test0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day824_StringClassPractice/P5Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P5Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,47 +65,8 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.InternTest">
-    <configuration name="E1CalendarStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day825_DateTimeClass.E1CalendarStudy" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day825_DateTimeClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InternTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.InternTest" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P1LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day825_DateTimeClass.P1LongestSubstring" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day825_DateTimeClass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="P5Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.P2_ValidBracket">
+    <configuration name="Day824_StringClassPractice.P5Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day824_StringClassPractice.P5Calculator" />
       <module name="practice801" />
       <extension name="coverage">
@@ -261,12 +79,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice825.Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice825.Calendar" />
+    <configuration name="Day828_Abstract.P1_LongestSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day828_Abstract.P1_LongestSubSequence" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day825_DateTimeClass.*" />
+          <option name="PATTERN" value="Day828_Abstract.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day828_Abstract.E1_Animal.Main" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day828_Abstract.E1_Animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P2_ValidBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day824_StringClassPractice.P2_ValidBracket" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day824_StringClassPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam04.PassWorld" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exam04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,11 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InternTest" />
+        <item itemvalue="Application.P2_ValidBracket" />
+        <item itemvalue="Application.Day828_Abstract.P1_LongestSubSequence" />
         <item itemvalue="Application.Day824_StringClassPractice.P5Calculator" />
-        <item itemvalue="Application.Day825_DateTimeClass.P1LongestSubstring" />
-        <item itemvalue="Application.Day825_DateTimeClass.E1CalendarStudy" />
-        <item itemvalue="Application.Practice825.Calendar" />
+        <item itemvalue="Application.PassWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -360,20 +216,11 @@
       <workItem from="1693142804966" duration="1509000" />
       <workItem from="1693144500623" duration="2328000" />
       <workItem from="1693147152631" duration="1935000" />
-    </task>
-    <task id="LOCAL-00037" summary="斐波那契数列">
-      <created>1691415295711</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415295711</updated>
-    </task>
-    <task id="LOCAL-00038" summary="斐波那契数列 数组实现">
-      <created>1691415316950</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415316950</updated>
+      <workItem from="1693151424587" duration="128000" />
+      <workItem from="1693184356900" duration="8570000" />
+      <workItem from="1693202485479" duration="20367000" />
+      <workItem from="1693228906763" duration="1827000" />
+      <workItem from="1693279985340" duration="2191000" />
     </task>
     <task id="LOCAL-00039" summary="数组寻找最小值">
       <created>1691415348812</created>
@@ -704,7 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692971083481</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="name chang">
+      <created>1693151502748</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1693151502748</updated>
+    </task>
+    <task id="LOCAL-00087" summary="some test">
+      <created>1693151529716</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1693151529716</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,8 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="练习3 寻找最小值，周围值求和" />
-    <MESSAGE value="练习题1 一些方法" />
     <MESSAGE value="练习题2 莱布尼茨级数" />
     <MESSAGE value="练习题3 登录循环" />
     <MESSAGE value="练习题4 完美数 _810" />
@@ -747,7 +606,9 @@
     <MESSAGE value="some changes and String methods practice;" />
     <MESSAGE value="some changes" />
     <MESSAGE value="String and datetime methods practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="String and datetime methods practice" />
+    <MESSAGE value="name chang" />
+    <MESSAGE value="some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="some test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -773,6 +634,12 @@
         <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="str.indexOf(str1.charAt(i)" />
+        <watch expression="str.lastIndexOf(str1.charAt(i))" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
