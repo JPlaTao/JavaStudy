@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some test">
-      <change afterPath="$PROJECT_DIR$/src/Day828_Abstract/P2_ValidBracket.java" afterDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some change">
+      <change afterPath="$PROJECT_DIR$/src/Day829_InnerClass/P2_CommPrefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/731/test0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day731/test0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day824_StringClassPractice/P5Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day824_StringClassPractice/P5Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day828_Abstract/CommPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day828_Abstract/P1_LongestSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day828_Abstract/P1_LongestSubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day829_InnerClass/InnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day829_InnerClass/E1_InnerClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.P2_ValidBracket">
+  <component name="RunManager" selected="Application.P2_CommPrefix">
     <configuration name="Day824_StringClassPractice.P5Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day824_StringClassPractice.P5Calculator" />
       <module name="practice801" />
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day828_Abstract.E1_Animal.Main" />
+    <configuration name="P2_CommPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day829_InnerClass.P2_CommPrefix" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day828_Abstract.E1_Animal.*" />
+          <option name="PATTERN" value="Day829_InnerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam04.PassWorld" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day829_InnerClass.P1Stack.Test" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam04.*" />
+          <option name="PATTERN" value="Day829_InnerClass.P1Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,10 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P2_ValidBracket" />
+        <item itemvalue="Application.P2_CommPrefix" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Day828_Abstract.P1_LongestSubSequence" />
+        <item itemvalue="Application.P2_ValidBracket" />
         <item itemvalue="Application.Day824_StringClassPractice.P5Calculator" />
-        <item itemvalue="Application.PassWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -220,14 +222,7 @@
       <workItem from="1693184356900" duration="8570000" />
       <workItem from="1693202485479" duration="20367000" />
       <workItem from="1693228906763" duration="1827000" />
-      <workItem from="1693279985340" duration="2191000" />
-    </task>
-    <task id="LOCAL-00039" summary="数组寻找最小值">
-      <created>1691415348812</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415348812</updated>
+      <workItem from="1693279985340" duration="22959000" />
     </task>
     <task id="LOCAL-00040" summary="数组随堂小练习">
       <created>1691415386417</created>
@@ -565,7 +560,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693151529716</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="some change">
+      <created>1693288666701</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1693288666702</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="练习题2 莱布尼茨级数" />
     <MESSAGE value="练习题3 登录循环" />
     <MESSAGE value="练习题4 完美数 _810" />
     <MESSAGE value="More Practice" />
@@ -608,7 +609,8 @@
     <MESSAGE value="String and datetime methods practice" />
     <MESSAGE value="name chang" />
     <MESSAGE value="some test" />
-    <option name="LAST_COMMIT_MESSAGE" value="some test" />
+    <MESSAGE value="some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="some change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,10 +637,9 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
-      <configuration name="Application">
-        <watch expression="str.indexOf(str1.charAt(i)" />
-        <watch expression="str.lastIndexOf(str1.charAt(i))" />
-      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/Day829_InnerClass/P2_CommPrefix.java" line="23">
+        <watch expression="s[i].charAt(j)" />
+      </inline-watch>
     </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
