@@ -4,16 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="inner Class and interface studying and practice">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="8-31 Exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/ACT_DiffPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/ACT_DiffPackage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/DuoWeiShuZu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/DuoWeiShuZu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Fibona7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Fibona7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/InsertSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/InsertSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/InternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/InternTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/PrimeNumSumNewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/PrimeNumSumNewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day830_Lambda_Datastrcture/P1_WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day830_Lambda_Datastrcture/P1_WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +68,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.StringTest">
-    <configuration name="Day828_Abstract.P1_LongestSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day828_Abstract.P1_LongestSubSequence" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ExceptionLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day831_ExceptionLine.am.ExceptionLine" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day828_Abstract.*" />
+          <option name="PATTERN" value="Day831_ExceptionLine.am.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day830_Lambda_Datastrcture.Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day830_Lambda_Datastrcture.Switch" />
+    <configuration name="P1_WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day830_Lambda_Datastrcture.P1_WordBreak" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_CommPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day829_InnerClass.P2_CommPrefix" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day831_ExceptionLine.pm_LinkedTable.Test" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day829_InnerClass.*" />
+          <option name="PATTERN" value="Day831_ExceptionLine.pm_LinkedTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,25 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.QuickSort" />
+      <module name="practice801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day831_ExceptionLine.pm_LinkedTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test.StringTest" />
       <module name="practice801" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day829_InnerClass.P1Stack.Test" />
-      <module name="practice801" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day829_InnerClass.P1Stack.*" />
+          <option name="PATTERN" value="Day831_ExceptionLine.pm_LinkedTable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringTest" />
-        <item itemvalue="Application.Day830_Lambda_Datastrcture.Switch" />
-        <item itemvalue="Application.P2_CommPrefix" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Day828_Abstract.P1_LongestSubSequence" />
+        <item itemvalue="Application.P1_WordBreak" />
+        <item itemvalue="Application.ExceptionLine" />
+        <item itemvalue="Application.Test.QuickSort" />
+        <item itemvalue="Application.Test.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -238,13 +231,10 @@
       <workItem from="1693356974115" duration="11411000" />
       <workItem from="1693398200040" duration="1373000" />
       <workItem from="1693404533472" duration="2412000" />
-    </task>
-    <task id="LOCAL-00042" summary="下标与值都为奇数">
-      <created>1691415459705</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415459705</updated>
+      <workItem from="1693443443127" duration="7710000" />
+      <workItem from="1693465887925" duration="5463000" />
+      <workItem from="1693473229729" duration="604000" />
+      <workItem from="1693480092896" duration="13869000" />
     </task>
     <task id="LOCAL-00043" summary="计数某数出现的次数">
       <created>1691415492177</created>
@@ -582,7 +572,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693321357316</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="8-31 Exception">
+      <created>1693443735976</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1693443735976</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="练习题4 完美数 _810" />
     <MESSAGE value="More Practice" />
     <MESSAGE value="?" />
     <MESSAGE value="programing in exam_Q4 YangHuiTriangle" />
@@ -625,7 +621,8 @@
     <MESSAGE value="some test" />
     <MESSAGE value="some change" />
     <MESSAGE value="inner Class and interface studying and practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="inner Class and interface studying and practice" />
+    <MESSAGE value="8-31 Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="8-31 Exception" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,6 +644,7 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Integer" memberName="value" />
         <PinnedItemInfo parentTag="Practice824.P1Marry.Person" memberName="name" />
         <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
       </pinned-members>

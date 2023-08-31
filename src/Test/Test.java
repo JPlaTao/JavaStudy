@@ -17,3 +17,11 @@ class Test1 extends Test{
     //final修饰的方法不能被重写
 //    final void func2(){}
 }
+
+final class TestFinal{
+
+}
+
+//final类不能被继承
+//class TestFinalExtends extends TestFinal{
+//}
