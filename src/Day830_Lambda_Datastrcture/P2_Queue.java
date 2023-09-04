@@ -40,18 +40,33 @@ abstract class Queue {
     abstract int size();
 }
 
+class Test {
+    public static void main(String[] args) {
+        MyQueue q;
+        try {
+            q = new MyQueue(-1);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.out.println("请重新输入");
+        }
+    }
+}
+
 class MyQueue extends Queue {
 
     private Object[] objs;
     private int capacity;
     private int index = 0;
 
+    /**
+     * 无参构造，将队的容量和长度初始化为10
+     */
     MyQueue() {
         capacity = 10;
         objs = new Object[capacity];
     }
 
-    MyQueue(int capacity) throws InputMismatchException {
+    MyQueue(int capacity) throws Exception {
         if (capacity < 0) {
             throw new InputMismatchException("输入的初始容量值不合法");
         }

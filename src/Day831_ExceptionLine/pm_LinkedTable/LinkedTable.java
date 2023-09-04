@@ -43,9 +43,8 @@ public class LinkedTable {
         for (int i = 0; i < size; i++) {
             if (o.equals(tempNote.value)) {
                 return true;
-            } else {
-                tempNote = tempNote.next;
             }
+            tempNote = tempNote.next;
         }
         return false;
     }
@@ -96,15 +95,36 @@ public class LinkedTable {
     }
 
     /**
+     * 返回指定下标位置的值
      * @param index 指定位置的下标
      * @return 指定位置的值
      */
-    public Object get(int index) {
+    public Object valueOf(int index) {
+        if (index < 0 || index > size) {
+            return null;
+        }
         Node tempNode = headNode;
         for (int i = 0; i < index; i++) {
             tempNode = tempNode.next;
         }
         return tempNode.value;
+    }
+
+
+    /**
+     * 返回指定值的下标
+     * @param element 指定值
+     * @return 指定值的下标
+     */
+    public int indexOf(Object element) {
+        Node tempNode = headNode;
+        for (int i = 0; i < size; i++) {
+            if (element.equals(tempNode.value)){
+                return i;
+            }
+            tempNode = tempNode.next;
+        }
+        return -1;
     }
 
     @Override
@@ -118,8 +138,7 @@ public class LinkedTable {
                 str += ", ";
             }
         }
-        str += ", " + tempNode.value;
-        return str += "]";
+        return str += ", " + tempNode + "]";
     }
 
     public class Node {
@@ -141,7 +160,7 @@ public class LinkedTable {
 
         @Override
         public String toString() {
-            return value + "";
+            return value.toString();
         }
     }
 
