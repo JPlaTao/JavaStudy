@@ -25,11 +25,11 @@ public class Test {
 //        HungrySingleton hs = HungrySingleton.getInstance();
 //        HungrySingleton hs1 = HungrySingleton.getInstance();
 
-//        LazySingleton ls = LazySingleton.getInstance();
-//        LazySingleton ls1 = LazySingleton.getInstance();
+//        LazySingleton ls = LazySingleton.getINSTANCE();
+//        LazySingleton ls1 = LazySingleton.getINSTANCE();
 
-//        StaticInnerClass ss = StaticInnerClass.StaticInnerClassInstance.getInstance();
-//        StaticInnerClass ss1 = StaticInnerClass.StaticInnerClassInstance.getInstance();
+//        StaticInnerClass ss = StaticInnerClass.StaticInnerClassInstance.getINSTANCE();
+//        StaticInnerClass ss1 = StaticInnerClass.StaticInnerClassInstance.getINSTANCE();
         }
     }
 }

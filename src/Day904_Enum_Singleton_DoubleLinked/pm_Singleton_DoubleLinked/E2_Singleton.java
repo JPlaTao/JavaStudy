@@ -5,29 +5,29 @@ public class E2_Singleton {
 }
 
 class HungrySingleton{
-    private static final HungrySingleton instance = new HungrySingleton();
+    private static final HungrySingleton INSTANCE = new HungrySingleton();
 
-    HungrySingleton(){
+    private HungrySingleton(){
         System.out.println("a hungry singleton");
     }
 
     public static HungrySingleton getInstance(){
-        return instance;
+        return INSTANCE;
     }
 }
 
 class LazySingleton{
-    private static LazySingleton instance = null;
+    private static LazySingleton INSTANCE = null;
 
     private LazySingleton(){
         System.out.println("a lazy singleton");
     }
 
     public static LazySingleton getInstance(){
-        if (instance == null){
-            instance = new LazySingleton();
+        if (INSTANCE == null){
+            INSTANCE = new LazySingleton();
         }
-        return instance;
+        return INSTANCE;
     }
 }
 
@@ -39,13 +39,13 @@ class StaticInnerClass{
 
     static class StaticInnerClassInstance {
 
-        private static StaticInnerClass instance = null;
+        private static StaticInnerClass INSTANCE = null;
 
         public static StaticInnerClass getInstance() {
-            if (instance == null){
-                instance = new StaticInnerClass();
+            if (INSTANCE == null){
+                INSTANCE = new StaticInnerClass();
             }
-            return instance;
+            return INSTANCE;
         }
     }
 

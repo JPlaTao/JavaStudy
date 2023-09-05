@@ -1,4 +1,4 @@
-package Day901.am;
+package Day901_DoubleLinked.am;
 
 public class Test {
     public static void main(String[] args) {
