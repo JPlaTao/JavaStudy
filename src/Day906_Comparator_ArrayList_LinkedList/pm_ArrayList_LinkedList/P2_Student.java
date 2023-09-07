@@ -9,6 +9,7 @@ public class P2_Student {
     static class Student {
         private int id;
         private int score;
+//        private String name;
         static private int auto_increment_id = 0;
 
         public Student() {
@@ -20,6 +21,10 @@ public class P2_Student {
         public int getId() {
             return id;
         }
+
+//        public String getName() {
+//            return name;
+//        }
 
         public void setId(int id) {
             this.id = id;
@@ -69,6 +74,16 @@ public class P2_Student {
                     return s2.getScore() - s1.getScore();
                 }
             });
+
+//            students.sort(new Comparator() {
+//                @Override
+//                public int compare(Object o1, Object o2) {
+//                    Student s1 = (Student) o1;
+//                    Student s2 = (Student) o2;
+//                    return s1.getName().compareTo(s2.getName());
+//                }
+//            });
+
             System.out.println("排序后:");
             students.forEach(o -> System.out.println(o));
             System.out.println("分数最高的：");

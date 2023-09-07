@@ -92,7 +92,7 @@ class RoleManage {
     }
     public static void menu() {
         System.out.println("========================================");
-        System.out.println("请选择操作\n0.退出\n1.浏览所有角色\n" +
+        System.out.println("请选择操作：\n0.退出\n1.浏览所有角色\n" +
                 "2.添加角色\n3.按等级排序\n4.按命座排序\n5.删除低于指定的角色");
         System.out.println("========================================");
         int opera = scanner.nextInt();

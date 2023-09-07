@@ -4,14 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="day 904,Enum Singleton &amp; DoubleLinked">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="9-6,Comparator,ArrayList,LinkedList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice801.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day901/am/DoubleLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day901_DoubleLinked/am/DoubleLinked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day901/am/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day901_DoubleLinked/am/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day904_Enum_Singleton_DoubleLinked/pm_Singleton_DoubleLinked/E2_Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day904_Enum_Singleton_DoubleLinked/pm_Singleton_DoubleLinked/E2_Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day904_Enum_Singleton_DoubleLinked/pm_Singleton_DoubleLinked/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day904_Enum_Singleton_DoubleLinked/pm_Singleton_DoubleLinked/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/Exe_GenShin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/Exe_GenShin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/P2_Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/P2_Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,39 +47,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowByte Code Viewer.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "create.test.in.the.same.root": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last.edited.regexp": "15 / 59    ",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Day905_Collection.pm_Practices.StudentScoreVector">
-    <configuration name="P1_StudentName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day905_Collection.pm_Practices.P1_StudentName" />
+}</component>
+  <component name="RunManager" selected="Application.P2_LongestWorld">
+    <configuration name="Day907.pm.FindDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day907.pm.FindDate" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day905_Collection.pm_Practices.*" />
+          <option name="PATTERN" value="Day907.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1_StudentName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day905_Collection.pm.P1_StudentName" />
+    <configuration name="Day907.pm.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day907.pm.Test" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day905_Collection.pm.*" />
+          <option name="PATTERN" value="Day907.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentScoreVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day905_Collection.pm_Practices.StudentScoreVector" />
+    <configuration name="Day907.pm.TestOfPoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day907.pm.TestOfPoker" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day905_Collection.pm_Practices.*" />
+          <option name="PATTERN" value="Day907.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day905_Collection.pm_Practices.Test" />
+    <configuration name="Exe_Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day907.am.Exe_Set" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day905_Collection.pm_Practices.*" />
+          <option name="PATTERN" value="Day907.am.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day905_Collection.pm_Practices.VectorInteger" />
+    <configuration name="P2_LongestWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day907.pm.P2_LongestWorld" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day905_Collection.pm_Practices.*" />
+          <option name="PATTERN" value="Day907.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day905_Collection.pm_Practices.StudentScoreVector" />
-        <item itemvalue="Application.Day905_Collection.pm_Practices.VectorInteger" />
-        <item itemvalue="Application.Day905_Collection.pm_Practices.Test" />
-        <item itemvalue="Application.Day905_Collection.pm_Practices.P1_StudentName" />
-        <item itemvalue="Application.Day905_Collection.pm.P1_StudentName" />
+        <item itemvalue="Application.P2_LongestWorld" />
+        <item itemvalue="Application.Day907.pm.FindDate" />
+        <item itemvalue="Application.Day907.pm.TestOfPoker" />
+        <item itemvalue="Application.Day907.pm.Test" />
+        <item itemvalue="Application.Exe_Set" />
       </list>
     </recent_temporary>
   </component>
@@ -256,28 +253,12 @@
       <workItem from="1693914601798" duration="309000" />
       <workItem from="1693915142901" duration="12000" />
       <workItem from="1693915178023" duration="132000" />
-      <workItem from="1693915321367" duration="5281000" />
-    </task>
-    <task id="LOCAL-00045" summary="6评委打分 另一个">
-      <created>1691415518529</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415518529</updated>
-    </task>
-    <task id="LOCAL-00046" summary="筛选倍数">
-      <created>1691415537051</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415537051</updated>
-    </task>
-    <task id="LOCAL-00047" summary="筛选6的倍数">
-      <created>1691415551853</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415551853</updated>
+      <workItem from="1693915321367" duration="5595000" />
+      <workItem from="1693961747713" duration="12006000" />
+      <workItem from="1693991343440" duration="7776000" />
+      <workItem from="1694005362059" duration="2138000" />
+      <workItem from="1694048210003" duration="5121000" />
+      <workItem from="1694066334083" duration="15865000" />
     </task>
     <task id="LOCAL-00048" summary="将一个数组中的奇数放左边，偶数放右边">
       <created>1691415581162</created>
@@ -601,7 +582,28 @@
       <option name="project" value="LOCAL" />
       <updated>1693833877411</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="some change">
+      <created>1693920815688</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1693920815688</updated>
+    </task>
+    <task id="LOCAL-00095" summary="9-5,Collections, knowing iterator,using vector">
+      <created>1693920918742</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1693920918742</updated>
+    </task>
+    <task id="LOCAL-00096" summary="9-6,Comparator,ArrayList,LinkedList">
+      <created>1694007444356</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1694007444356</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,8 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="?" />
-    <MESSAGE value="programing in exam_Q4 YangHuiTriangle" />
     <MESSAGE value="programing in exam_Q4 YangHuiTriangle (a better way)" />
     <MESSAGE value="programing in exam_Q4 Q3_insertValueToArray" />
     <MESSAGE value="don know wtf this is" />
@@ -642,9 +642,11 @@
     <MESSAGE value="some test" />
     <MESSAGE value="inner Class and interface studying and practice" />
     <MESSAGE value="8-31 Exception" />
-    <MESSAGE value="some change" />
     <MESSAGE value="day 904,Enum Singleton &amp; DoubleLinked" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 904,Enum Singleton &amp; DoubleLinked" />
+    <MESSAGE value="some change" />
+    <MESSAGE value="9-5,Collections, knowing iterator,using vector" />
+    <MESSAGE value="9-6,Comparator,ArrayList,LinkedList" />
+    <option name="LAST_COMMIT_MESSAGE" value="9-6,Comparator,ArrayList,LinkedList" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
