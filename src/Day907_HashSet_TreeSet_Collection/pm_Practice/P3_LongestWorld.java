@@ -1,11 +1,10 @@
-package Day907.pm;
+package Day907_HashSet_TreeSet_Collection.pm_Practice;
 
 import java.util.Comparator;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.TreeSet;
 
-public class P2_LongestWorld {
+public class P3_LongestWorld {
     public static void main(String[] args) {
         HashSet hashSet = new HashSet<>();
         hashSet.add("bird");

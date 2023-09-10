@@ -1,4 +1,4 @@
-package Day907.pm;
+package Day907_HashSet_TreeSet_Collection.pm_Practice;
 
 import java.util.Comparator;
 import java.util.Objects;

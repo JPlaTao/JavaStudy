@@ -4,11 +4,13 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="9-6,Comparator,ArrayList,LinkedList">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="9.7 hashset,tree-set and collections;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/Exe_GenShin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/Exe_GenShin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/P2_Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day906_Comparator_ArrayList_LinkedList/pm_ArrayList_LinkedList/P2_Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day907/am/Exe_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/am/Exe_Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day907/pm/P1_Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/P1_Poker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day907/pm/P2_FindDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/P2_FindDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day907/pm/P2_LongestWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/P3_LongestWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day907/pm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -73,13 +75,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.P2_LongestWorld">
-    <configuration name="Day907.pm.FindDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day907.pm.FindDate" />
+  <component name="RunManager" selected="Application.Q3_TowIndex">
+    <configuration name="Day908_Genericity.am.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day908_Genericity.am.Test" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day907.pm.*" />
+          <option name="PATTERN" value="Day908_Genericity.am.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day907.pm.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day907.pm.Test" />
+    <configuration name="Exam05_0909.Q2_TowString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam05_0909.Q2_TowString" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day907.pm.*" />
+          <option name="PATTERN" value="Exam05_0909.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day907.pm.TestOfPoker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day907.pm.TestOfPoker" />
+    <configuration name="Exe_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day908_Genericity.pm.Exe_Map" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day907.pm.*" />
+          <option name="PATTERN" value="Day908_Genericity.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_Set" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day907.am.Exe_Set" />
+    <configuration name="Q1_ManyWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam05_0909.Q1_ManyWords" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day907.am.*" />
+          <option name="PATTERN" value="Exam05_0909.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_LongestWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day907.pm.P2_LongestWorld" />
+    <configuration name="Q3_TowIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exam05_0909.Q3_TowIndex" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day907.pm.*" />
+          <option name="PATTERN" value="Exam05_0909.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.P2_LongestWorld" />
-        <item itemvalue="Application.Day907.pm.FindDate" />
-        <item itemvalue="Application.Day907.pm.TestOfPoker" />
-        <item itemvalue="Application.Day907.pm.Test" />
-        <item itemvalue="Application.Exe_Set" />
+        <item itemvalue="Application.Q3_TowIndex" />
+        <item itemvalue="Application.Exam05_0909.Q2_TowString" />
+        <item itemvalue="Application.Q1_ManyWords" />
+        <item itemvalue="Application.Exe_Map" />
+        <item itemvalue="Application.Day908_Genericity.am.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -258,21 +260,18 @@
       <workItem from="1693991343440" duration="7776000" />
       <workItem from="1694005362059" duration="2138000" />
       <workItem from="1694048210003" duration="5121000" />
-      <workItem from="1694066334083" duration="15865000" />
-    </task>
-    <task id="LOCAL-00048" summary="将一个数组中的奇数放左边，偶数放右边">
-      <created>1691415581162</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415581162</updated>
-    </task>
-    <task id="LOCAL-00049" summary="将一个随机数数组求和">
-      <created>1691415605598</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415605598</updated>
+      <workItem from="1694066334083" duration="17374000" />
+      <workItem from="1694097811387" duration="38000" />
+      <workItem from="1694134549107" duration="4594000" />
+      <workItem from="1694152575662" duration="5880000" />
+      <workItem from="1694170274737" duration="434000" />
+      <workItem from="1694170736716" duration="7803000" />
+      <workItem from="1694221356212" duration="5723000" />
+      <workItem from="1694227181429" duration="1267000" />
+      <workItem from="1694361603256" duration="50000" />
+      <workItem from="1694361677195" duration="5000" />
+      <workItem from="1694361723074" duration="4000" />
+      <workItem from="1694361763122" duration="1050000" />
     </task>
     <task id="LOCAL-00050" summary="将一个随机数数组反转">
       <created>1691415622262</created>
@@ -603,7 +602,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694007444356</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="some change">
+      <created>1694095207095</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1694095207096</updated>
+    </task>
+    <task id="LOCAL-00098" summary="9.7 hashset,tree-set and collections;">
+      <created>1694095311523</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1694095311523</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +634,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="programing in exam_Q4 YangHuiTriangle (a better way)" />
     <MESSAGE value="programing in exam_Q4 Q3_insertValueToArray" />
     <MESSAGE value="don know wtf this is" />
     <MESSAGE value="as it says" />
@@ -643,10 +655,11 @@
     <MESSAGE value="inner Class and interface studying and practice" />
     <MESSAGE value="8-31 Exception" />
     <MESSAGE value="day 904,Enum Singleton &amp; DoubleLinked" />
-    <MESSAGE value="some change" />
     <MESSAGE value="9-5,Collections, knowing iterator,using vector" />
     <MESSAGE value="9-6,Comparator,ArrayList,LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="9-6,Comparator,ArrayList,LinkedList" />
+    <MESSAGE value="some change" />
+    <MESSAGE value="9.7 hashset,tree-set and collections;" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.7 hashset,tree-set and collections;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -664,6 +677,15 @@
           <line>9</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/util/TreeSet.java</url>
+          <line>297</line>
+          <properties class="java.util.TreeSet" method="addAll">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -674,6 +696,11 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
+      <configuration name="Application">
+        <watch expression="Math.abs(i - j)" />
+        <watch expression="Math.abs(i - j) &lt;= k" />
+        <watch expression="nums[i] == nums[j]" />
+      </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/Day829_InnerClass/P2_CommPrefix.java" line="23">
         <watch expression="s[i].charAt(j)" />
       </inline-watch>
