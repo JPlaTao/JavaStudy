@@ -4,13 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="9.7 hashset,tree-set and collections;">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some practice and Exam no.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day907/am/Exe_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/am/Exe_Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day907/pm/P1_Poker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/P1_Poker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day907/pm/P2_FindDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/P2_FindDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day907/pm/P2_LongestWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/P3_LongestWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day907/pm/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day907_HashSet_TreeSet_Collection/pm_Practice/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day908_Genericity/pm/Exe_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day908_Genericity/pm/Exe_Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +45,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Q3_TowIndex">
-    <configuration name="Day908_Genericity.am.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day908_Genericity.am.Test" />
+}]]></component>
+  <component name="RunManager" selected="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P5_Birthday">
+    <configuration name="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P1_Concat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P1_Concat" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day908_Genericity.am.*" />
+          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exam05_0909.Q2_TowString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam05_0909.Q2_TowString" />
+    <configuration name="P2_Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P2_Calculate" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam05_0909.*" />
+          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day908_Genericity.pm.Exe_Map" />
+    <configuration name="P3_LowSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day908_Genericity.pm.*" />
+          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1_ManyWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam05_0909.Q1_ManyWords" />
+    <configuration name="P4_AvgSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P4_AvgSquare" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam05_0909.*" />
+          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3_TowIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam05_0909.Q3_TowIndex" />
+    <configuration name="P5_Birthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P5_Birthday" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam05_0909.*" />
+          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q3_TowIndex" />
-        <item itemvalue="Application.Exam05_0909.Q2_TowString" />
-        <item itemvalue="Application.Q1_ManyWords" />
-        <item itemvalue="Application.Exe_Map" />
-        <item itemvalue="Application.Day908_Genericity.am.Test" />
+        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P5_Birthday" />
+        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P4_AvgSquare" />
+        <item itemvalue="Application.P3_LowSalary" />
+        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P2_Calculate" />
+        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P1_Concat" />
       </list>
     </recent_temporary>
   </component>
@@ -271,21 +267,8 @@
       <workItem from="1694361603256" duration="50000" />
       <workItem from="1694361677195" duration="5000" />
       <workItem from="1694361723074" duration="4000" />
-      <workItem from="1694361763122" duration="1050000" />
-    </task>
-    <task id="LOCAL-00050" summary="将一个随机数数组反转">
-      <created>1691415622262</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415622262</updated>
-    </task>
-    <task id="LOCAL-00051" summary="不知道是什么文件，但貌似很推荐我上传">
-      <created>1691415754020</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415754020</updated>
+      <workItem from="1694361763122" duration="1157000" />
+      <workItem from="1694394051272" duration="20681000" />
     </task>
     <task id="LOCAL-00052" summary="git test">
       <created>1691415877381</created>
@@ -616,7 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694095311523</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="some change">
+      <created>1694363380292</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1694363380292</updated>
+    </task>
+    <task id="LOCAL-00100" summary="some practice and Exam no.5">
+      <created>1694363442956</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1694363442956</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +631,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="programing in exam_Q4 Q3_insertValueToArray" />
     <MESSAGE value="don know wtf this is" />
     <MESSAGE value="as it says" />
     <MESSAGE value="practices _814" />
@@ -657,9 +653,10 @@
     <MESSAGE value="day 904,Enum Singleton &amp; DoubleLinked" />
     <MESSAGE value="9-5,Collections, knowing iterator,using vector" />
     <MESSAGE value="9-6,Comparator,ArrayList,LinkedList" />
-    <MESSAGE value="some change" />
     <MESSAGE value="9.7 hashset,tree-set and collections;" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.7 hashset,tree-set and collections;" />
+    <MESSAGE value="some change" />
+    <MESSAGE value="some practice and Exam no.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="some practice and Exam no.5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
