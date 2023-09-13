@@ -1,6 +1,4 @@
-package Day912.Practices;
-
-import Day815_Object_QuickSort.Student;
+package Day912_File.Practices;
 
 import java.io.File;
 

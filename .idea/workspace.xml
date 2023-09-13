@@ -4,10 +4,14 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="Map、Stream">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="File class practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day911_HashMap_TreeMap_LinkedHashMap/Practices/P5_Birthday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day911_HashMap_TreeMap_LinkedHashMap/Practices/P5_Birthday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exam05_0909/Q3_TowIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exam05_0909/Q3_TowIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912/Practices/P1_Directors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/Practices/P1_Directors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912/Practices/P2_FiletImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/Practices/P2_FiletImages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912/Practices/P2_UsedSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/Practices/P2_UsedSpace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912/Practices/P4_Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/Practices/P4_Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912/pm/Exe_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/pm/Exe_File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912/pm/Exe_FileMethodsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/pm/Exe_FileMethodsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +79,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Day912.Practices.P4_Delete">
-    <configuration name="Day912.Practices.P2_UsedSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day912.Practices.P2_UsedSpace" />
+  <component name="RunManager" selected="Application.P2_Split">
+    <configuration name="Exe_FileOutputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.pm_FileOutputStream.Exe_FileOutputStream" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day912.Practices.*" />
+          <option name="PATTERN" value="Day913_javaIOStream.pm_FileOutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day912.Practices.P4_Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day912.Practices.P4_Delete" />
+    <configuration name="Exe_IOStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.pm_FileOutputStream.Exe_IOStream" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day912.Practices.*" />
+          <option name="PATTERN" value="Day913_javaIOStream.pm_FileOutputStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day912.pm.Exe_File" />
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.Practice.Merge" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day912.pm.*" />
+          <option name="PATTERN" value="Day913_javaIOStream.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_FileMethodsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day912.pm.Exe_FileMethodsTest" />
+    <configuration name="P1_Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.Practice.P1_Calculate" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day912.pm.*" />
+          <option name="PATTERN" value="Day913_javaIOStream.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_FiletImages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day912.Practices.P2_FiletImages" />
+    <configuration name="P2_Split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.Practice.P2_Split" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day912.Practices.*" />
+          <option name="PATTERN" value="Day913_javaIOStream.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day912.Practices.P4_Delete" />
-        <item itemvalue="Application.Exe_FileMethodsTest" />
-        <item itemvalue="Application.P2_FiletImages" />
-        <item itemvalue="Application.Day912.Practices.P2_UsedSpace" />
-        <item itemvalue="Application.Exe_File" />
+        <item itemvalue="Application.P2_Split" />
+        <item itemvalue="Application.P1_Calculate" />
+        <item itemvalue="Application.Merge" />
+        <item itemvalue="Application.Exe_IOStream" />
+        <item itemvalue="Application.Exe_FileOutputStream" />
       </list>
     </recent_temporary>
   </component>
@@ -277,20 +281,8 @@
       <workItem from="1694480351925" duration="7000" />
       <workItem from="1694480440440" duration="22708000" />
       <workItem from="1694529898644" duration="834000" />
-    </task>
-    <task id="LOCAL-00054" summary="808_选择排序与插入排序">
-      <created>1691542625746</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1691542625746</updated>
-    </task>
-    <task id="LOCAL-00055" summary="809 多维数组">
-      <created>1691592702658</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1691592702659</updated>
+      <workItem from="1694566757892" duration="14228000" />
+      <workItem from="1694603106120" duration="15073000" />
     </task>
     <task id="LOCAL-00056" summary="809 复制数组">
       <created>1691676548353</created>
@@ -621,7 +613,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694445732278</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="some change">
+      <created>1694568049186</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1694568049186</updated>
+    </task>
+    <task id="LOCAL-00104" summary="File class practice">
+      <created>1694568109148</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1694568109148</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="as it says" />
     <MESSAGE value="practices _814" />
     <MESSAGE value="learning OO" />
     <MESSAGE value="OO practices" />
@@ -662,9 +667,10 @@
     <MESSAGE value="9-6,Comparator,ArrayList,LinkedList" />
     <MESSAGE value="9.7 hashset,tree-set and collections;" />
     <MESSAGE value="some practice and Exam no.5" />
-    <MESSAGE value="some change" />
     <MESSAGE value="Map、Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map、Stream" />
+    <MESSAGE value="some change" />
+    <MESSAGE value="File class practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="File class practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,6 +688,11 @@
           <line>9</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P2_Split.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/util/TreeSet.java</url>
           <line>297</line>
@@ -690,6 +701,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P2_Split.java</url>
+          <line>56</line>
+          <properties class="Day913_javaIOStream.Practice.P2_Split" method="lessenLen">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -701,6 +721,9 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
+      <configuration name="Application">
+        <watch expression="!tarFile.getParentFile().exists()" />
+      </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/Day829_InnerClass/P2_CommPrefix.java" line="23">
         <watch expression="s[i].charAt(j)" />
       </inline-watch>
