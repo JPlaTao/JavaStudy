@@ -1,5 +1,8 @@
 package Exam05_0909;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Q3_TowIndex {
     public static void main(String[] args) {
 //        //测试用例 1
@@ -14,9 +17,23 @@ public class Q3_TowIndex {
         int[] nums = {1, 2, 3, 1, 2, 3};
         int k = 2;
 
-
-        System.out.println(abs(nums, k));
+        System.out.println(solution(nums, k));
     }
+
+    public static boolean solution(int[] nums, int k) {
+        Set<Integer> aSet = new HashSet<>(k);
+        for (int i = 0; i < nums.length; i++) {
+            if (aSet.contains(nums[i])) {
+                return true;
+            }
+            aSet.add(nums[i]);
+            if (aSet.size()>k){
+                aSet.remove(nums[i-k]);
+            }
+        }
+        return false;
+    }
+
 
     public static boolean abs(int[] nums, int k) {
 //        int i = 0;

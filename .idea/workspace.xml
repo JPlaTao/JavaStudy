@@ -4,9 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some practice and Exam no.5">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="Map、Stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day908_Genericity/pm/Exe_Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day908_Genericity/pm/Exe_Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day911_HashMap_TreeMap_LinkedHashMap/Practices/P5_Birthday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day911_HashMap_TreeMap_LinkedHashMap/Practices/P5_Birthday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exam05_0909/Q3_TowIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exam05_0909/Q3_TowIndex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,39 +49,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowByte Code Viewer.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "create.test.in.the.same.root": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last.edited.regexp": "15 / 59    ",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm07_code",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P5_Birthday">
-    <configuration name="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P1_Concat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P1_Concat" />
+}</component>
+  <component name="RunManager" selected="Application.Day912.Practices.P4_Delete">
+    <configuration name="Day912.Practices.P2_UsedSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day912.Practices.P2_UsedSpace" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
+          <option name="PATTERN" value="Day912.Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P2_Calculate" />
+    <configuration name="Day912.Practices.P4_Delete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day912.Practices.P4_Delete" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
+          <option name="PATTERN" value="Day912.Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P3_LowSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
+    <configuration name="Exe_File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day912.pm.Exe_File" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
+          <option name="PATTERN" value="Day912.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P4_AvgSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P4_AvgSquare" />
+    <configuration name="Exe_FileMethodsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day912.pm.Exe_FileMethodsTest" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
+          <option name="PATTERN" value="Day912.pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5_Birthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P5_Birthday" />
+    <configuration name="P2_FiletImages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day912.Practices.P2_FiletImages" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day911_HashMap_TreeMap_LinkedHashMap.Practices.P3_LowSalary" />
+          <option name="PATTERN" value="Day912.Practices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P5_Birthday" />
-        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P4_AvgSquare" />
-        <item itemvalue="Application.P3_LowSalary" />
-        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P2_Calculate" />
-        <item itemvalue="Application.Day911_HashMap_TreeMap_LinkedHashMap.Practices.P1_Concat" />
+        <item itemvalue="Application.Day912.Practices.P4_Delete" />
+        <item itemvalue="Application.Exe_FileMethodsTest" />
+        <item itemvalue="Application.P2_FiletImages" />
+        <item itemvalue="Application.Day912.Practices.P2_UsedSpace" />
+        <item itemvalue="Application.Exe_File" />
       </list>
     </recent_temporary>
   </component>
@@ -268,21 +272,11 @@
       <workItem from="1694361677195" duration="5000" />
       <workItem from="1694361723074" duration="4000" />
       <workItem from="1694361763122" duration="1157000" />
-      <workItem from="1694394051272" duration="20681000" />
-    </task>
-    <task id="LOCAL-00052" summary="git test">
-      <created>1691415877381</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1691415877381</updated>
-    </task>
-    <task id="LOCAL-00053" summary="808_选择排序与插入排序">
-      <created>1691508143553</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1691508143553</updated>
+      <workItem from="1694394051272" duration="21361000" />
+      <workItem from="1694480319841" duration="3000" />
+      <workItem from="1694480351925" duration="7000" />
+      <workItem from="1694480440440" duration="22708000" />
+      <workItem from="1694529898644" duration="834000" />
     </task>
     <task id="LOCAL-00054" summary="808_选择排序与插入排序">
       <created>1691542625746</created>
@@ -613,7 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694363442956</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="some change">
+      <created>1694445700648</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1694445700648</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Map、Stream">
+      <created>1694445732278</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1694445732278</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +639,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="don know wtf this is" />
     <MESSAGE value="as it says" />
     <MESSAGE value="practices _814" />
     <MESSAGE value="learning OO" />
@@ -654,9 +661,10 @@
     <MESSAGE value="9-5,Collections, knowing iterator,using vector" />
     <MESSAGE value="9-6,Comparator,ArrayList,LinkedList" />
     <MESSAGE value="9.7 hashset,tree-set and collections;" />
-    <MESSAGE value="some change" />
     <MESSAGE value="some practice and Exam no.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="some practice and Exam no.5" />
+    <MESSAGE value="some change" />
+    <MESSAGE value="Map、Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map、Stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -693,11 +701,6 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
-      <configuration name="Application">
-        <watch expression="Math.abs(i - j)" />
-        <watch expression="Math.abs(i - j) &lt;= k" />
-        <watch expression="nums[i] == nums[j]" />
-      </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/Day829_InnerClass/P2_CommPrefix.java" line="23">
         <watch expression="s[i].charAt(j)" />
       </inline-watch>
