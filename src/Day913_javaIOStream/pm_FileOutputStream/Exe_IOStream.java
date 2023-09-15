@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Exe_IOStream {
     public static void main(String[] args) {
-        e_copy("D:\\#Exe_TestFolder\\testFile.txt",
+        e_copy("D:\\#Exe_TestFolder\\testFile.txt.txt",
                 "D:\\#Exe_TestFolder\\copyTest\\testFile_copy.txt");
     }
 

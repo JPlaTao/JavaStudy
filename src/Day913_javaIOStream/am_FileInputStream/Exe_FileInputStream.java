@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Exe_FileInputStream {
     public static void main(String[] args) {
-        String path1 = "D:\\#Exe_TestFolder\\testFile.txt";
+        String path1 = "D:\\#Exe_TestFolder\\testFile.txt.txt";
         Exe_fileInStream(path1);
     }
 

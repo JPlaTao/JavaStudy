@@ -4,10 +4,19 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="in、output stream">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="reader and writer(char Stream)">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P2_Split.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P2_Split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P3_Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P3_Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day912_File/pm/Exe_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day912_File/pm/Exe_File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day913_javaIOStream/am_FileInputStream/Exe_FileInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day913_javaIOStream/am_FileInputStream/Exe_FileInputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day913_javaIOStream/pm_FileOutputStream/Exe_FileOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day913_javaIOStream/pm_FileOutputStream/Exe_FileOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day913_javaIOStream/pm_FileOutputStream/Exe_IOStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day913_javaIOStream/pm_FileOutputStream/Exe_IOStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day914/Practice/P1_ChuShiBiao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day914_FileReaderAndFileWriter/Practice/P1_ChuShiBiao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day914/Practice/P2_Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day914_FileReaderAndFileWriter/Practice/P2_Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day914/am/Exe_splitNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day914_FileReaderAndFileWriter/am/Exe_splitNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day914/pm/Exe_FileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day914_FileReaderAndFileWriter/pm/Exe_FileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,7 +45,7 @@
     <setting file="file://$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P1_Calculate.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P2_Split.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Day913_javaIOStream/Practice/P3_Merge.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Day914/am/Exe_splitNew.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Day914_FileReaderAndFileWriter/am/Exe_splitNew.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,39 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/Lib/lombok-1.18.24.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT",
+      "JAVA"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Exe_Stream">
-    <configuration name="Exe_FileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day914.pm.Exe_FileWriter" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Day915_DeepCopy_JSON" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.P3_JSONtoStudent">
+    <configuration name="Exe_someStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day915_DeepCopy_JSON.am.Exe_someStream" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day914.pm.*" />
+          <option name="PATTERN" value="Day915_DeepCopy_JSON.am.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exe_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Exe_Stream" />
+    <configuration name="P1_DeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day915_DeepCopy_JSON.Practice.P1_DeepCopy" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="Day915_DeepCopy_JSON.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.Practice.Merge" />
+    <configuration name="P2_ObjectAndJSONTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day915_DeepCopy_JSON.Practice.P2_ObjectAndJSONTransfer" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day913_javaIOStream.Practice.*" />
+          <option name="PATTERN" value="Day915_DeepCopy_JSON.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_Split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day913_javaIOStream.Practice.P2_Split" />
+    <configuration name="P3_JSONtoStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day915_DeepCopy_JSON.Practice.P3_JSONtoStudent" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day913_javaIOStream.Practice.*" />
+          <option name="PATTERN" value="Day915_DeepCopy_JSON.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,26 +150,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P2_Transfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day914.Practice.P2_Transfer" />
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day914.Practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day915_DeepCopy_JSON.pm.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exe_Stream" />
-        <item itemvalue="Application.P2_Transfer" />
-        <item itemvalue="Application.Exe_FileWriter" />
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.P2_Split" />
+        <item itemvalue="Application.P3_JSONtoStudent" />
+        <item itemvalue="Application.P2_ObjectAndJSONTransfer" />
+        <item itemvalue="Application.P1_DeepCopy" />
+        <item itemvalue="Application.Day915_DeepCopy_JSON.pm.test" />
+        <item itemvalue="Application.Day915_DeepCopy_JSON.am.Exe_someStream" />
       </list>
     </recent_temporary>
   </component>
@@ -286,20 +297,12 @@
       <workItem from="1694653059032" duration="7142000" />
       <workItem from="1694671025763" duration="19344000" />
       <workItem from="1694701345466" duration="2903000" />
-    </task>
-    <task id="LOCAL-00058" summary="练习2 寻找最大值下标">
-      <created>1691676595264</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1691676595264</updated>
-    </task>
-    <task id="LOCAL-00059" summary="练习3 寻找最小值，周围值求和">
-      <created>1691676645105</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1691676645105</updated>
+      <workItem from="1694704297619" duration="51000" />
+      <workItem from="1694739434163" duration="10834000" />
+      <workItem from="1694776112062" duration="7000" />
+      <workItem from="1694776136147" duration="283000" />
+      <workItem from="1694776442037" duration="665000" />
+      <workItem from="1694777577906" duration="7163000" />
     </task>
     <task id="LOCAL-00060" summary="练习题1 一些方法">
       <created>1691676669612</created>
@@ -630,11 +633,28 @@
       <option name="project" value="LOCAL" />
       <updated>1694619488565</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="some change">
+      <created>1694704309014</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1694704309014</updated>
+    </task>
+    <task id="LOCAL-00108" summary="reader and writer(char Stream)">
+      <created>1694704338967</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1694704338967</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.obj" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -648,7 +668,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="learning OO" />
     <MESSAGE value="OO practices" />
     <MESSAGE value="access modify, Methods Practice" />
     <MESSAGE value="Optimize" />
@@ -671,9 +690,10 @@
     <MESSAGE value="some practice and Exam no.5" />
     <MESSAGE value="Map、Stream" />
     <MESSAGE value="File class practice" />
-    <MESSAGE value="some change" />
     <MESSAGE value="in、output stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="in、output stream" />
+    <MESSAGE value="some change" />
+    <MESSAGE value="reader and writer(char Stream)" />
+    <option name="LAST_COMMIT_MESSAGE" value="reader and writer(char Stream)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

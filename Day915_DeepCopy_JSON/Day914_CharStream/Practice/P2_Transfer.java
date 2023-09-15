@@ -1,4 +1,4 @@
-package Day914.Practice;
+package Day914_FileReaderAndFileWriter.Practice;
 
 import java.io.*;
 import java.nio.charset.Charset;
@@ -6,7 +6,6 @@ import java.nio.charset.StandardCharsets;
 
 class P2_Transfer {
     public static void main(String[] args) {
-
         e_byteStream();
         e_charStream();
     }

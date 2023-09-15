@@ -1,4 +1,4 @@
-package Day914.Practice;
+package Day914_FileReaderAndFileWriter.Practice;
 
 import java.io.BufferedWriter;
 import java.io.File;

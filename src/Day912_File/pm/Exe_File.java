@@ -20,7 +20,7 @@ public class Exe_File {
         System.out.println("删除文件夹");
         deleteFolder(folderPath);
         System.out.println("显示文件信息");
-        fileInfo("d:/#Exe_FileTest", "testFile");
+        fileInfo("d:/#Exe_FileTest", "testFile.txt");
     }
 
     /**

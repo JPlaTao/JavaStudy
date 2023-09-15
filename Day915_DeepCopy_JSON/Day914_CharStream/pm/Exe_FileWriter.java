@@ -1,4 +1,4 @@
-package Day914.pm;
+package Day914_FileReaderAndFileWriter.pm;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -9,7 +9,7 @@ public class Exe_FileWriter {
     }
 
     private static void e_read(){
-        File file = new File("D:\\#Exe_TestFolder\\testFile");
+        File file = new File("D:\\#Exe_TestFolder\\testFile.txt");
         try(FileReader fr = new FileReader(file);
             BufferedReader bf = new BufferedReader(fr)) {
             String line = "";
@@ -22,7 +22,7 @@ public class Exe_FileWriter {
     }
 
     private static void e_write(){
-        File file = new File("D:\\#Exe_TestFolder\\testFile");
+        File file = new File("D:\\#Exe_TestFolder\\testFile.txt");
         try( FileWriter fwt = new FileWriter(file,true);
              BufferedWriter bwt = new BufferedWriter(fwt)){
 //            bwt.write("长风破浪会有时，直挂云帆济沧海");
@@ -36,7 +36,7 @@ public class Exe_FileWriter {
         }
     }
     private static void e_OutputStreamWriter(){
-        File file = new File("D:\\#Exe_TestFolder\\testFile");
+        File file = new File("D:\\#Exe_TestFolder\\testFile.txt");
         try( FileOutputStream fos = new FileOutputStream(file);
             OutputStreamWriter ows = new OutputStreamWriter(fos, StandardCharsets.UTF_8)){
 
