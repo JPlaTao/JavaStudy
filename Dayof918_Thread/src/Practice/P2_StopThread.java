@@ -6,11 +6,16 @@ import java.util.concurrent.*;
 class StopThread1 {
     public static void main(String[] args) {
         System.out.println("主线程开始");
-        Thread t1 = new Thread(()->{
+        Thread t1 = new Thread(() -> {
             System.out.println("子线程开始");
-            int num = 0;
-            while (true){
+            long num = 0;
+            while (true) {
                 num++;
+                if (Thread.currentThread().isInterrupted()) {
+                    System.out.println(num);
+                    System.out.println("子线程结束");
+                    break;
+                }
             }
         });
 
@@ -18,34 +23,36 @@ class StopThread1 {
         try {
             Thread.sleep(5000);
             //t1.stop();
-            System.out.println("子线程结束");
+            t1.interrupt();
         } catch (InterruptedException e) {
-            System.out.println("子线程结束");
+            System.out.println(e);
         }
         System.out.println("主线程结束");
     }
 }
+
 class StopThread2 {
     static boolean stop = true;
+
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         System.out.println("主线程开始");
-        FutureTask<Integer> futureTask = new FutureTask<>(new Callable<Integer>() {
+        FutureTask<Long> futureTask = new FutureTask<>(new Callable<Long>() {
             @Override
-            public Integer call() throws Exception {
-                int sum = 0;
-                while (stop){
-                    sum ++;
+            public Long call() throws Exception {
+                Long sum = 0L;
+                while (true) {
+                    sum++;
+                    if (Thread.currentThread().isInterrupted())
+                        return sum;
                 }
-                return sum;
             }
         });
 
         Thread t1 = new Thread(futureTask);
         t1.start();
         Thread.sleep(2000);
-        stop = false;
+        t1.interrupt();
         System.out.println("子线程结束，结果为：" + futureTask.get());
-        t1.stop();
         System.out.println("主线程结束");
     }
 }
