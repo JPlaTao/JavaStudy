@@ -1,3 +1,4 @@
+package Exam03;
 
 import java.util.Arrays;
 import java.util.Scanner;

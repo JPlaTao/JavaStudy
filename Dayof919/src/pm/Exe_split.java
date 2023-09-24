@@ -31,7 +31,7 @@ class Split {
                 i+= writeBuff.length;
                 new Thread(() -> {
                     try(FileOutputStream fos = new FileOutputStream(subFile)) {
-                        fos.write(writeBuff);
+                        fos.write(buff);
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }
