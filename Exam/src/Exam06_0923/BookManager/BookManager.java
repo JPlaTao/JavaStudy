@@ -10,7 +10,7 @@ public class BookManager {
     static final String URL = "jdbc:mysql://localhost:3306/manager";
     static final String USER = "root";
     static final String PASSWORD = "";
-    static Scanner scanner = new Scanner(System.in);
+//    static Scanner scanner = new Scanner(System.in);
 
     public BookManager() throws SQLException {
         try {
@@ -25,10 +25,57 @@ public class BookManager {
         } catch (SQLSyntaxErrorException e) {
             init();
         }
-        closeStatement();
+        closeResources();
     }
 
-    public void init() throws SQLException {
+    public void mainMenu() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("""
+                ======================================
+                请输入要进行的操作:
+                0.退出系统
+                1.新增图书
+                2.修改图书数量
+                3.删除图书
+                4.显示所有图书
+                5.查看操作日志
+                ======================================""");
+        int opera = scanner.nextInt();
+        switch (opera) {
+            case 0 -> System.exit(1);
+            case 1 -> addBookInfo();
+            case 2 -> {
+                try {
+                    modifyBookQuantity();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            case 3 -> {
+                try {
+                    removeBook();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            case 4 -> {
+                try {
+                    showTable("books");
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+            case 5 -> {
+                try {
+                    showTable("operation_log");
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
+    private void init() throws SQLException {
         Statement statement = getStatement();
         try {
             Reader reader = null;
@@ -80,51 +127,95 @@ public class BookManager {
             boolean i = statement.execute(insertSQL);
             if (!i) {
                 System.out.println("插入成功");
-                log("添加图书" + title);
+                log("新增图书 - 书名：" + title);
             } else
                 System.out.println("插入失败");
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        mainMenu();
     }
 
     public void removeBook() throws SQLException {
         Statement statement = getStatement();
-        System.out.print("请输入列名：");
-        String column = scanner.next();
-        System.out.print("请输入对应的值：");
-        String value = scanner.next();
+        String column;
+        String value;
+        try(Scanner scanner = new Scanner(System.in)){
+            System.out.print("请输入列名：");
+            column = scanner.next();
+            System.out.print("请输入对应的值：");
+            value = scanner.next();
+        }
         String delete = "delete from books where " +
                 column + " = " +
                 "'" + value + "'";
+        ResultSet resultSet = statement.executeQuery(
+                "select book_title from books where " +
+                        column + " = " + "'" + value + "'");
+        //没有这句会报 beforeStart 错误
+        resultSet.next();
+        //获取书名用于添加日志
+        String book_title = resultSet.getString(1);
         int i = statement.executeUpdate(delete);
-        System.out.println(i > 0 ? ("成功删除 " + i + " 行") : "删除失败");
-        closeStatement();
+        if (i > 0) {
+            System.out.println("成功删除 " + i + " 行");
+            //调用 log添加日志
+            log("删除图书记录 - 书名：" + book_title);
+        } else {
+            System.out.println("删除失败");
+        }
+        closeResources();
+        mainMenu();
     }
 
     public void modifyBookQuantity() throws SQLException {
         //UPDATE 表名称 SET 列名称 = 新值 WHERE 列名称 = 某值
         Statement statement = getStatement();
-        System.out.print("请输入要修改数量的图书名：");
-        String title = scanner.next();
-        System.out.print("请输入修改后的值：");
-        int newQuantity = scanner.nextInt();
+        String title;
+        try(Scanner scanner = new Scanner(System.in)) {
+            System.out.print("请输入要修改数量的图书名：");
+            title = scanner.next();
+        }
+        ResultSet resultSet = statement.executeQuery(
+                "select quantity from books where book_title = "
+                        + "'" + title + "'");
+        resultSet.next();
+        String quantity = resultSet.getString(1);
+        int newQuantity;
+        try(Scanner scanner = new Scanner(System.in)){
+            System.out.print("请输入修改后的值(数量需比原数量大，原数量：" + quantity + ")：");
+            newQuantity = scanner.nextInt();
+        }
         String update = "update books set quantity = " +
                 newQuantity + " " +
                 "where book_title = " +
                 "'" + title + "'";
         int i = statement.executeUpdate(update);
-        System.out.println(i > 0 ? "成功修改 " + i + " 行" : "修改失败");
-        closeStatement();
+
+        if (i > 0) {
+            System.out.println("成功修改 " + i + " 行");
+            log("修改图书信息 - 书名：" + title +
+                    "  原数量：" + quantity +
+                    "  修改后：" + newQuantity);
+        } else {
+            System.out.println("修改失败");
+        }
+        closeResources();
+        mainMenu();
     }
 
-
-    public void showAllBooks() throws SQLException {
+    public void showTable(String tableName) throws SQLException {
         Statement statement = getStatement();
-        ResultSet resultSet = statement.executeQuery("select * from books");
-        String table = "id\t|\t书名   \t|\t出版日期  \t|\t作者   \t|\t价格   \t|\t数量\t|\n";
+        ResultSet resultSet = statement.executeQuery("select * from " + tableName);
+        String table = "";
         ResultSetMetaData metaData = resultSet.getMetaData();
+        for (int i = 1; i <= metaData.getColumnCount(); i++) {
+            table += metaData.getColumnLabel(i) + "\t";
+            if (i + 1 > metaData.getColumnCount()) {
+                table += "\n";
+            }
+        }
         while (resultSet.next()) {
             for (int i = 1; i <= metaData.getColumnCount(); i++) {
                 table += resultSet.getObject(i) + "\t|";
@@ -132,7 +223,8 @@ public class BookManager {
             table += "\n";
         }
         System.out.println(table);
-        closeStatement();
+        closeResources();
+        mainMenu();
     }
 
     private void log(String desc) throws SQLException {
@@ -146,10 +238,10 @@ public class BookManager {
                 ")"
         );
         if (!i) {
-            System.out.println("添加日志成功");
+            System.out.println("添加日志成功 - " + desc);
         } else
             System.out.println("添加日志失败");
-        closeStatement();
+        closeResources();
     }
 
     private Connection getConnection() throws SQLException {
@@ -160,7 +252,8 @@ public class BookManager {
         return getConnection().createStatement();
     }
 
-    private void closeStatement() throws SQLException {
+    private void closeResources() throws SQLException {
+        getConnection().close();
         getStatement().close();
     }
 }

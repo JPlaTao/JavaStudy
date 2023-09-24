@@ -4,30 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="Thread">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/Day818_Sys_Methods.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day818_Sys_Methods/Day818_Sys_Methods.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/Day823_StringAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day823_StringAPI/Day823_StringAPI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day824_StringClass/Day824_StringClass.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day824_StringClass/Day824_StringClass.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof830_Lambda/Dayof830_Lambda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof830_Lambda/Dayof830_Lambda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof914_CharStream/Dayof914_CharStream.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof914_CharStream/Dayof914_CharStream.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_split.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919/src/pm/Exe_split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam03/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam03/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam03/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam03/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam03/P3_ArrayInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam03/P3_ArrayInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam03/YangHuiTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam03/YangHuiTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam04/PassWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam04/PassWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam04/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam04/Sub.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam05_0909/Q1_ManyWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam05_0909/Q1_ManyWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam05_0909/Q2_TowString.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam05_0909/Q2_TowString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam05_0909/Q3_TowIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam05_0909/Q3_TowIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Other/Other.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Other/Other.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +63,7 @@
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/Exam&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/automate&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -349,14 +329,10 @@
       <workItem from="1695466962397" duration="2393000" />
       <workItem from="1695543173746" duration="60000" />
       <workItem from="1695543251582" duration="122000" />
-      <workItem from="1695543421920" duration="490000" />
-    </task>
-    <task id="LOCAL-00065" summary="?">
-      <created>1691938156510</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1691938156510</updated>
+      <workItem from="1695543421920" duration="679000" />
+      <workItem from="1695544371385" duration="48000" />
+      <workItem from="1695544463066" duration="84000" />
+      <workItem from="1695548495891" duration="11566000" />
     </task>
     <task id="LOCAL-00066" summary="?">
       <created>1691938251935</created>
@@ -694,7 +670,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695137462002</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="some change">
+      <created>1695543955392</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1695543955392</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -736,11 +719,11 @@
     <MESSAGE value="File class practice" />
     <MESSAGE value="in、output stream" />
     <MESSAGE value="reader and writer(char Stream)" />
-    <MESSAGE value="some change" />
     <MESSAGE value="import jar package,reconstruction" />
     <MESSAGE value="continue reconstruction, Thread" />
     <MESSAGE value="Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread" />
+    <MESSAGE value="some change" />
+    <option name="LAST_COMMIT_MESSAGE" value="some change" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,6 +779,9 @@
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
+      <configuration name="Application">
+        <watch expression="buf.limit()" language="JAVA" />
+      </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/Day829_InnerClass/src/P2_CommPrefix.java" line="23">
         <watch expression="s[i].charAt(j)" />
       </inline-watch>
