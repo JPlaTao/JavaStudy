@@ -1,6 +1,3 @@
-package Test;
-
-
 import java.util.Arrays;
 
 class Student {

@@ -1,5 +1,3 @@
-package Test;
-
 public class SoCalledFamousProblem {
 
     final int H = 9;

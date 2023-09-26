@@ -7,13 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.29" level="project" />
-    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.291" level="project" />
-    <orderEntry type="library" name="MigLayout" level="project" />
-    <orderEntry type="module-library" exported="" scope="PROVIDED">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Lib/lombok-1.18.24.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Dayof922_JDBC/Lib/mysql-connector-java-8.0.29.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

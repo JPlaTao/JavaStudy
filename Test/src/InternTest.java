@@ -1,5 +1,3 @@
-package Test;
-
 public class InternTest {
     public static void main(String[] args) {
         String a ="a";

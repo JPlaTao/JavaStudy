@@ -1,5 +1,3 @@
-package Test;
-
 public class PrimeNumSumNewTest {
     public static void main(String[] args) {
         int sum = 0;

@@ -4,15 +4,33 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="some change">
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="book manager system version 1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/Exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/ACT_DiffPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/ACT_DiffPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/CollectionSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/CollectionSetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/DuoWeiShuZu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/DuoWeiShuZu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/Exe_Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Exe_Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/Fibona7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Fibona7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/InsertSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/InsertSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/InternTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/InternTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/PrimeNumSumNewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/PrimeNumSumNewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/SoCalledFamousProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/SoCalledFamousProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../java-study\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Dayof913_JavaIOStream/src/Practice/P3_Merge.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Dayof914_CharStream/src/am/Exe_splitNew.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/io/File.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.sql/java/sql/SQLException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,12 +82,12 @@
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/automate&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/Dayof922_JDBC/Lib/mysql-connector-java-8.0.29.jar&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.1827498&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: [
@@ -91,27 +110,14 @@
       <recent name="D:\4.WorkSpace\JAVA\java-study\Lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Test\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Day810andBefore\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Day811_Methods\src" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Day814_ArrayQuickSort_PrimeFactor\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="BookManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam06_0923.BookManager.BookManager" />
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exam06_0923.BookManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Example" />
       <module name="Dayof922_JDBC" />
@@ -132,12 +138,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam06_0923.BookManager.Test" />
-      <module name="Exam" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Transaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pm.Transaction" />
+      <module name="Dayof926" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exam06_0923.BookManager.*" />
+          <option name="PATTERN" value="pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.BookManager" />
+        <item itemvalue="Application.am.Exe_ClientThread.Clint" />
+        <item itemvalue="Application.Transaction" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.P1_JDBCTableToBoj" />
         <item itemvalue="Application.Example" />
-        <item itemvalue="Application.am.Exe_ClientThread.Clint" />
       </list>
     </recent_temporary>
   </component>
@@ -332,14 +345,19 @@
       <workItem from="1695543421920" duration="679000" />
       <workItem from="1695544371385" duration="48000" />
       <workItem from="1695544463066" duration="84000" />
-      <workItem from="1695548495891" duration="11566000" />
-    </task>
-    <task id="LOCAL-00066" summary="?">
-      <created>1691938251935</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1691938251935</updated>
+      <workItem from="1695548495891" duration="13114000" />
+      <workItem from="1695567830207" duration="70000" />
+      <workItem from="1695580126077" duration="2079000" />
+      <workItem from="1695604020723" duration="5856000" />
+      <workItem from="1695613779200" duration="376000" />
+      <workItem from="1695621451870" duration="16479000" />
+      <workItem from="1695691061772" duration="1296000" />
+      <workItem from="1695695070914" duration="80000" />
+      <workItem from="1695695163589" duration="11521000" />
+      <workItem from="1695728547895" duration="1687000" />
+      <workItem from="1695730391815" duration="502000" />
+      <workItem from="1695732463999" duration="2400000" />
+      <workItem from="1695735975077" duration="746000" />
     </task>
     <task id="LOCAL-00067" summary="programing in exam_Q4 YangHuiTriangle (a better way)">
       <created>1691938317611</created>
@@ -677,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695543955392</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="book manager system version 1.0">
+      <created>1695565709395</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1695565709395</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +723,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some optimize" />
     <MESSAGE value="object-oriented practice" />
     <MESSAGE value="weekend practice work, more challenging, but i made it" />
     <MESSAGE value="some update" />
@@ -723,7 +747,8 @@
     <MESSAGE value="continue reconstruction, Thread" />
     <MESSAGE value="Thread" />
     <MESSAGE value="some change" />
-    <option name="LAST_COMMIT_MESSAGE" value="some change" />
+    <MESSAGE value="book manager system version 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="book manager system version 1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -763,7 +788,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/util/TreeSet.java</url>
           <line>297</line>
-          <properties class="java.util.TreeSet" method="addAll">
+          <properties class="java.util.TreeSet">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

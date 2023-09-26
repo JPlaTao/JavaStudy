@@ -1,5 +1,3 @@
-package Test;
-
 public class InsertSortTest {
     public static void main(String[] args) {
         int[] arr = {4,6,2,5,1,3};
