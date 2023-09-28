@@ -1,5 +1,10 @@
 package Exam06_0923.BookManager;
 
+import com.alibaba.druid.pool.DruidDataSourceFactory;
+
+import javax.sql.DataSource;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.*;
@@ -8,13 +13,6 @@ import java.util.Properties;
 
 public class DBUtil {
 
-    public DBUtil() throws IOException {
-        Properties properties = new Properties();
-        properties.load(new FileReader("D:\\4.WorkSpace\\JAVA\\java-study\\Exam\\src\\Exam06_0923\\BookManager\\user.properties"));
-        URL = properties.getProperty("url");
-        USER_NAME = properties.getProperty("user_name");
-        PASSWORD = properties.getProperty("password");
-    }
     private final String URL;
     private final String USER_NAME;
     private final String PASSWORD;
@@ -22,17 +20,24 @@ public class DBUtil {
     private Connection connector;
     private Statement statement;
 
+    public DBUtil() throws IOException {
+        Properties properties = new Properties();
+        properties.load(new FileReader("D:\\4.WorkSpace\\JAVA\\java-study\\Exam\\src\\Exam06_0923\\BookManager\\user.properties"));
+        URL = properties.getProperty("url");
+        USER_NAME = properties.getProperty("user_name");
+        PASSWORD = properties.getProperty("password");
+    }
+
     private Connection getConnection()
-            throws SQLException, ClassNotFoundException {
-        if (connector == null) {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            return DriverManager.getConnection(URL, USER_NAME, PASSWORD);
-        }
-        return connector;
+            throws Exception {
+        Properties druidProp = new Properties();
+        druidProp.load(new FileInputStream("./Properties/DruidProp"));
+        DataSource ds = DruidDataSourceFactory.createDataSource(druidProp);
+        return ds.getConnection();
     }
 
     private Statement getStatement()
-            throws SQLException, ClassNotFoundException {
+            throws Exception {
         if (statement == null) {
             return statement = getConnection().createStatement();
         }
@@ -40,44 +45,48 @@ public class DBUtil {
     }
 
     public <E> List<E> executeQuery(String sql, Handler<E> handler)
-            throws SQLException, ClassNotFoundException {
+            throws Exception {
         return handler.toObject(getStatement().executeQuery(sql));
     }
 
-    public <E> List<E> executeQuery(String sql,Handler<E> handler,Object... values)
+    public <E> List<E> executeQuery(String sql, Handler<E> handler, Object... values)
             throws SQLException, ClassNotFoundException {
-        try(PreparedStatement preparedStatement =
-                    getConnection().prepareStatement(sql)){
+        try (PreparedStatement preparedStatement =
+                     getConnection().prepareStatement(sql)) {
             setObject(preparedStatement);
             return handler.toObject(preparedStatement.executeQuery());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 
     public int executeUpdate(String sql)
-            throws SQLException, ClassNotFoundException {
+            throws Exception {
         return getStatement().executeUpdate(sql);
     }
 
-    public int executeUpdate(String sql,Object... values)
+    public int executeUpdate(String sql, Object... values)
             throws SQLException, ClassNotFoundException {
-        try(PreparedStatement preparedStatement =
-                    getConnection().prepareStatement(sql)){
-            setObject(preparedStatement,values);
+        try (PreparedStatement preparedStatement =
+                     getConnection().prepareStatement(sql)) {
+            setObject(preparedStatement, values);
             return preparedStatement.executeUpdate();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 
-    private void setObject(PreparedStatement pS,Object... values)
+    private void setObject(PreparedStatement pS, Object... values)
             throws SQLException {
         for (int i = 0; i < values.length; i++) {
-            pS.setObject(i + 1,values[i]);
+            pS.setObject(i + 1, values[i]);
         }
     }
 
     public void close() throws SQLException {
         if (!connector.isClosed())
             connector.close();
-        if (!statement.isClosed()){
+        if (!statement.isClosed()) {
             statement.close();
         }
     }
