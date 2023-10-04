@@ -3,13 +3,54 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="book manager system version 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/Dayof922_JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_JDBC/Dayof922_JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/Dayof919.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/Dayof919_ThreadSync.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/P1_Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P1_Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/P2_DealFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P2_DealFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/P3_Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P3_Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/PhilosophersByChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/PhilosophersByChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/am/Exe_Synchronize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/am/Exe_Synchronize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/chapter1" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/chapter1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/chapter2" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/chapter2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_Separate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_Separate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_split.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_split.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/result" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/result" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919/src/sourceFile" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/sourceFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/Dayof920.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/Dayof920_ThreadPool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/homework/P1_ConsumerAndProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/homework/P1_ConsumerAndProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/imafkidiot/Exe_ConsumerAndProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/Exe_ConsumerAndProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/imafkidiot/P1_BlockArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/P1_BlockArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/imafkidiot/P2_CustomerAndProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/P2_CustomerAndProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/src/am/Exe_Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/am/Exe_Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920/src/am/Exe_ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/am/Exe_ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921/Dayof921.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/Dayof921_UDP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921/src/Practice/P2_TCP/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/Practice/P2_TCP/Clint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921/src/Practice/P2_TCP/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/Practice/P2_TCP/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921/src/am/Exe_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/am/Exe_Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921/src/pm/Exe_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/pm/Exe_Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921/src/pm/Exe_TCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/pm/Exe_TCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922/Dayof922.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/Dayof922_TCP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922/src/Practice/P1_JDBCTableToBoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/Practice/P1_JDBCTableToBoj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922/src/Practice/production/day0925/am/server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/Practice/production/day0925/am/server.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Clint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/Dayof922_JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof923_JDBC/Dayof923_JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/Lib/mysql-connector-java-8.0.29.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof923_JDBC/Lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof923_JDBC/src/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof926/Dayof926.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof926_Transaction/Dayof926_Transaction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof926/src/pm/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof926_Transaction/src/pm/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof928/Dayof928.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof928/src/Exe_DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof928_DataSource/src/Exe_DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +92,9 @@
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2TNdd7U3lwxapGDNlqMENvvMkJx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -59,37 +103,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowByte Code Viewer.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "create.test.in.the.same.root": "true",
-    "extract.method.default.visibility": "private",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last.edited.regexp": "15 / 59    ",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/Lib/commons-pool2-2.11.1.jar",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1827498",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/Lib/jackson-databind-2.15.2.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1827498&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT",
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;,
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\4.WorkSpace\JAVA\java-study\Lib" />
@@ -107,14 +158,14 @@
   <component name="RunManager" selected="Application.Exe_DataSource">
     <configuration name="Exe_DataSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exe_DataSource" />
-      <module name="Dayof928" />
+      <module name="Dayof928_DataSource" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="P1_JDBCTableToBoj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Practice.P1_JDBCTableToBoj" />
-      <module name="Dayof922" />
+      <module name="Dayof922_TCP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Practice.*" />
@@ -134,7 +185,7 @@
     </configuration>
     <configuration name="Transaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pm.Transaction" />
-      <module name="Dayof926" />
+      <module name="Dayof926_Transaction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pm.*" />
@@ -147,7 +198,7 @@
     </configuration>
     <configuration name="am.Exe_ClientThread.Clint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="am.Exe_ClientThread.Clint" />
-      <module name="Dayof922" />
+      <module name="Dayof922_TCP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="am.Exe_ClientThread.*" />
@@ -160,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exe_DataSource" />
         <item itemvalue="Application.am.Exe_ClientThread.Clint" />
         <item itemvalue="Application.Transaction" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.P1_JDBCTableToBoj" />
+        <item itemvalue="Application.Exe_DataSource" />
       </list>
     </recent_temporary>
   </component>
@@ -348,14 +399,21 @@
       <workItem from="1695777459461" duration="17218000" />
       <workItem from="1695815545657" duration="136000" />
       <workItem from="1695815692852" duration="976000" />
-      <workItem from="1695864561653" duration="10303000" />
-    </task>
-    <task id="LOCAL-00067" summary="programing in exam_Q4 YangHuiTriangle (a better way)">
-      <created>1691938317611</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1691938317611</updated>
+      <workItem from="1695864561653" duration="11131000" />
+      <workItem from="1696058285175" duration="15000" />
+      <workItem from="1696058882720" duration="80000" />
+      <workItem from="1696059450395" duration="13000" />
+      <workItem from="1696059590517" duration="265000" />
+      <workItem from="1696059905226" duration="22000" />
+      <workItem from="1696059967905" duration="552000" />
+      <workItem from="1696060556458" duration="416000" />
+      <workItem from="1696060983828" duration="270000" />
+      <workItem from="1696145849478" duration="2000" />
+      <workItem from="1696148744532" duration="618000" />
+      <workItem from="1696363249339" duration="502000" />
+      <workItem from="1696363814828" duration="877000" />
+      <workItem from="1696364877884" duration="1828000" />
+      <workItem from="1696374683715" duration="1816000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -693,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695565709395</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="update">
+      <created>1695887745331</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1695887745331</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,7 +782,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/automate" />
     </ignored-roots>
-    <MESSAGE value="object-oriented practice" />
     <MESSAGE value="weekend practice work, more challenging, but i made it" />
     <MESSAGE value="some update" />
     <MESSAGE value="some changes and String Methods practice" />
@@ -742,7 +806,8 @@
     <MESSAGE value="Thread" />
     <MESSAGE value="some change" />
     <MESSAGE value="book manager system version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="book manager system version 1.0" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,17 +830,17 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
+          <url>file://$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
           <line>96</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
+          <url>file://$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
           <line>97</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
+          <url>file://$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
           <line>98</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>

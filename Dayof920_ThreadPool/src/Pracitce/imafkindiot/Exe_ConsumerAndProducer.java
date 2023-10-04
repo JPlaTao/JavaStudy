@@ -1,4 +1,4 @@
-package Pracitce.imafkidiot;
+package Pracitce.imafkindiot;
 
 class TestForCP {
     public static void main(String[] args) {

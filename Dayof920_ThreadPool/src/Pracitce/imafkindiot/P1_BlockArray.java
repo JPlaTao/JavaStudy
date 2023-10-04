@@ -1,4 +1,4 @@
-package Pracitce.imafkidiot;
+package Pracitce.imafkindiot;
 import java.util.concurrent.LinkedBlockingDeque;
 
 class Test{

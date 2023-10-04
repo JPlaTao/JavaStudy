@@ -19,12 +19,12 @@ public class BookManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        try {
-            ResultSet resultSet = dbUtil.executeQuery("select * from books");
-
-        } catch (SQLException | ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            ResultSet resultSet = dbUtil.executeQuery("select * from books",);
+//
+//        } catch (SQLException | ClassNotFoundException e) {
+//            e.printStackTrace();
+//        }
         try {
             dbUtil.close();
         } catch (SQLException e) {
