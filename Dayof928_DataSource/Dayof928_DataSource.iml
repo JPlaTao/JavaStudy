@@ -9,7 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="druid-1.2.18" level="project" />
-    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.29" level="project" />
     <orderEntry type="library" exported="" name="c3p0-0.9.5.5" level="project" />
     <orderEntry type="library" exported="" name="commons-dbcp2-2.10.0" level="project" />
   </component>

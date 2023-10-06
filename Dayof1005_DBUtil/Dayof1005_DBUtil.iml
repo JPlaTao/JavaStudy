@@ -7,16 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="MigLayout" level="project" />
-    <orderEntry type="module-library" exported="" scope="PROVIDED">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../Lib/lombok-1.18.24.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" exported="" name="druid-1.2.18" level="project" />
+    <orderEntry type="library" exported="" name="commons-dbutils-1.7" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="lombok-1.18.24" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.29" level="project" />
   </component>
 </module>

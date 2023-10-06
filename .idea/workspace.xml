@@ -7,50 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="10.4 update">
+      <change afterPath="$PROJECT_DIR$/Dayof1005_DBUtil/Dayof1005_DBUtil.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/Dayof919.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/Dayof919_ThreadSync.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/P1_Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P1_Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/P2_DealFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P2_DealFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/P3_Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P3_Philosopher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/Practice/PhilosophersByChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/PhilosophersByChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/am/Exe_Synchronize.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/am/Exe_Synchronize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/chapter1" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/chapter1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/chapter2" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/chapter2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_Separate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_Separate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/pm/Exe_split.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_split.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/result" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/result" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof919/src/sourceFile" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof919_ThreadSync/src/sourceFile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/Dayof920.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/Dayof920_ThreadPool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/homework/P1_ConsumerAndProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/homework/P1_ConsumerAndProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/imafkidiot/Exe_ConsumerAndProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/Exe_ConsumerAndProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/imafkidiot/P1_BlockArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/P1_BlockArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/src/Pracitce/imafkidiot/P2_CustomerAndProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/P2_CustomerAndProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/src/am/Exe_Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/am/Exe_Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof920/src/am/Exe_ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof920_ThreadPool/src/am/Exe_ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof921/Dayof921.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/Dayof921_UDP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof921/src/Practice/P2_TCP/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/Practice/P2_TCP/Clint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof921/src/Practice/P2_TCP/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/Practice/P2_TCP/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof921/src/am/Exe_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/am/Exe_Internet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof921/src/pm/Exe_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/pm/Exe_Internet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof921/src/pm/Exe_TCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof921_UDP/src/pm/Exe_TCP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922/Dayof922.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/Dayof922_TCP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922/src/Practice/P1_JDBCTableToBoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/Practice/P1_JDBCTableToBoj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922/src/Practice/production/day0925/am/server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/Practice/production/day0925/am/server.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Clint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922/src/am/Exe_ClientThread/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/Dayof922_JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof923_JDBC/Dayof923_JDBC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/Lib/mysql-connector-java-8.0.29.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof923_JDBC/Lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof922_JDBC/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof923_JDBC/src/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof926/Dayof926.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof926_Transaction/Dayof926_Transaction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof926/src/pm/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof926_Transaction/src/pm/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof928/Dayof928.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof928/src/Exe_DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof928_DataSource/src/Exe_DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exam/Exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/DruidProp" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/DruidProp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +53,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
@@ -115,7 +79,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/Lib/jackson-databind-2.15.2.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/JAR/mysql-connector-java-8.0.29.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -124,7 +88,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.1827498&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -148,27 +112,33 @@
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof922_JDBC\Lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1005_DBUtil\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof928" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\Resources" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Test\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\src" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_DataSource">
-    <configuration name="Exe_DataSource" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exe_DataSource" />
-      <module name="Dayof928_DataSource" />
+  <component name="RunManager" selected="Application.Exe_Reflect">
+    <configuration name="Exe_DBUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pm.Exe_DBUtils" />
+      <module name="Dayof1005_DBUtil" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P1_JDBCTableToBoj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.P1_JDBCTableToBoj" />
-      <module name="Dayof922_TCP" />
+    <configuration name="Exe_Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pm.Exe_Reflect" />
+      <module name="Dayof1005_DBUtil" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.*" />
+          <option name="PATTERN" value="pm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exe_Reflect" />
+        <item itemvalue="Application.Exe_DBUtils" />
         <item itemvalue="Application.am.Exe_ClientThread.Clint" />
         <item itemvalue="Application.Transaction" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.P1_JDBCTableToBoj" />
-        <item itemvalue="Application.Exe_DataSource" />
       </list>
     </recent_temporary>
   </component>
@@ -414,6 +384,13 @@
       <workItem from="1696363814828" duration="877000" />
       <workItem from="1696364877884" duration="1828000" />
       <workItem from="1696374683715" duration="1816000" />
+      <workItem from="1696380075566" duration="277000" />
+      <workItem from="1696380361660" duration="515000" />
+      <workItem from="1696467807397" duration="579000" />
+      <workItem from="1696468671813" duration="1393000" />
+      <workItem from="1696473409172" duration="12195000" />
+      <workItem from="1696498001191" duration="496000" />
+      <workItem from="1696498509158" duration="3920000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -758,7 +735,7 @@
       <option name="project" value="LOCAL" />
       <updated>1695887745331</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +759,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/automate" />
     </ignored-roots>
-    <MESSAGE value="weekend practice work, more challenging, but i made it" />
     <MESSAGE value="some update" />
     <MESSAGE value="some changes and String Methods practice" />
     <MESSAGE value="some changes and String methods practice;" />
@@ -807,7 +783,8 @@
     <MESSAGE value="some change" />
     <MESSAGE value="book manager system version 1.0" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="10.4 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.4 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

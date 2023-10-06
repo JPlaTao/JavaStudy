@@ -4,6 +4,5 @@
     <exclude-output />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="lombok-1.18.24" level="project" />
-    <orderEntry type="library" exported="" name="mysql-connector-java-8.0.29" level="project" />
   </component>
 </module>
