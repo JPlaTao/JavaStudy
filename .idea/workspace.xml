@@ -7,14 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="10.4 update">
-      <change afterPath="$PROJECT_DIR$/Dayof1005_DBUtil/Dayof1005_DBUtil.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Properties/DruidProp" beforeDir="false" afterPath="$PROJECT_DIR$/Properties/DruidProp" afterDir="false" />
-    </list>
+    <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="1005_Reflect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,44 +60,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/JAR/mysql-connector-java-8.0.29.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1827498&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;cn.yiiguxing.plugin.translate&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "create.test.in.the.same.root": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.1827498",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;,
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT",
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\4.WorkSpace\JAVA\java-study\Lib" />
@@ -118,8 +111,11 @@
       <recent name="D:\4.WorkSpace\JAVA\java-study\Test\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pm" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Exe_Reflect">
+  <component name="RunManager" selected="Application.Exe_DBUtils">
     <configuration name="Exe_DBUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pm.Exe_DBUtils" />
       <module name="Dayof1005_DBUtil" />
@@ -146,16 +142,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Transaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pm.Transaction" />
-      <module name="Dayof926_Transaction" />
+    <configuration name="Exe_ReflectMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pm.Exe_ReflectMethod" />
+      <module name="Dayof1006_Reflect" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pm.*" />
@@ -166,12 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="am.Exe_ClientThread.Clint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="am.Exe_ClientThread.Clint" />
-      <module name="Dayof922_TCP" />
+    <configuration name="Exe_Reflect_Fields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.Exe_Reflect_Fields" />
+      <module name="Dayof1006_Reflect" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="am.Test" />
+      <module name="Dayof1006_Reflect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="am.Exe_ClientThread.*" />
+          <option name="PATTERN" value="am.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,17 +175,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Exe_Reflect" />
-        <item itemvalue="Application.Exe_DBUtils" />
-        <item itemvalue="Application.am.Exe_ClientThread.Clint" />
-        <item itemvalue="Application.Transaction" />
-        <item itemvalue="Application.Test (1)" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -391,6 +378,16 @@
       <workItem from="1696473409172" duration="12195000" />
       <workItem from="1696498001191" duration="496000" />
       <workItem from="1696498509158" duration="3920000" />
+      <workItem from="1696558368570" duration="3675000" />
+      <workItem from="1696563645794" duration="9023000" />
+      <workItem from="1696594630341" duration="10000" />
+      <workItem from="1696598853421" duration="622000" />
+      <workItem from="1696600461378" duration="409000" />
+      <workItem from="1696601183836" duration="594000" />
+      <workItem from="1696602806211" duration="18000" />
+      <workItem from="1696700410723" duration="446000" />
+      <workItem from="1696782729259" duration="1017000" />
+      <workItem from="1696783851823" duration="488000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -735,7 +732,7 @@
       <option name="project" value="LOCAL" />
       <updated>1695887745331</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,7 +756,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/automate" />
     </ignored-roots>
-    <MESSAGE value="some update" />
     <MESSAGE value="some changes and String Methods practice" />
     <MESSAGE value="some changes and String methods practice;" />
     <MESSAGE value="some changes" />
@@ -784,7 +780,8 @@
     <MESSAGE value="book manager system version 1.0" />
     <MESSAGE value="update" />
     <MESSAGE value="10.4 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.4 update" />
+    <MESSAGE value="1005_Reflect" />
+    <option name="LAST_COMMIT_MESSAGE" value="1005_Reflect" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -824,7 +821,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$PROJECT_DIR$/../../../6.Enviroment/JDK/lib/src.zip!/java.base/java/util/TreeSet.java</url>
           <line>297</line>
-          <properties class="java.util.TreeSet" method="addAll">
+          <properties class="java.util.TreeSet">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
