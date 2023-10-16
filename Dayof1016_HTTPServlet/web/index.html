@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 300px;
+            margin: 50px auto 0;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group button {
+            width: 100%;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <title>register</title>
+</head>
+<body>
+<div class="container">
+    <h2>注册</h2>
+    <form action="/HTTP/register" method="post">
+        <div class="form-group">
+            <label for="username">账号:</label>
+            <input type="text" id="username" name="username"
+                   placeholder="输入账号" required>
+        </div>
+        <div class="form-group">
+            <label for="password">密码:</label>
+            <input type="password" id="password" name="password"
+                   placeholder="输入密码" required>
+        </div>
+        <div class="form-group">
+            <label for="password">再次输入密码:</label>
+            <input type="password" id="confirm_password" name="confirm_password"
+                   placeholder="再次输入密码" required>
+        </div>
+        <div class="form-group">
+            <label for="email">邮箱:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="输入邮箱" required>
+        </div>
+        <div class="form-group">
+            <button type="submit">注册</button>
+        </div>
+    </form>
+</div>
+</form>
+</body>
+</html>
