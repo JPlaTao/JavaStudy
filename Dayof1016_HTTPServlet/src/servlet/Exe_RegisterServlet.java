@@ -1,3 +1,5 @@
+package servlet;
+
 import dao.UserDao;
 
 import javax.servlet.ServletException;
@@ -10,7 +12,8 @@ import java.io.IOException;
 @WebServlet("/register")
 public class Exe_RegisterServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
         System.out.println("GET");
     }
 
