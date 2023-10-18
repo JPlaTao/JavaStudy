@@ -7,7 +7,7 @@ import javax.sql.DataSource;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class DBUtils {
+public class DBUtil {
 
     private static DataSource dataSource = null;
 
@@ -23,7 +23,6 @@ public class DBUtils {
             dataSource = DruidDataSourceFactory.createDataSource(druidProper);
         }
         return dataSource;
-
     }
 
 }

@@ -2,7 +2,7 @@ package utils;
 
 import java.text.SimpleDateFormat;
 
-public class Formatter {
+public class FormatUtil {
     public static long toMB(long bytes) {
         return (long)(bytes / 1024.0);
     }

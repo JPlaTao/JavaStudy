@@ -32,17 +32,17 @@ public class LoginServlet extends HttpServlet {
         //解析请求，获取参数
         String username = req.getParameter("username");
         String password = req.getParameter("password");
-        String verCode = req.getParameter("verCode");
+//        String verCode = req.getParameter("verCode");
 
 
         //验证码
-        if (!CaptchaUtil.ver(verCode,req)){
-            CaptchaUtil.clear(req);
-            writer.write("""
-                    <h1>验证码不正确！</h1>
-                    """);
-            writer.close();
-        }
+//        if (!CaptchaUtil.ver(verCode,req)){
+//            CaptchaUtil.clear(req);
+//            writer.write("""
+//                    <h1>验证码不正确！</h1>
+//                    """);
+//            writer.close();
+//        }
         //空值判断
         if (username == null || password == null) {
             writer.write("""

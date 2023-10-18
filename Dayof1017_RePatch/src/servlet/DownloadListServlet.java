@@ -1,6 +1,6 @@
 package servlet;
 
-import utils.Formatter;
+import utils.FormatUtil;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -47,8 +47,8 @@ public class DownloadListServlet extends HttpServlet {
         for (File file : files) {
             html += "<tr><td>" +
                     file.getName() + "</td><td>" +
-                    Formatter.toMB(file.length()) + "KBi</td><td>" +
-                     Formatter.formattedDateTime(file.lastModified())  + "</td><td>" +
+                    FormatUtil.toMB(file.length()) + "KB</td><td>" +
+                     FormatUtil.formattedDateTime(file.lastModified())  + "</td><td>" +
                     "<a href=\"/download?" +
                     "file" +
                     "=" +
@@ -59,8 +59,6 @@ public class DownloadListServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.write(html);
     }
-
-
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         doGet(req, resp);
