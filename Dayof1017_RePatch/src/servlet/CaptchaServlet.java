@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//@WebServlet("/captcha")
+@WebServlet("/captcha")
 public class CaptchaServlet extends com.wf.captcha.servlet.CaptchaServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        GifCaptcha gifCaptcha = new GifCaptcha(130,48,4);
+        GifCaptcha gifCaptcha = new GifCaptcha(130,48,3);
         CaptchaUtil.out(gifCaptcha, request, response);
     }
 

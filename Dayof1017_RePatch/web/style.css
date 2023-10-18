@@ -49,7 +49,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
-a{
+.aButton{
     width: 100%;
     background: #007BFF;
     color: #fff;
