@@ -13,17 +13,390 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/DownloadListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/DownloadListServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/UploadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/utils/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/utils/DBUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/utils/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/src/utils/FormatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dayof1017_RePatch/web/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/Day810andBefore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day731/test0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day801/ExchangeTemp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day801/ExchangeXor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day801/FourDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day801/IsTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day801/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day801/NarcNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/802note.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/Bonus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/Constellation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/Demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/Season.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day802/TranslateCF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/EvenNumSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/For7sMultiple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/LoopTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/NarcissisticNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/NestTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/NineNine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/OddProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/OddSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/PrimeNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/PrimeNumSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/Qomolangma.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/RandomGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/Rhombus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/Squares.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/VegetableNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day803/not803.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/BeggerHong.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/CommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/FactorialN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/HollowTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/PalindromicNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/PrimeNumIn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/PrintNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/RunnerLiSi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day804/SquareShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/ArrToInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/ArrayFibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/ArrayMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/ArrayPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/BothOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/CountNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/Judge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/JudgeScore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/Multiple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/MultiplesOf6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/OddLeftEvenRight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/RandomSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day807/Revers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/InsertSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/Q1ClassRank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/Q2SearchElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/Q3Distinct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/Q4NthBig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/Q5AddValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/SelectSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day808/SelectSortNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/Dome01PopSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/P1BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/P2RandomRank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/Q1ChunXiao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/Q2Rank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/Q3YangHui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day809/Q4Copy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/P1Poetry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/P2SeekMaxIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/P3SeekMinSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/PerfectNumFromGPT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/PerfectNumberFromMisGao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/Q1Methods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/Q2Leibniz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/Q3Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810/Q4PerfectNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/Day810andBefore.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day810andBefore/src/DayBefore810.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day811_Methods/Day811_Methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day811_Methods/src/Day811_Methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day811_Methods/src/P1TreeGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day811_Methods/src/P2Recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day811_Methods/src/P2_MoreMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day811_Methods/src/PO_Rank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day814_ArrayQuickSort_PrimeFactor/Day814_ArrayQuickSort_PrimeFactor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day814_ArrayQuickSort_PrimeFactor/src/Day814_ArrayQuickSort_PrimeFactor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day814_ArrayQuickSort_PrimeFactor/src/Except.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day814_ArrayQuickSort_PrimeFactor/src/PrimeFactor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day814_ArrayQuickSort_PrimeFactor/src/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/Day815_ObjectQuickSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/Day815_ObjectQuickSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/GirlFriend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/GirlFriendTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/Object.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/PetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/StudentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_ObjectQuickSort/src/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day815_Object_QuickSort/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/Day816_SmallSys.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/ACT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/ACT_SamePackage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Day816_SmallSys.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q1Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q2BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q3GeometryCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q4_LibrarySystem/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q4_LibrarySystem/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Q4_LibrarySystem/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Static.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day816_SmallSys/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/Day818_Sys_Methods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/ToolClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Animal/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Animal/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Animal/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Animal/SnowPanther.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/BankAccount/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/BankAccount/CheckingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/BankAccount/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/BankAccount/SavingsAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Vehicle/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Vehicle/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Vehicle/Motorcycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/Vehicle/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/calculateArea/Developer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/calculateArea/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/calculateArea/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day818_Sys_Methods/src/calculateArea/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/Day819_MovieTheter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/Day819_MovieTheter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/Util/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/Util/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/movie_theater/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/movie_theater/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/movie_theater/MovieTheater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day819_MovieTheater/src/movie_theater/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/Day823_StringAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/LoginInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/Palindromes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/Reverse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/StringLearning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/Suffix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day823_StringAPI/src/VerifyCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/Day824_StringClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/E1RegularExpression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/E2WrapperClasses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/E3BoxingAndUnBoxing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P1Marry/CAB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P1Marry/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P1Marry/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P2LuckyNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P3Distinct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P4ValidBracket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day824_StringClass/src/P5Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day826_DataTimeClass/Day826_DataTimeClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day826_DataTimeClass/src/Day826_DataTimeClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day826_DataTimeClass/src/E1CalendarStudy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day826_DataTimeClass/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day826_DataTimeClass/src/P1LongestSubstring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/Day828_Abstract.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/Day828_Abstract.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/E1_Animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/E1_Animal/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/E2_BankAccount/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/P1_LongestSubSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day828_Abstract/src/P2_ValidBracket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/Day829_InnerClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/Day829_InnerClass.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/E1_InnerClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/E2_Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/P1Stack/MyStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/P1Stack/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/P1Stack/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day829_InnerClass/src/P2_CommPrefix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/Day906_List_Comparator/Day905_Collection/Day904_Enum_Singlton_DoubleLinked/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/Day906_List_Comparator/Day905_Collection/Day905_Collection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/Day906_List_Comparator/Day905_Collection/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/Day906_List_Comparator/Day906_List_Comparator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/Day906_List_Comparator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/Day907_SetandCollection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day907_SetandCollection/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/Day908_Genericity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day908_Genericity/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/Day911_Map.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day911_Map/src/Main.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day912_File/Day912_File.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/Day913_javaIOStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day913_javaIOStream/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/Day914_CharStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day914_CharStream/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/Day915_DeepCopy_JSON.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day915_DeepCopy_JSON/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1005_DBUtil/Dayof1005_DBUtil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/Dayof1005_DBUtil.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1005_DBUtil/src/am/Exe_DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/src/am/Exe_DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1005_DBUtil/src/am/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/src/am/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1005_DBUtil/src/pm/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/src/pm/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1005_DBUtil/src/pm/Exe_DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/src/pm/Exe_DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1005_DBUtil/src/pm/Exe_Reflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/src/pm/Exe_Reflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/Dayof1006_Reflect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/Dayof1006_Reflect.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/am/Exe_Reflect_Fields.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/am/Exe_Reflect_Fields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/am/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/am/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/am/SimpleFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/am/SimpleFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/am/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/am/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/pm/Exe_DBUtils_withReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/pm/Exe_DBUtils_withReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/pm/Exe_ReflectMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/pm/Exe_ReflectMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1006_Reflect/src/pm/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/src/pm/Music.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1013_java_web/Dayof1013_java_web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/Dayof1013_java_web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1013_java_web/src/AccountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/src/AccountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1013_java_web/src/EmpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/src/EmpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1013_java_web/src/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/src/Statement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1013_java_web/web/io/DruidProp.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/web/io/DruidProp.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/Dayof1016_HTTPServlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/Dayof1016_HTTPServlet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/src/dao/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/src/dao/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/src/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/src/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/src/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/src/servlet/Exe_RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/src/servlet/Exe_RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1016_HTTPServlet/web/interface.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/web/interface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/Dayof1017_RePatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/dao/LogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/dao/LogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/entity/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/entity/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/CaptchaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/CaptchaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/DownloadListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/DownloadListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/LogListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/LogListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/UploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/servlet/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/utils/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/utils/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/src/utils/FormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/utils/FormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof1017_RePatch/web/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof830_Lambda/Dayof830_Lambda.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof830_Lambda/src/E1_Switch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof830_Lambda/src/P1_WordBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof830_Lambda/src/P2_Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof831_Exception/Dayof831_Exception.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof831_Exception/src/am/ExceptionLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof831_Exception/src/pm_LinkedTable/LinkedTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof831_Exception/src/pm_LinkedTable/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof901_Doublelinked/Dayof901_Doublelinked.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof901_Doublelinked/src/am/DoubleLinked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof901_Doublelinked/src/am/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof904_Enum_Singlton/Dayof904_Enum_Singlton.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof904_Enum_Singlton/src/am_Enum/Exe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof904_Enum_Singlton/src/pm_Singleton_DoubleLinked/E1sayHello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof904_Enum_Singlton/src/pm_Singleton_DoubleLinked/E2_Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof904_Enum_Singlton/src/pm_Singleton_DoubleLinked/E3_DoubleLinked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof904_Enum_Singlton/src/pm_Singleton_DoubleLinked/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/Dayof905_Collection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/src/am_Iterator/ExeIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/src/am_Iterator/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/src/pm_Practices/P1_StudentName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/src/pm_Practices/P2_Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/src/pm_Practices/P3_VectorInteger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof905_Collection/src/pm_Practices/P4_StudentScoreVector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/Dayof906_List_Comparator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/am_Comparator/Exe_Comparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/Exe_GenShin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/Exe_Remove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/Exe_isPalindromic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/P1_GenShinTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/P2_Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/P3_Distinct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/P4_Intersection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof906_List_Comparator/src/pm_ArrayList_LinkedList/P5_DifferentSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/Dayof907_SetAndCollection.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/src/am/Exe_Set.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/src/pm_Practice/P1_Poker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/src/pm_Practice/P2_FindDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/src/pm_Practice/P3_LongestWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/src/pm_Practice/P4_RefactorStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof907_SetAndCollection/src/pm_Practice/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof908_Genericity/Dayof908_Genericity.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof908_Genericity/src/am/Exe_Generosity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof908_Genericity/src/pm/Exe_LinkedWithGeneric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof908_Genericity/src/pm/Exe_Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/Dayof911_Map.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/Practices/P1_Concat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/Practices/P2_Calculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/Practices/P3_LowSalary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/Practices/P4_AvgSquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/Practices/P5_Birthday.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/pm/Exe_HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof911_Map/src/pm/Exe_Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/Dayof912_FIle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/src/Practices/P1_Directors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/src/Practices/P2_FiletImages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/src/Practices/P2_UsedSpace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/src/Practices/P4_Delete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/src/pm/Exe_File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof912_FIle/src/pm/Exe_FileMethodsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/Dayof913_JavaIOStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/Practice/Exe_CreateABigFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/Practice/P1_Calculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/Practice/P2_Split.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/Practice/P3_Merge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/am_FileInputStream/Exe_FileInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/pm_FileOutputStream/Exe_FileOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof913_JavaIOStream/src/pm_FileOutputStream/Exe_IOStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof914_CharStream/Dayof914_CharStream.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof914_CharStream/src/Practice/P1_ChuShiBiao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof914_CharStream/src/Practice/P2_Transfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof914_CharStream/src/am/Exe_splitNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof914_CharStream/src/pm/Exe_FileWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/Practice/P1_DeepCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/Practice/P2_ObjectAndJSONTransfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/Practice/P3_JSONtoStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/Practice/student.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/Practice/testFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/Practice/testFile_ObjStream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/am/Exe_someStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof915_DeepCopy/src/pm/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof918_Thread/Dayof918_Thread.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof918_Thread/src/Practice/P1_PrintNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof918_Thread/src/Practice/P2_StopThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof918_Thread/src/Practice/P3_ThreadSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof918_Thread/src/pm/Exe_Thread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/Dayof919_ThreadSync.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P1_Printer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P2_DealFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/P3_Philosopher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/Practice/PhilosophersByChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/am/Exe_Synchronize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/chapter1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/chapter2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_Separate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/pm/Exe_split.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/result" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof919_ThreadSync/src/sourceFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/Dayof920_ThreadPool.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/homework/P1_ConsumerAndProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/Exe_ConsumerAndProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/P1_BlockArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/src/Pracitce/imafkindiot/P2_CustomerAndProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/src/am/Exe_Count.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof920_ThreadPool/src/am/Exe_ThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921_UDP/Dayof921_UDP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof921_UDP/Dayof921_UDP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921_UDP/src/Practice/P2_TCP/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof921_UDP/src/Practice/P2_TCP/Clint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921_UDP/src/Practice/P2_TCP/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof921_UDP/src/Practice/P2_TCP/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921_UDP/src/am/Exe_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof921_UDP/src/am/Exe_Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921_UDP/src/pm/Exe_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof921_UDP/src/pm/Exe_Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof921_UDP/src/pm/Exe_TCP.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof921_UDP/src/pm/Exe_TCP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_TCP/Dayof922_TCP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof922_TCP/Dayof922_TCP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_TCP/src/Practice/P1_JDBCTableToBoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof922_TCP/src/Practice/P1_JDBCTableToBoj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_TCP/src/Practice/production/day0925/am/server.txt" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof922_TCP/src/Practice/production/day0925/am/server.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof922_TCP/src/am/Exe_ClientThread/ClientThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Clint.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof922_TCP/src/am/Exe_ClientThread/Clint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof922_TCP/src/am/Exe_ClientThread/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof923_JDBC/Dayof923_JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof923_JDBC/Dayof923_JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof923_JDBC/Lib/mysql-connector-java-8.0.29.jar" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof923_JDBC/Lib/mysql-connector-java-8.0.29.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof923_JDBC/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof923_JDBC/src/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof926_Transaction/Dayof926_Transaction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof926_Transaction/Dayof926_Transaction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof926_Transaction/src/pm/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof926_Transaction/src/pm/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof928_DataSource/Dayof928_DataSource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof928_DataSource/Dayof928_DataSource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dayof928_DataSource/src/Exe_DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof928_DataSource/src/Exe_DataSource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +444,15 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\6.Enviroment\Maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../6.Enviroment/Maven/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\6.Enviroment\Maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
@@ -99,17 +481,17 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/JAR/easy-captcha-1.6.2.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/JavaWeb/Dayof1017_RePatch/web&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.26365545&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -129,22 +511,29 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\WebApp" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\web" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Lib" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof922_JDBC\Lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\web" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\web\WEB-INF" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1005_DBUtil\src" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof928" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\Resources" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\web" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1019_Cookie\src\main" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1019_Cookie\web" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1019_Cookie\src\main\java\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.RePatchServlet">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -185,6 +574,94 @@
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/WEB-INF/login.html">
       <method v="2" />
+    </configuration>
+    <configuration name="CookieMail" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Dayof1019_Cookie:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="84e54683-52c0-4b19-acce-844fc163d229" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51291" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Dayof1019_Cookie:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration name="HttpServlet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -276,6 +753,7 @@
       </method>
     </configuration>
     <configuration name="RePatchServlet" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Dayof1017_RePatch:Web exploded">
@@ -363,101 +841,15 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.81" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <deployment>
-        <artifact name="Dayof1013_java_web:Web exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="95b4e8df-08db-42d9-a8a1-74f1ae92810f" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54362" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Dayof1013_java_web:Web exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.test.Test" />
       <item itemvalue="Application.Test_Compare" />
       <item itemvalue="Application.Test" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.login.html" />
+      <item itemvalue="Tomcat Server.CookieMail" />
       <item itemvalue="Tomcat Server.RePatchServlet" />
       <item itemvalue="Tomcat Server.HttpServlet" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.81" />
     </list>
     <recent_temporary>
       <list>
@@ -706,7 +1098,18 @@
       <workItem from="1697542856504" duration="2230000" />
       <workItem from="1697545109900" duration="1225000" />
       <workItem from="1697590554810" duration="7743000" />
-      <workItem from="1697608431991" duration="23393000" />
+      <workItem from="1697608431991" duration="23564000" />
+      <workItem from="1697676905300" duration="6313000" />
+      <workItem from="1697700789556" duration="6795000" />
+      <workItem from="1697714307245" duration="7988000" />
+      <workItem from="1697722389209" duration="548000" />
+      <workItem from="1697723011818" duration="189000" />
+      <workItem from="1697723884567" duration="49000" />
+      <workItem from="1697727127264" duration="2566000" />
+      <workItem from="1697733817248" duration="664000" />
+      <workItem from="1697767679317" duration="5016000" />
+      <workItem from="1697779455713" duration="7094000" />
+      <workItem from="1697791109689" duration="1027000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -1118,22 +1521,22 @@
           <option name="timeStamp" value="24" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Day810andBefore/src/Day807/RandomSum.java</url>
+          <url>file://$PROJECT_DIR$/javaBase/Day810andBefore/src/Day807/RandomSum.java</url>
           <line>9</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
+          <url>file://$PROJECT_DIR$/javaBase/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
           <line>96</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
+          <url>file://$PROJECT_DIR$/javaBase/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
           <line>97</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
+          <url>file://$PROJECT_DIR$/javaBase/Dayof922_TCP/src/am/Exe_ClientThread/Exe_MultiUser.java</url>
           <line>98</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -1159,7 +1562,7 @@
       <configuration name="Application">
         <watch expression="buf.limit()" language="JAVA" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/Day829_InnerClass/src/P2_CommPrefix.java" line="23">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/javaBase/Day829_InnerClass/src/P2_CommPrefix.java" line="23">
         <watch expression="s[i].charAt(j)" />
       </inline-watch>
     </watches-manager>
