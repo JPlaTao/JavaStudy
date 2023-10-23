@@ -15,7 +15,6 @@ public class IndexServlet extends HttpServlet {
         System.out.println("IndexServlet doGet()...");
         req.getRequestDispatcher("/index.html").forward(req, resp);
 //        resp.sendRedirect("/index.html");
-
     }
 
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/a060be5d-41e7-4c19-8bbe-e97abae2d21c/console.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Exam/src/Exam06_0923/BookManager/BookManager.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/javaBase/Dayof922_TCP/src/Practice/P1_JDBCTableToBoj.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/javaBase/Dayof923_JDBC/src/Example.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/javaBase/Dayof926_Transaction/src/pm/Transaction.java" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>

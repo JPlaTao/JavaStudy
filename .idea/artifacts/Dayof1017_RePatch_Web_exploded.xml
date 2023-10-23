@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Dayof1017_RePatch:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Dayof1017_RePatch_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Dayof1017_RePatch/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Dayof1017_RePatch" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lombok-1.18.24" />
+          <element id="library" level="project" name="druid-1.2.18" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.29" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="library" level="project" name="easy-captcha-1.6.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

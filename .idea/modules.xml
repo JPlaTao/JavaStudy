@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day810andBefore/Day810andBefore.iml" filepath="$PROJECT_DIR$/javaBase/Day810andBefore/Day810andBefore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day811_Methods/Day811_Methods.iml" filepath="$PROJECT_DIR$/javaBase/Day811_Methods/Day811_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day814_ArrayQuickSort_PrimeFactor/Day814_ArrayQuickSort_PrimeFactor.iml" filepath="$PROJECT_DIR$/javaBase/Day814_ArrayQuickSort_PrimeFactor/Day814_ArrayQuickSort_PrimeFactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day815_ObjectQuickSort/Day815_ObjectQuickSort.iml" filepath="$PROJECT_DIR$/javaBase/Day815_ObjectQuickSort/Day815_ObjectQuickSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day816_SmallSys/Day816_SmallSys.iml" filepath="$PROJECT_DIR$/javaBase/Day816_SmallSys/Day816_SmallSys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day818_Sys_Methods/Day818_Sys_Methods.iml" filepath="$PROJECT_DIR$/javaBase/Day818_Sys_Methods/Day818_Sys_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day819_MovieTheater/Day819_MovieTheter.iml" filepath="$PROJECT_DIR$/javaBase/Day819_MovieTheater/Day819_MovieTheter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day823_StringAPI/Day823_StringAPI.iml" filepath="$PROJECT_DIR$/javaBase/Day823_StringAPI/Day823_StringAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day824_StringClass/Day824_StringClass.iml" filepath="$PROJECT_DIR$/javaBase/Day824_StringClass/Day824_StringClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day826_DataTimeClass/Day826_DataTimeClass.iml" filepath="$PROJECT_DIR$/javaBase/Day826_DataTimeClass/Day826_DataTimeClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day828_Abstract/Day828_Abstract.iml" filepath="$PROJECT_DIR$/javaBase/Day828_Abstract/Day828_Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Day829_InnerClass/Day829_InnerClass.iml" filepath="$PROJECT_DIR$/javaBase/Day829_InnerClass/Day829_InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/Dayof1005_DBUtil.iml" filepath="$PROJECT_DIR$/javaBase/Dayof1005_DBUtil/Dayof1005_DBUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof1006_Reflect/Dayof1006_Reflect.iml" filepath="$PROJECT_DIR$/javaBase/Dayof1006_Reflect/Dayof1006_Reflect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/Dayof1013_java_web.iml" filepath="$PROJECT_DIR$/JavaWeb/Dayof1013_java_web/Dayof1013_java_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/Dayof1016_HTTPServlet.iml" filepath="$PROJECT_DIR$/JavaWeb/Dayof1016_HTTPServlet/Dayof1016_HTTPServlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" filepath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof830_Lambda/Dayof830_Lambda.iml" filepath="$PROJECT_DIR$/javaBase/Dayof830_Lambda/Dayof830_Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof831_Exception/Dayof831_Exception.iml" filepath="$PROJECT_DIR$/javaBase/Dayof831_Exception/Dayof831_Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof901_Doublelinked/Dayof901_Doublelinked.iml" filepath="$PROJECT_DIR$/javaBase/Dayof901_Doublelinked/Dayof901_Doublelinked.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof904_Enum_Singlton/Dayof904_Enum_Singlton.iml" filepath="$PROJECT_DIR$/javaBase/Dayof904_Enum_Singlton/Dayof904_Enum_Singlton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof905_Collection/Dayof905_Collection.iml" filepath="$PROJECT_DIR$/javaBase/Dayof905_Collection/Dayof905_Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof906_List_Comparator/Dayof906_List_Comparator.iml" filepath="$PROJECT_DIR$/javaBase/Dayof906_List_Comparator/Dayof906_List_Comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof907_SetAndCollection/Dayof907_SetAndCollection.iml" filepath="$PROJECT_DIR$/javaBase/Dayof907_SetAndCollection/Dayof907_SetAndCollection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof908_Genericity/Dayof908_Genericity.iml" filepath="$PROJECT_DIR$/javaBase/Dayof908_Genericity/Dayof908_Genericity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof911_Map/Dayof911_Map.iml" filepath="$PROJECT_DIR$/javaBase/Dayof911_Map/Dayof911_Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof912_FIle/Dayof912_FIle.iml" filepath="$PROJECT_DIR$/javaBase/Dayof912_FIle/Dayof912_FIle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof913_JavaIOStream/Dayof913_JavaIOStream.iml" filepath="$PROJECT_DIR$/javaBase/Dayof913_JavaIOStream/Dayof913_JavaIOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof914_CharStream/Dayof914_CharStream.iml" filepath="$PROJECT_DIR$/javaBase/Dayof914_CharStream/Dayof914_CharStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" filepath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof918_Thread/Dayof918_Thread.iml" filepath="$PROJECT_DIR$/javaBase/Dayof918_Thread/Dayof918_Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof919_ThreadSync/Dayof919_ThreadSync.iml" filepath="$PROJECT_DIR$/javaBase/Dayof919_ThreadSync/Dayof919_ThreadSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof920_ThreadPool/Dayof920_ThreadPool.iml" filepath="$PROJECT_DIR$/javaBase/Dayof920_ThreadPool/Dayof920_ThreadPool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof921_UDP/Dayof921_UDP.iml" filepath="$PROJECT_DIR$/javaBase/Dayof921_UDP/Dayof921_UDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof922_TCP/Dayof922_TCP.iml" filepath="$PROJECT_DIR$/javaBase/Dayof922_TCP/Dayof922_TCP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof923_JDBC/Dayof923_JDBC.iml" filepath="$PROJECT_DIR$/javaBase/Dayof923_JDBC/Dayof923_JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof926_Transaction/Dayof926_Transaction.iml" filepath="$PROJECT_DIR$/javaBase/Dayof926_Transaction/Dayof926_Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/Dayof928_DataSource/Dayof928_DataSource.iml" filepath="$PROJECT_DIR$/javaBase/Dayof928_DataSource/Dayof928_DataSource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam/Exam.iml" filepath="$PROJECT_DIR$/Exam/Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/Other.iml" filepath="$PROJECT_DIR$/Other/Other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-study.iml" filepath="$PROJECT_DIR$/java-study.iml" />
+    </modules>
+  </component>
+</project>
