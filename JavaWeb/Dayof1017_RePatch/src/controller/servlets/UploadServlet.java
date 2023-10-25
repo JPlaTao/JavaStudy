@@ -1,4 +1,4 @@
-package servlet;
+package controller.servlets;
 
 import dao.LogDao;
 import entity.Log;

@@ -1,4 +1,4 @@
-package servlet;
+package controller.servlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -35,8 +35,6 @@ public class LogListServlet extends HttpServlet {
                     <td>修改时间</td>
                     <td>下载</td>
                 </tr>""";
-
-
         html += "</table></div>";
     }
 }

@@ -13,15 +13,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exam/Exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Exam/Exam.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/CaptchaServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/CaptchaServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/DownloadListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/DownloadListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/LogListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/LogListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/UploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/UploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/servlet/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/utils/AuthUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/utils/AuthUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/html/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1019_Cookie/src/main/java/com/platao/servlets/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1019_Cookie/src/main/java/com/platao/servlets/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/html/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/html/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/web/html/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +45,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,7 +117,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfmCloudDisk&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/kfm-cloud&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -119,7 +127,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -146,11 +154,11 @@
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\css" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\html" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\exam1021_WebCloud\src\main" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\web" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1019_Cookie\src\main" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1019_Cookie\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
@@ -569,10 +577,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Application.test.Test" />
         <item itemvalue="Application.Test_Compare" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -837,6 +846,17 @@
       <workItem from="1698023006447" duration="1030000" />
       <workItem from="1698029557178" duration="47000" />
       <workItem from="1698029633572" duration="413000" />
+      <workItem from="1698030435008" duration="612000" />
+      <workItem from="1698031626205" duration="12000" />
+      <workItem from="1698032226591" duration="136000" />
+      <workItem from="1698110012066" duration="1818000" />
+      <workItem from="1698114471276" duration="137000" />
+      <workItem from="1698114618237" duration="608000" />
+      <workItem from="1698115235936" duration="93000" />
+      <workItem from="1698115337948" duration="189000" />
+      <workItem from="1698115536338" duration="4908000" />
+      <workItem from="1698134744023" duration="1501000" />
+      <workItem from="1698161308303" duration="435000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -1238,10 +1258,6 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArithmeticException" package="java.lang" />
           <option name="timeStamp" value="7" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="16" />
         </breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />

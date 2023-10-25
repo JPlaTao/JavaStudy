@@ -1,6 +1,4 @@
-package servlet;
-
-import entity.User;
+package controller.servlets;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
@@ -11,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 

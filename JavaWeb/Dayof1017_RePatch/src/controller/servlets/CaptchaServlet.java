@@ -1,4 +1,4 @@
-package servlet;
+package controller.servlets;
 
 import com.wf.captcha.GifCaptcha;
 import com.wf.captcha.utils.CaptchaUtil;
