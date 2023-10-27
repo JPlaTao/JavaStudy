@@ -8,9 +8,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="test" />
         <module name="exam1021_WebCloud" />
         <module name="Dayof1019_Cookie" />
+        <module name="test" />
+        <module name="Dayof1017_RePatch" />
       </profile>
     </annotationProcessing>
   </component>

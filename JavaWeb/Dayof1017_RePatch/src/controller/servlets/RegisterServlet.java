@@ -53,6 +53,7 @@ public class RegisterServlet extends HttpServlet {
                     """);
             writer.close();
             resp.sendRedirect( req.getContextPath() + "/register");
+            return;
         }
 
         //两次密码验证
@@ -87,5 +88,9 @@ public class RegisterServlet extends HttpServlet {
             writer.close();
 //            resp.sendRedirect(req.getContextPath() + "/login");
         }
+        req.setAttribute("sessionMap",req.getSession()
+                .getServletContext()
+                .getAttribute("sessionMap"));
     }
+
 }

@@ -1,1 +1,0 @@
-{"money":198.0,"name":"sekiro","size":170000,"star":10.0}
