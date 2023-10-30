@@ -12,7 +12,17 @@
         <module name="Dayof1019_Cookie" />
         <module name="test" />
         <module name="Dayof1017_RePatch" />
+        <module name="springstudent" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="StudentCRUD" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="StudentCRUD" options="-parameters" />
+      <module name="springstudent" options="-parameters" />
+    </option>
   </component>
 </project>

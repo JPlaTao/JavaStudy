@@ -13,28 +13,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/src/main/java/com/example/studentcrud/StudentCrudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentCRUD/src/test/java/com/example/studentcrud/StudentCrudApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/Dayof1017_RePatch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/listener/UserCountListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/listener/UserSessionListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/src/controller/servlets/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/Dayof915_DeepCopy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/Practice/P1_DeepCopy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/Practice/P2_ObjectAndJSONTransfer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/Practice/P3_JSONtoStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/Practice/student.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/Practice/testFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/Practice/testFile_ObjStream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/am/Exe_someStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof915_DeepCopy/src/pm/test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../java-study\exportToHTML" />
@@ -45,9 +46,9 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="CSS File" />
+        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -91,7 +92,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectColorInfo">{
@@ -105,74 +106,84 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowByte Code Viewer.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "create.test.in.the.same.root": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last.edited.regexp": "15 / 59    ",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/kfm-cloud",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.14758497",
-    "project.structure.side.proportion": "0.32037815",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "settings.editor.splitter.proportion": "0.23166369",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/SpringBootProjects/springstudent/src/main/resources/static/css&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT",
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;,
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static\css" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static\js" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\WebApp" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\src" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\web" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Lib" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Exam" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\jsp" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\css" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\html" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\exam1021_WebCloud\src\main" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="excludedTypes">
       <set>
         <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.RePatchServlet">
+  <component name="RunManager" selected="Spring Boot.SpringStudentApplication">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="am.Test" />
       <module name="Dayof1006_Reflect" />
@@ -211,6 +222,20 @@
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/WEB-INF/login.html">
       <method v="2" />
+    </configuration>
+    <configuration name="SpringStudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springstudent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kfm.springstudent.SpringStudentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentCrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="StudentCRUD" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.studentcrud.StudentCrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="CookieMail" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.81" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -571,6 +596,8 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.login.html" />
+      <item itemvalue="Spring Boot.SpringStudentApplication" />
+      <item itemvalue="Spring Boot.StudentCrudApplication" />
       <item itemvalue="Tomcat Server.CookieMail" />
       <item itemvalue="Tomcat Server.RePatchServlet" />
       <item itemvalue="Tomcat Server.cloud" />
@@ -859,6 +886,11 @@
       <workItem from="1698134744023" duration="1501000" />
       <workItem from="1698161308303" duration="435000" />
       <workItem from="1698198019769" duration="11140000" />
+      <workItem from="1698627339045" duration="2254000" />
+      <workItem from="1698630771547" duration="2942000" />
+      <workItem from="1698645801011" duration="7000" />
+      <workItem from="1698645876280" duration="8127000" />
+      <workItem from="1698672108052" duration="301000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
