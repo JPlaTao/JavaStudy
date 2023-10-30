@@ -13,8 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
+      <change afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo/src/main/resources/static/myStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Dayof923_JDBC/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Dayof923_JDBC/src/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo/src/main/java/com/platao/springbootdemo/applications/controler/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo/src/main/java/com/platao/springbootdemo/applications/controler/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/model/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/model/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentsOnPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentsOnPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -879,6 +884,7 @@
       <workItem from="1698645876280" duration="8127000" />
       <workItem from="1698672108052" duration="840000" />
       <workItem from="1698673122134" duration="6000" />
+      <workItem from="1698673422551" duration="2680000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>

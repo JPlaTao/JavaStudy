@@ -9,11 +9,38 @@ public class Page<T> {
      */
     private List<T> dataList;
 
+
+
+
     /**
-     * 当前页面数
+     * 一页的行数
+     */
+    private int pageRows;
+
+    /**
+     * 表中行数总计
+     */
+    private long totalRows;
+
+    /**
+     * 表中页数总计
+     */
+    private int totalPages;
+
+    /**
+     * 当前页页码
      */
     private int currentPageNum;
 
-//    private int
+    /**
+     * 上一页的页码
+     */
+    private int prevNum;
+
+    /**
+     * 下一页页码
+     */
+    private int nextNum;
+
 
 }
