@@ -67,7 +67,7 @@ public class User {
             if (movie == null) break;
             str = str + ("\nmovies:\n" + " Name:" + movie.getName() +
                     ",directed by:" + movie.getDirector() +
-                    ",release date:" + movie.getDate() +
+                    ",release birth:" + movie.getDate() +
                     ",price:" + movie.getPrice() +
                     ",ticket count:" + movie.getTicketCount() + ";");
         }

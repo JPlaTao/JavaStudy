@@ -13,14 +13,17 @@
         <module name="test" />
         <module name="Dayof1017_RePatch" />
         <module name="SpringStudent" />
+        <module name="MyBatisDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MyBaticDemo" target="17" />
       <module name="StudentCRUD" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyBatisDemo" options="-parameters" />
       <module name="SpringStudent" options="-parameters" />
       <module name="StudentCRUD" options="-parameters" />
     </option>

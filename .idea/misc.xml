@@ -10,10 +10,13 @@
         <option value="$PROJECT_DIR$/JavaWeb/Dayof1017_RePatch/pom.xml" />
         <option value="$PROJECT_DIR$/StudentCRUD/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootProjects/springstudent/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBaticDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatisDemo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/MyBaticDemo/pom.xml" />
         <option value="$PROJECT_DIR$/StudentCRUD/pom.xml" />
       </set>
     </option>

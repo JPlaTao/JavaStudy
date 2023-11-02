@@ -13,13 +13,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
-      <change afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo/src/main/resources/static/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo/src/main/java/com/platao/springbootdemo/applications/controler/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo/src/main/java/com/platao/springbootdemo/applications/controler/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/model/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/model/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentsOnPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentsOnPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaBase/Day819_MovieTheater/src/movie_theater/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Day819_MovieTheater/src/movie_theater/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +43,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="CSS File" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -84,6 +93,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProblemsViewState">
+    <option name="proportion" value="0.33698964" />
     <option name="selectedTabId" value="CurrentFile" />
     <option name="showPreview" value="true" />
   </component>
@@ -95,7 +105,6 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -110,13 +119,16 @@
     &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/SpringBootProjects/springstudent/src/main/resources/static/css&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/SpringBootProjects/SpringStudent/src/main/resources/static/js&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -126,7 +138,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -146,18 +158,28 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\SpringStudent\src\main\resources\static\js" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static\css" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static\js" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\WebApp" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\src" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Dayof1017_RePatch\web" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\MyBaticDemo\src\main\resources\com\platao\dao" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\jsp" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\css" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\html" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\Exam\exam1021_WebCloud\src\main" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platao.mybatis.dao" />
+      <recent name="com.platao.mybatis.service" />
+      <recent name="com.platao.mybatis.dao.impl" />
+      <recent name="com.platao.dao.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
@@ -175,45 +197,83 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringStudentApplication">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="am.Test" />
-      <module name="Dayof1006_Reflect" />
+  <component name="RunManager" selected="JUnit.StudentDaoTest">
+    <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="am.*" />
+          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.selectWithCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="selectWithCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="MyBatisDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.platao.mybatis.MyBatisApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Test_Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exam07_1014.Test_Compare" />
-      <module name="Exam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exam07_1014.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
-      <module name="Dayof1016_HTTPServlet" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaStudy/Dayof1017_RePatch/web/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:80/WEB-INF/login.html">
-      <method v="2" />
     </configuration>
     <configuration name="SpringStudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpringStudent" />
@@ -583,13 +643,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test.Test" />
-      <item itemvalue="Application.Test_Compare" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.login.html" />
+      <item itemvalue="JUnit.StudentDaoTest" />
+      <item itemvalue="JUnit.StudentDaoTest.delete" />
+      <item itemvalue="JUnit.StudentDaoTest.selectAll" />
+      <item itemvalue="JUnit.StudentDaoTest.selectWithCondition" />
       <item itemvalue="Spring Boot.SpringStudentApplication" />
       <item itemvalue="Spring Boot.StudentCrudApplication" />
+      <item itemvalue="Spring Boot.MyBatisApplication" />
       <item itemvalue="Tomcat Server.CookieMail" />
       <item itemvalue="Tomcat Server.RePatchServlet" />
       <item itemvalue="Tomcat Server.cloud" />
@@ -597,11 +657,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="Application.test.Test" />
-        <item itemvalue="Application.Test_Compare" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.StudentDaoTest" />
+        <item itemvalue="Spring Boot.MyBatisApplication" />
+        <item itemvalue="JUnit.StudentDaoTest.selectWithCondition" />
+        <item itemvalue="JUnit.StudentDaoTest.selectAll" />
+        <item itemvalue="JUnit.StudentDaoTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -884,7 +944,10 @@
       <workItem from="1698645876280" duration="8127000" />
       <workItem from="1698672108052" duration="840000" />
       <workItem from="1698673122134" duration="6000" />
-      <workItem from="1698673422551" duration="2680000" />
+      <workItem from="1698673422551" duration="6742000" />
+      <workItem from="1698732252860" duration="23962000" />
+      <workItem from="1698800317516" duration="25078000" />
+      <workItem from="1698886566250" duration="773000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -1252,6 +1315,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/automate" />
+      <path value="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" />
     </ignored-roots>
     <MESSAGE value="String and datetime methods practice" />
     <MESSAGE value="name chang" />
@@ -1290,6 +1354,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="24" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.expression.spel.SpelEvaluationException" package="org.springframework.expression.spel" />
+          <option name="timeStamp" value="29" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaBase/Day810andBefore/src/Day807/RandomSum.java</url>

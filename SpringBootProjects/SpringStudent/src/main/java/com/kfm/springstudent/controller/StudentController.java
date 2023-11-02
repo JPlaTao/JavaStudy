@@ -1,6 +1,6 @@
 package com.kfm.springstudent.controller;
 
-import com.kfm.springstudent.IntegerConstants;
+import com.kfm.springstudent.model.Page;
 import com.kfm.springstudent.model.Student;
 import com.kfm.springstudent.service.StudentService;
 import org.springframework.stereotype.Controller;
@@ -30,35 +30,44 @@ public class StudentController {
         return "studentList";
     }
 
-    @RequestMapping("/StudentsPageOn")
-    public ModelAndView selectOnePage(
-            @RequestParam(required = false) Integer pageOn
+    @RequestMapping("/studentsOnPage")
+    public ModelAndView showOnePage(
+            @RequestParam(required = false) Integer currentPageNumber,
+            Student student
     ) {
-        if (pageOn == null) {
-            pageOn = 0;
-        }
-        pageOn *= IntegerConstants.DEFAULT_PAGE_ROWS;
         ModelAndView mv = new ModelAndView();
         //查询一页信息
-        List<Student> studentsOnPage = studentService.findOnePage(
-                IntegerConstants.DEFAULT_PAGE_ROWS, pageOn);
-        mv.addObject("studentsOnPage", studentsOnPage);
+        if(student == null){
+            student = new Student();
+        }
+        mv.addObject("condition",student);
+        Page<Student> onePage = studentService.findOnePage(
+                null,currentPageNumber);
+        mv.addObject("onePageList",onePage.getOnePageDataList());
+        mv.addObject("page", onePage);
         mv.setViewName("studentsOnPage");
         return mv;
     }
 
-//    //查询一页信息
-//    @GetMapping("/studentList")
-//    public String selectAllLimit(
-//            int onPage,
-//            HttpSession session
-//    ) {
-//        List<Student> students = studentService.findOnePage(
-//                IntegerConstants.DEFAULT_PAGE_ROWS
-//                , onPage);
-//        session.setAttribute("studentsOnPage",students);
-//        return "studentList";
-//    }
+    @RequestMapping("/studentsOnPage/withCondition")
+    public ModelAndView showOnePageWithCondition(
+            @RequestParam(required = false) Integer currentPageNumber,
+            Student student
+    ) {
+        ModelAndView mv = new ModelAndView();
+        //查询一页信息
+        if(student == null){
+            student = new Student();
+        }
+        Page<Student> onePage = studentService.findOnePageWithCondition(
+                null,currentPageNumber,student);
+        mv.addObject("onePageList",onePage.getOnePageDataList());
+        mv.addObject("page", onePage);
+
+        mv.addObject("condition",student);
+        mv.setViewName("studentsOnPage");
+        return mv;
+    }
 
     // 添加信息
     @GetMapping("/addStudent")
