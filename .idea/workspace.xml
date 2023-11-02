@@ -13,20 +13,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
-      <change afterPath="$PROJECT_DIR$/MyBatisDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/model/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/model/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/java/com/kfm/springstudent/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentsOnPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/templates/studentsOnPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaBase/Day819_MovieTheater/src/movie_theater/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBase/Day819_MovieTheater/src/movie_theater/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,55 +103,55 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/SpringBootProjects/SpringStudent/src/main/resources/static/js&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "create.test.in.the.same.root": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/SpringBootProjects/SpringStudent/src/main/resources/static/js",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14758497",
+    "project.structure.side.proportion": "0.32037815",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.splitter.proportion": "0.23166369",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;,
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT",
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\SpringStudent\src\main\resources\static\js" />
@@ -197,7 +193,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDaoTest">
+  <component name="RunManager" selected="JUnit.StudentDaoTest.selectByNameLike">
     <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatisDemo" />
       <extension name="coverage">
@@ -213,22 +209,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDaoTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatisDemo" />
       <extension name="coverage">
@@ -240,6 +220,22 @@
       <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
       <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
       <option name="METHOD_NAME" value="selectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest.selectByNameLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="selectByNameLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -643,8 +639,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.StudentDaoTest.selectByNameLike" />
       <item itemvalue="JUnit.StudentDaoTest" />
-      <item itemvalue="JUnit.StudentDaoTest.delete" />
       <item itemvalue="JUnit.StudentDaoTest.selectAll" />
       <item itemvalue="JUnit.StudentDaoTest.selectWithCondition" />
       <item itemvalue="Spring Boot.SpringStudentApplication" />
@@ -657,11 +653,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentDaoTest.selectByNameLike" />
         <item itemvalue="JUnit.StudentDaoTest" />
         <item itemvalue="Spring Boot.MyBatisApplication" />
         <item itemvalue="JUnit.StudentDaoTest.selectWithCondition" />
         <item itemvalue="JUnit.StudentDaoTest.selectAll" />
-        <item itemvalue="JUnit.StudentDaoTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -947,7 +943,8 @@
       <workItem from="1698673422551" duration="6742000" />
       <workItem from="1698732252860" duration="23962000" />
       <workItem from="1698800317516" duration="25078000" />
-      <workItem from="1698886566250" duration="773000" />
+      <workItem from="1698886566250" duration="2144000" />
+      <workItem from="1698892250204" duration="8349000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>

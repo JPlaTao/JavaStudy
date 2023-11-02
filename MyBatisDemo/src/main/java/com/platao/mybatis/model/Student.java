@@ -15,7 +15,6 @@ public class Student {
     private Date birth;
     private String gender;
 
-
     public Student(String name,Date birth,String gender){
         this.name = name;
         this.birth = birth;

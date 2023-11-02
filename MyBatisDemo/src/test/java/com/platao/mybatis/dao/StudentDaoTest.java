@@ -12,7 +12,6 @@ import org.junit.Test;
 import java.io.InputStream;
 import java.util.Date;
 
-import static org.junit.Assert.*;
 
 public class StudentDaoTest {
 
@@ -65,5 +64,10 @@ public class StudentDaoTest {
         Student student = new Student();
         student.setName("张三");
         System.out.println(studentDao.selectWithCondition(student));
+    }
+
+    @Test
+    public void selectByNameLike() {
+        System.out.println(studentDao.selectByNameLike("a"));
     }
 }

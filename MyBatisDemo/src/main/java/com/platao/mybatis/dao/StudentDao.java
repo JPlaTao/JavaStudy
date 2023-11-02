@@ -11,7 +11,11 @@ public interface StudentDao {
 
     List<Student> selectWithCondition(Student student);
 
+    List<Student> selectByNameLike(String name);
+
     int insert(Student student);
+
+    int insertReturnPrimeKey();
 
     void delete(int id);
 
