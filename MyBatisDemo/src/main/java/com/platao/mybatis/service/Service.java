@@ -1,5 +1,8 @@
 package com.platao.mybatis.service;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import com.platao.mybatis.constance.FileConstants;
 import com.platao.mybatis.dao.StudentDao;
 import com.platao.mybatis.model.Student;
 import org.apache.ibatis.io.Resources;
@@ -13,12 +16,14 @@ import java.util.List;
 
 public class Service {
     StudentDao studentDao;
-    {
-        try (InputStream resource = Resources.getResourceAsStream("mybatis-config.xml")
+    SqlSession sqlSession;
+
+    public Service() {
+        try (InputStream resource = Resources.getResourceAsStream(FileConstants.MYBATIS_CONFIG)
         ) {
             SqlSessionFactoryBuilder factoryBuilder = new SqlSessionFactoryBuilder();
             SqlSessionFactory factory = factoryBuilder.build(resource);
-            SqlSession sqlSession = factory.openSession();
+            sqlSession = factory.openSession();
             studentDao = sqlSession.getMapper(StudentDao.class);
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -31,5 +36,11 @@ public class Service {
 
     public Student findOneById(int id) {
         return studentDao.selectById(id);
+    }
+
+    public PageInfo<Student> findOnePage(Integer pageNumber, Integer pageSize) {
+        PageHelper.startPage(pageNumber, pageSize);
+        List<Student> studentList = studentDao.selectAll();
+        return new PageInfo<>(studentList);
     }
 }

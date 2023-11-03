@@ -9,6 +9,11 @@
     <typeAliases>
         <typeAlias type="com.platao.mybatis.model.Student" alias="student"/>
     </typeAliases>
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
     <environments default="mysql">
         <environment id="mysql">
             <transactionManager type="JDBC"/>
@@ -22,7 +27,7 @@
     </environments>
     <mappers>
         <mapper resource="com/platao/mybatis/StudentDao.xml"/>
-<!--        <package name="com.platao.mybatis.dao"/>-->
+        <!--        <package name="com.platao.mybatis.dao"/>-->
     </mappers>
 </configuration>
 

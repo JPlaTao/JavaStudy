@@ -6,13 +6,21 @@
     <resultMap id="studentResultMap" type="student">
 
     </resultMap>
+
+    <!--sql片段-->
+    <!--选择基础列-->
+    <sql id="studentBasicColumn">
+        select school.student.name, school.student.birth, school.student.gender
+    </sql>
+
+
     <!--增-->
     <insert id="insert" parameterType="student"
             useGeneratedKeys="true" keyProperty="id">
         insert into school.student (name, birth, gender)
         values (#{name}, #{birth}, #{gender})
     </insert>
-
+    <!--插入并返回主键-->
     <insert id="insertReturnPrimeKey" parameterType="student">
         <selectKey resultType="Integer" order="AFTER" keyProperty="id">
             select last_insert_id()
@@ -21,12 +29,26 @@
         values (#{id}, #{name}, #{birth}, #{gender})
     </insert>
 
+
     <!--删-->
     <delete id="delete">
         delete
         from school.student
         where id = #{id}
     </delete>
+    <!--通过ID删除-->
+    <delete id="deleteByIdIn">
+        delete
+        from school.student
+        <where>
+            <foreach collection="array"
+                     item="id" open="id in(" close=")"
+                     separator=" ,">
+                #{id}
+            </foreach>
+        </where>
+    </delete>
+
 
     <!--改-->
     <update id="updateById"
@@ -37,12 +59,27 @@
             gender = #{gender}
         where id = #{id}
     </update>
+    <!--更改传入值不为空的字段值-->
+    <update id="updateSet" parameterType="student">
+        update school.student
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="birth != null">birth = #{birth},</if>
+            <if test="gender != null">gender = #{gender},</if>
+        </set>
+        where id = #{id}
+    </update>
+
 
     <!--查-->
     <!--查询所有-->
     <select id="selectAll"
             resultType="student">
         select *
+        from school.student
+    </select>
+    <select id="selectBasicColumn" resultType="student">
+        <include refid="studentBasicColumn"/>
         from school.student
     </select>
     <!--通过 ID查询-->
@@ -72,9 +109,24 @@
         </where>
     </select>
 
+    <select id="selectWithConditionViaTrim"
+            parameterType="student" resultType="student">
+        <include refid="studentBasicColumn"/>
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="name != null">
+                and name = #{name}
+            </if>
+            <if test="birth != null">
+                and birth = #{birth}
+            </if>
+            <if test="gender != null">
+                and gender = #{gender}
+            </if>
+        </trim>
+    </select>
+
     <select id="selectByNameLike" parameterType="student"
-            resultMap="studentResultMap"
-    >
+            resultMap="studentResultMap">
         select *
         from school.student
         where name like '%${name}%'
