@@ -74,7 +74,7 @@
                     <td th:text="${student.gender}"></td>
                     <td width="200px">
                         <button type="button" class="btn btn-info" data-toggle="modal"
-                                data-target="#staticBackdrop">
+                                data-target="#staticBackdrop" th:data-whatever="${student.id}">
                             修改信息
                         </button>
                         <a class="btn btn-danger"
@@ -82,7 +82,6 @@
                     </td>
                 </tr>
             </table>
-
             <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-backdrop="static"
                  data-keyboard="false"
@@ -98,9 +97,25 @@
                         </div>
                         <div class="modal-body">
                             <form method="post" th:action="@{/student/update}">
+                                <input type="text" id="idInput" name="id" class="form-control" hidden>
                                 <div class="form-group">
-                                    <label for="exampleInputEmail1"></label>
-                                    <input type="text" class="form-control" id="exampleInputEmail1">
+                                    <label for="name">姓名:</label>
+                                    <input type="text" class="form-control"
+                                           placeholder="请输入新的姓名" id="name" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="birth">生日:</label>
+                                    <input type="date" class="form-control"
+                                           id="birth" name="birth">
+                                </div>
+
+                                <div class="form-group">
+                                    <label>
+                                        <input type="radio" name="gender" th:value="男">男
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="gender" th:value="女">女
+                                    </label>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary"
@@ -121,10 +136,9 @@
 <script>
     $('#staticBackdrop').on('show.bs.modal', function (event) {
         let button = $(event.relatedTarget)
-        let recipient = button.data('whatever')
+        let id = button.data('whatever')
         let modal = $(this)
-        modal.find('.modal-title').text('New message to ' + recipient)
-        modal.find('.modal-body input').val(recipient)
+        modal.find('#idInput').val(id)
     })
 </script>
 </body>

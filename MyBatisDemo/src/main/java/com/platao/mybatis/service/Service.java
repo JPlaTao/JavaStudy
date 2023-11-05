@@ -47,4 +47,8 @@ public class Service {
     public int removeOneByID(int id) {
         return studentDao.deleteById(id);
     }
+
+    public void update(Student student){
+        studentDao.updateSet(student);
+    }
 }

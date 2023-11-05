@@ -3,6 +3,7 @@ package com.platao.mybatis.controller;
 import com.platao.mybatis.model.Student;
 import com.platao.mybatis.service.Service;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -31,6 +32,12 @@ public class CRUDController {
     @RequestMapping("/student/remove")
     public String studentDelete(int id) {
         int i = service.removeOneByID(id);
+        return "redirect:/students";
+    }
+
+    @PostMapping("/student/update")
+    public String studentUpdate(Student student){
+        service.update(student);
         return "redirect:/students";
     }
 }

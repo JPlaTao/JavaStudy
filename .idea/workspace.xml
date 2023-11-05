@@ -13,18 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/controller/CRUDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/controller/CRUDController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/service/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/templates/studentList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/controller/CRUDController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/controller/CRUDController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/service/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/templates/studentList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -581,6 +576,7 @@
       <workItem from="1699148834940" duration="2307000" />
       <workItem from="1699186291463" duration="1195000" />
       <workItem from="1699187500765" duration="7959000" />
+      <workItem from="1699197904784" duration="3590000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
