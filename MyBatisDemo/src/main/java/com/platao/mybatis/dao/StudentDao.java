@@ -22,7 +22,7 @@ public interface StudentDao {
 
     int insertReturnPrimeKey();
 
-    void delete(int id);
+    int deleteById(int id);
 
     void deleteByIdIn(String... id);
 

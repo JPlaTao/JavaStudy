@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <script th:src="@{js/jquery-3.3.1.slim.min.js}"></script>
+    <script th:src="@{js/bootstrap.js}"></script>
     <title>学生信息表</title>
 </head>
 <body>
@@ -45,21 +47,24 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search"
                        aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0"
-                        type="submit">Search</button>
+                        type="submit">Search
+                </button>
             </form>
         </div>
     </nav>
 
     <div class="row">
         <div class="col">
+
             <!--表格-->
-            <table class="table table-hover">
+            <table class="table table-hover ">
                 <tr>
                     <th>序号</th>
                     <th>id</th>
                     <th>姓名</th>
                     <th>生日</th>
                     <th>性别</th>
+                    <th>操作</th>
                 </tr>
                 <tr th:each="student, stat : ${studentList}">
                     <td th:text="${stat.count}"></td>
@@ -67,10 +72,60 @@
                     <td th:text="${student.name}"></td>
                     <td th:text="${#dates.format(student.birth,'yyyy-MM-dd')}"></td>
                     <td th:text="${student.gender}"></td>
+                    <td width="200px">
+                        <button type="button" class="btn btn-info" data-toggle="modal"
+                                data-target="#staticBackdrop">
+                            修改信息
+                        </button>
+                        <a class="btn btn-danger"
+                           th:href="@{/student/remove(id=${student.id})}">删除</a>
+                    </td>
                 </tr>
             </table>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static"
+                 data-keyboard="false"
+                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">修改信息</h5>
+                            <button type="button" class="close" data-dismiss="modal"
+                                    aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form method="post" th:action="@{/student/update}">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1"></label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">关闭
+                                    </button>
+                                    <button type="submit" class="btn btn-primary">
+                                        确定修改
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<script>
+    $('#staticBackdrop').on('show.bs.modal', function (event) {
+        let button = $(event.relatedTarget)
+        let recipient = button.data('whatever')
+        let modal = $(this)
+        modal.find('.modal-title').text('New message to ' + recipient)
+        modal.find('.modal-body input').val(recipient)
+    })
+</script>
 </body>
 </html>

@@ -23,7 +23,7 @@ public class Service {
         ) {
             SqlSessionFactoryBuilder factoryBuilder = new SqlSessionFactoryBuilder();
             SqlSessionFactory factory = factoryBuilder.build(resource);
-            sqlSession = factory.openSession();
+            sqlSession = factory.openSession(true);
             studentDao = sqlSession.getMapper(StudentDao.class);
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -42,5 +42,9 @@ public class Service {
         PageHelper.startPage(pageNumber, pageSize);
         List<Student> studentList = studentDao.selectAll();
         return new PageInfo<>(studentList);
+    }
+
+    public int removeOneByID(int id) {
+        return studentDao.deleteById(id);
     }
 }

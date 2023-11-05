@@ -44,11 +44,10 @@ public class StudentDaoTest {
 //        List<Student> students = studentDao.selectAll();
 //        System.out.println("\n students: " + students);
 
-        PageHelper.startPage(1,10);
+        PageHelper.startPage(3,10);
         List<Student> studentsList = studentDao.selectAll();
         PageInfo<Student> studentPageInfo = new PageInfo<>(studentsList);
         System.out.println(studentPageInfo);
-
     }
 
     @Test
@@ -63,7 +62,7 @@ public class StudentDaoTest {
 
     @Test
     public void delete() {
-        studentDao.delete(32);
+        studentDao.deleteById(32);
     }
 
     @Test

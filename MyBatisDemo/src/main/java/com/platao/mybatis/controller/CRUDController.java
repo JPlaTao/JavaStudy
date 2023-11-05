@@ -24,7 +24,13 @@ public class CRUDController {
 
     @RequestMapping("/students/pagingList")
     public ModelAndView studentPagingList() {
+
         return null;
     }
 
+    @RequestMapping("/student/remove")
+    public String studentDelete(int id) {
+        int i = service.removeOneByID(id);
+        return "redirect:/students";
+    }
 }

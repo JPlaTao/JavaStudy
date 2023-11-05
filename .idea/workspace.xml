@@ -13,18 +13,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/controller/CRUDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/controller/CRUDController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/templates/studentList.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/service/Service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
     </list>
@@ -107,56 +106,56 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowByte Code Viewer.ShowToolbar": "false",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "create.test.in.the.same.root": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last.edited.regexp": "15 / 59    ",
-    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/MyBatisDemo/src/main/resources/static",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14758497",
-    "project.structure.side.proportion": "0.32037815",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "settings.editor.splitter.proportion": "0.23166369",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/MyBatisDemo/src/main/resources/static&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module",
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;,
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mysql"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT",
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;,
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\static" />
@@ -198,7 +197,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDaoTest.selectAll">
+  <component name="RunManager" selected="Spring Boot.MyBatisApplication">
     <configuration name="StudentDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatisDemo" />
       <extension name="coverage">
@@ -286,11 +285,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MyBatisApplication" />
         <item itemvalue="JUnit.StudentDaoTest.selectAll" />
         <item itemvalue="JUnit.StudentDaoTest.selectWithConditionViaTrim" />
         <item itemvalue="JUnit.StudentDaoTest.selectBasicColumn" />
         <item itemvalue="JUnit.StudentDaoTest.updateSet" />
-        <item itemvalue="Spring Boot.MyBatisApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +577,10 @@
       <workItem from="1698800317516" duration="25078000" />
       <workItem from="1698886566250" duration="2144000" />
       <workItem from="1698892250204" duration="8349000" />
-      <workItem from="1698938092454" duration="22193000" />
+      <workItem from="1698938092454" duration="23155000" />
+      <workItem from="1699148834940" duration="2307000" />
+      <workItem from="1699186291463" duration="1195000" />
+      <workItem from="1699187500765" duration="7959000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>

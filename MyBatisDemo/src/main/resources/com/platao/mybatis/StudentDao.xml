@@ -31,7 +31,7 @@
 
 
     <!--删-->
-    <delete id="delete">
+    <delete id="deleteById">
         delete
         from school.student
         where id = #{id}
