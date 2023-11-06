@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/EmpManagement" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -12,6 +14,7 @@
         <option value="$PROJECT_DIR$/SpringBootProjects/springstudent/pom.xml" />
         <option value="$PROJECT_DIR$/MyBaticDemo/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatisDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/EmpManagement/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

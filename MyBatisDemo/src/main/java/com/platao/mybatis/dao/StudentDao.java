@@ -1,6 +1,7 @@
 package com.platao.mybatis.dao;
 
 import com.platao.mybatis.model.Student;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 

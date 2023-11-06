@@ -2,33 +2,19 @@ package com.platao.mybatis.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.platao.mybatis.constance.FileConstants;
 import com.platao.mybatis.dao.StudentDao;
 import com.platao.mybatis.model.Student;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 
+@Component
 public class Service {
-    StudentDao studentDao;
-    SqlSession sqlSession;
 
-    public Service() {
-        try (InputStream resource = Resources.getResourceAsStream(FileConstants.MYBATIS_CONFIG)
-        ) {
-            SqlSessionFactoryBuilder factoryBuilder = new SqlSessionFactoryBuilder();
-            SqlSessionFactory factory = factoryBuilder.build(resource);
-            sqlSession = factory.openSession(true);
-            studentDao = sqlSession.getMapper(StudentDao.class);
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
-    }
+    @Autowired
+    private StudentDao studentDao;
+
 
     public List<Student> findAll() {
         return studentDao.selectAll();

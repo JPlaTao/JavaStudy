@@ -10,36 +10,25 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.InputStream;
 import java.util.Date;
 import java.util.List;
 
-
+@SpringBootTest
 public class StudentDaoTest {
 
+    @Autowired
     StudentDao studentDao;
-    SqlSession sqlSession;
+//    SqlSession sqlSession;
 
-
-    @Before
-    public void setUp() throws Exception {
-        InputStream resource = Resources.getResourceAsStream("mybatis-config.xml");
-        SqlSessionFactoryBuilder factoryBuilder = new SqlSessionFactoryBuilder();
-        SqlSessionFactory factory = factoryBuilder.build(resource);
-        sqlSession = factory.openSession(true);
-        studentDao = sqlSession.getMapper(StudentDao.class);
-    }
-
-    @After
-    public void tearDown() throws Exception {
-//        sqlSession.commit();
-        sqlSession.close();
-    }
 
     @Test
     public void selectAll() {
-        //PageHelper.startPage() 方法会对紧跟着的一个 mybatis查询分页，返回的值类型实际为 Page<E>
+        // PageHelper.startPage() 方法会对紧跟着的一个 mybatis查询分页，
+        // 返回的值类型实际为 Page<E>
 //        PageHelper.startPage(1, 5);
 //        List<Student> students = studentDao.selectAll();
 //        System.out.println("\n students: " + students);

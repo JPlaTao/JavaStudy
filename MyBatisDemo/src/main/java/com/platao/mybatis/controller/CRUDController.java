@@ -1,7 +1,9 @@
 package com.platao.mybatis.controller;
 
+import com.github.pagehelper.PageInfo;
 import com.platao.mybatis.model.Student;
 import com.platao.mybatis.service.Service;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,21 +14,29 @@ import java.util.List;
 @Controller
 public class CRUDController {
 
-    Service service = new Service();
+    @Autowired
+    Service service;
+
+//    @RequestMapping("/students")
+//    public ModelAndView studentList() {
+//        List<Student> studentList = service.findAll();
+//        ModelAndView modelAndView = new ModelAndView();
+//        modelAndView.addObject("studentList", studentList);
+//        modelAndView.setViewName("studentList");
+//        return modelAndView;
+//    }
 
     @RequestMapping("/students")
-    public ModelAndView studentList() {
-        List<Student> studentList = service.findAll();
+    public ModelAndView studentPagingList(Integer num) {
+        if (num == null){
+            num = 1;
+        }
+        PageInfo<Student> page = service.findOnePage(num, 5);
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("studentList", studentList);
+        // 传递分页数据
+        modelAndView.addObject("page", page);
         modelAndView.setViewName("studentList");
         return modelAndView;
-    }
-
-    @RequestMapping("/students/pagingList")
-    public ModelAndView studentPagingList() {
-
-        return null;
     }
 
     @RequestMapping("/student/remove")

@@ -13,14 +13,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
+      <change afterPath="$PROJECT_DIR$/EmpManagement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/src/main/java/com/platao/empmanagement/EmpManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmpManagement/src/test/java/com/platao/empmanagement/EmpManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/MyBatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/MyBatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/constance/FileConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/constance/FileConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/controller/CRUDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/controller/CRUDController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/java/com/platao/mybatis/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/com/platao/mybatis/dao/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/mybatis-config-D.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/static/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/main/resources/templates/studentList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/src/test/java/com/platao/mybatis/dao/StudentDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/MyBatisApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/MyBatisApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/StudentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/constance/FileConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/constance/FileConstants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/controller/CRUDController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/controller/CRUDController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/service/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/com/platao/mybatis/service/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/static/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/classes/templates/studentList.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/classes/templates/studentList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MyBatisDemo/target/test-classes/com/platao/mybatis/dao/StudentDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/static/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringStudent/src/main/resources/static/js/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +65,23 @@
   <component name="ExportToHTMLSettings">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../java-study\exportToHTML" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/EmpManagement">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,9 +90,10 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit3 Test Class" />
-        <option value="JUnit4 Test Class" />
         <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,7 +103,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/EmpManagement" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -99,6 +149,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -112,10 +163,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
     &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
@@ -133,7 +186,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -160,21 +213,22 @@
       <recent name="D:\4.WorkSpace\JAVA\java-study\WebApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\com\platao\empmanagement" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\com\platao\mybatis\dao" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBaticDemo\src\main\resources\com\platao\dao" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\jsp" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\css" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\html" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platao.empmanagement.dao" />
+      <recent name="com.platao.mybatis.controller" />
       <recent name="com.platao.mybatis.dao" />
       <recent name="com.platao.mybatis.service" />
       <recent name="com.platao.mybatis.dao.impl" />
-      <recent name="com.platao.dao.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
@@ -192,7 +246,71 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MyBatisApplication">
+  <component name="RunManager" selected="JUnit.EmpMapperTest.selectByPrimaryKey">
+    <configuration name="DeptMapperTest.deleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmpManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.empmanagement.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.dao.DeptMapperTest" />
+      <option name="METHOD_NAME" value="deleteByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeptMapperTest.selectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmpManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.empmanagement.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.dao.DeptMapperTest" />
+      <option name="METHOD_NAME" value="selectByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Xshare:off" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpMapperTest.selectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmpManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.empmanagement.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.dao.EmpMapperTest" />
+      <option name="METHOD_NAME" value="selectByPrimaryKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatisDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBatisDemo" />
       <extension name="coverage">
@@ -209,82 +327,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDaoTest.selectBasicColumn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="selectBasicColumn" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="EmpManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="EmpManagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.platao.empmanagement.EmpManagementApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDaoTest.selectWithConditionViaTrim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="selectWithConditionViaTrim" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDaoTest.updateSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="updateSet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MyBatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="MyBatisDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.platao.mybatis.MyBatisApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringStudentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SpringStudent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kfm.springstudent.SpringStudentApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentDaoTest.selectBasicColumn" />
-      <item itemvalue="JUnit.StudentDaoTest.selectWithConditionViaTrim" />
-      <item itemvalue="JUnit.StudentDaoTest.updateSet" />
+      <item itemvalue="JUnit.EmpMapperTest.selectByPrimaryKey" />
+      <item itemvalue="JUnit.DeptMapperTest.deleteByPrimaryKey" />
+      <item itemvalue="JUnit.DeptMapperTest.selectByPrimaryKey" />
+      <item itemvalue="JUnit.StudentDaoTest" />
       <item itemvalue="JUnit.StudentDaoTest.selectAll" />
+      <item itemvalue="Spring Boot.EmpManagementApplication" />
+      <item itemvalue="Spring Boot.SpringStudentApplication" />
       <item itemvalue="Spring Boot.MyBatisApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MyBatisApplication" />
+        <item itemvalue="JUnit.EmpMapperTest.selectByPrimaryKey" />
+        <item itemvalue="JUnit.DeptMapperTest.selectByPrimaryKey" />
+        <item itemvalue="JUnit.DeptMapperTest.deleteByPrimaryKey" />
         <item itemvalue="JUnit.StudentDaoTest.selectAll" />
-        <item itemvalue="JUnit.StudentDaoTest.selectWithConditionViaTrim" />
-        <item itemvalue="JUnit.StudentDaoTest.selectBasicColumn" />
-        <item itemvalue="JUnit.StudentDaoTest.updateSet" />
+        <item itemvalue="JUnit.StudentDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -576,7 +659,13 @@
       <workItem from="1699148834940" duration="2307000" />
       <workItem from="1699186291463" duration="1195000" />
       <workItem from="1699187500765" duration="7959000" />
-      <workItem from="1699197904784" duration="3590000" />
+      <workItem from="1699197904784" duration="3617000" />
+      <workItem from="1699201610006" duration="126000" />
+      <workItem from="1699232352738" duration="1174000" />
+      <workItem from="1699233546450" duration="6678000" />
+      <workItem from="1699250022268" duration="6921000" />
+      <workItem from="1699258266939" duration="8173000" />
+      <workItem from="1699273084988" duration="2022000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>

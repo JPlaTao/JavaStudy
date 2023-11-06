@@ -9,6 +9,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="exam1021_WebCloud" />
+        <module name="EmpManagement" />
         <module name="Dayof1019_Cookie" />
         <module name="test" />
         <module name="Dayof1017_RePatch" />
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EmpManagement" options="-parameters" />
       <module name="MyBatisDemo" options="-parameters" />
       <module name="SpringStudent" options="-parameters" />
       <module name="StudentCRUD" options="-parameters" />
