@@ -13,9 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmpManagement/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/EmpManagement/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +55,8 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="JUnit3 Test Class" />
-        <option value="HTML File" />
         <option value="JUnit4 Test Class" />
+        <option value="HTML File" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -113,86 +114,85 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/MyBatisDemo/src/main/resources/static&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/EmpManagement/src/main/resources/templates",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14758497",
+    "project.structure.side.proportion": "0.32037815",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.23166369",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;,
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT",
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\templates" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\static\img\other" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\static" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\SpringStudent\src\main\resources\static\js" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static\css" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static\js" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\WebApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\com\platao\empmanagement" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\com\platao\mybatis\dao" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBaticDemo\src\main\resources\com\platao\dao" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\JavaWeb\Dayof1017_RePatch\web\jsp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platao.empmanagement.mapper" />
       <recent name="com.platao.empmanagement.dao" />
       <recent name="com.platao.mybatis.controller" />
       <recent name="com.platao.mybatis.dao" />
       <recent name="com.platao.mybatis.service" />
-      <recent name="com.platao.mybatis.dao.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
@@ -210,36 +210,36 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmpMapperTest.selectByPrimaryKey">
-    <configuration name="DeptMapperTest.deleteByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmpManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.dao.DeptMapperTest" />
-      <option name="METHOD_NAME" value="deleteByPrimaryKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.EmpManagementApplication">
     <configuration name="DeptMapperTest.selectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EmpManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.dao.*" />
+          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platao.empmanagement.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.dao.DeptMapperTest" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.DeptMapperTest" />
       <option name="METHOD_NAME" value="selectByPrimaryKey" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-Xshare:off" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpMapperTest.selectAllWithEmpList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmpManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.EmpMapperTest" />
+      <option name="METHOD_NAME" value="selectAllWithEmpList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -248,44 +248,45 @@
       <module name="EmpManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.dao.*" />
+          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.platao.empmanagement.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.dao.EmpMapperTest" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.EmpMapperTest" />
       <option name="METHOD_NAME" value="selectByPrimaryKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisDemo" />
+    <configuration name="UserMapperTest.selectAllWithRoleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmpManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectAllWithRoleList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBatisDemo" />
+    <configuration name="UserMapperTest.selectByIdWithRoleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EmpManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.mybatis.dao.*" />
+          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platao.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.mybatis.dao.StudentDaoTest" />
-      <option name="METHOD_NAME" value="selectAll" />
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="selectByIdWithRoleList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,22 +317,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.EmpMapperTest.selectAllWithEmpList" />
+      <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
+      <item itemvalue="JUnit.UserMapperTest.selectByIdWithRoleList" />
       <item itemvalue="JUnit.EmpMapperTest.selectByPrimaryKey" />
-      <item itemvalue="JUnit.DeptMapperTest.deleteByPrimaryKey" />
       <item itemvalue="JUnit.DeptMapperTest.selectByPrimaryKey" />
-      <item itemvalue="JUnit.StudentDaoTest" />
-      <item itemvalue="JUnit.StudentDaoTest.selectAll" />
       <item itemvalue="Spring Boot.EmpManagementApplication" />
       <item itemvalue="Spring Boot.SpringStudentApplication" />
       <item itemvalue="Spring Boot.MyBatisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
+        <item itemvalue="JUnit.UserMapperTest.selectByIdWithRoleList" />
+        <item itemvalue="JUnit.EmpMapperTest.selectAllWithEmpList" />
         <item itemvalue="JUnit.EmpMapperTest.selectByPrimaryKey" />
         <item itemvalue="JUnit.DeptMapperTest.selectByPrimaryKey" />
-        <item itemvalue="JUnit.DeptMapperTest.deleteByPrimaryKey" />
-        <item itemvalue="JUnit.StudentDaoTest.selectAll" />
-        <item itemvalue="JUnit.StudentDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -630,6 +631,11 @@
       <workItem from="1699250022268" duration="6921000" />
       <workItem from="1699258266939" duration="8173000" />
       <workItem from="1699273084988" duration="4208000" />
+      <workItem from="1699281176627" duration="877000" />
+      <workItem from="1699283832153" duration="544000" />
+      <workItem from="1699284754500" duration="122000" />
+      <workItem from="1699285527397" duration="81000" />
+      <workItem from="1699318931268" duration="31759000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -998,6 +1004,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/automate" />
       <path value="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" />
+      <path value="$PROJECT_DIR$/EmpManagement" />
     </ignored-roots>
     <MESSAGE value="String and datetime methods practice" />
     <MESSAGE value="name chang" />

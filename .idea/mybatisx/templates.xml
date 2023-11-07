@@ -27,7 +27,7 @@
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.java" />
                   <option name="modulePath" value="$PROJECT_DIR$/EmpManagement" />
-                  <option name="packageName" value="com.platao.empmanagement.dao" />
+                  <option name="packageName" value="${domain.basePackage}.mapper" />
                 </ModuleInfoGo>
                 <ModuleInfoGo>
                   <option name="basePath" value="src/main/resources" />
@@ -37,7 +37,7 @@
                   <option name="fileName" value="${domain.fileName}Mapper" />
                   <option name="fileNameWithSuffix" value="${domain.fileName}Mapper.xml" />
                   <option name="modulePath" value="$PROJECT_DIR$/EmpManagement" />
-                  <option name="packageName" value="dao" />
+                  <option name="packageName" value="mapper" />
                 </ModuleInfoGo>
               </list>
             </option>
@@ -47,8 +47,8 @@
             <option name="tableUIInfoList">
               <list>
                 <TableUIInfo>
-                  <option name="className" value="Emp" />
-                  <option name="tableName" value="emp" />
+                  <option name="className" value="User" />
+                  <option name="tableName" value="user" />
                 </TableUIInfo>
               </list>
             </option>
