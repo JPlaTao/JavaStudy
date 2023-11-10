@@ -204,7 +204,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EmpManagementApplication">
+  <component name="RunManager" selected="JUnit.UserMapperTest.selectAllWithRoleList">
     <configuration name="EmpManagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EmpManagement" />
       <extension name="coverage">
@@ -320,11 +320,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
         <item itemvalue="JUnit.EmpManagementApplicationTests.IPTest" />
         <item itemvalue="JUnit.EmpManagementApplicationTests.test" />
         <item itemvalue="JUnit.EmpManagementApplicationTests" />
         <item itemvalue="JUnit.UserMapperTest.selectByUsername" />
-        <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
       </list>
     </recent_temporary>
   </component>
@@ -630,7 +630,8 @@
       <workItem from="1699318931268" duration="44256000" />
       <workItem from="1699414220336" duration="1013000" />
       <workItem from="1699423074188" duration="32484000" />
-      <workItem from="1699537350838" duration="632000" />
+      <workItem from="1699537350838" duration="7357000" />
+      <workItem from="1699620042408" duration="2000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
