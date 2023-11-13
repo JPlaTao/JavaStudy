@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <style>
+        .heart {
+            animation: heartFloat 3s ease-in-out 0s infinite;
+        }
+
+        @keyframes heartFloat {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(-300px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th><label for="checkAllOption"></label>
+            <input id="checkAllOption" type="checkbox" name="checkAll"></th>
+        <th>序号</th>
+        <th>商品</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>合计</th>
+    </tr>
+    <tr>
+        <td><label>
+            <input class="opt" type="checkbox" name="goods" value="4599">
+        </label></td>
+        <td>1</td>
+        <td>xiaomi14</td>
+        <td>4599</td>
+        <td>
+            <input class="quantity" type="number" min="0">
+        </td>
+        <td class="addUp"></td>
+    </tr>
+    <tr>
+        <td>
+            <label>
+                <input class="opt" type="checkbox" name="goods" value="8999">
+            </label></td>
+        <td>2</td>
+        <td>RescuerR9000P2023</td>
+        <td>8999</td>
+        <td>
+            <input class="quantity" type="number" min="0">
+        </td>
+        <td class="addUp"></td>
+    </tr>
+</table>
+<span>总价：<span id="totalPrice"></span></span>
+<script>
+    let checkedOptionsCount = 0;
+    let checkAllOption = document.getElementById('checkAllOption');
+    let goods = document.querySelectorAll('.opt');
+    let totalPrice = document.getElementById('totalPrice');
+    let quantities = document.querySelectorAll('.quantity');
+    let addUps = document.querySelectorAll('.addUp');
+
+    function setTotalPrice() {
+        let totalPriceNum = 0;
+        addUps.forEach((addUpPrice) => {
+            totalPriceNum += parseInt(addUpPrice.innerText);
+        });
+        totalPrice.innerText = totalPriceNum;
+    }
+
+    for (let quantity of quantities) {
+        quantity.onclick = () => {
+            let quantityNum = parseInt(quantity.value);
+            let price = parseInt(quantity.parentElement.previousElementSibling.textContent);
+            let addUp = quantity.parentElement.nextElementSibling;
+            addUp.innerText = quantityNum * price;
+            if (quantity.parentElement.parentElement
+                .firstElementChild.firstElementChild
+                .firstElementChild.checked) {
+                setTotalPrice();
+            }
+        }
+    }
+
+    checkAllOption.onclick = () => {
+        if (checkAllOption.checked === true) {
+            for (let selectedGoods of goods) {
+                selectedGoods.checked = true;
+            }
+            checkedOptionsCount = goods.length;
+            setTotalPrice();
+        } else {
+            for (let option of goods) {
+                option.checked = false;
+            }
+            checkedOptionsCount = 0;
+            setTotalPrice();
+        }
+    }
+
+    for (let selectedGoods of goods) {
+        selectedGoods.onclick = () => {
+            if (selectedGoods.checked === true) {
+                checkedOptionsCount++;
+                if (checkedOptionsCount > goods.length) {
+                    checkedOptionsCount = goods.length;
+                }
+                setTotalPrice();
+            } else {
+                checkedOptionsCount--;
+                if (checkedOptionsCount < 0) {
+                    checkedOptionsCount = 0;
+                }
+                setTotalPrice();
+            }
+            checkAllOption.checked = checkedOptionsCount === goods.length;
+        }
+    }
+</script>
+<!--<div id="theDiv"></div>-->
+<!--<img id="light" src="img/开灯.png" alt="灯泡坏了">-->
+<!--<p>当有一张一百元和一张五十元掉在地上，你会选择：</p>-->
+<!--<div class="optionGroup">-->
+<!--    <label>-->
+<!--        <input type="checkbox" name="op1">捡起一百元-->
+<!--    </label>-->
+<!--    <label>-->
+<!--        <input type="checkbox" name="op2">捡起五十元-->
+<!--    </label>-->
+<!--    <label>-->
+<!--        <input type="checkbox" name="op3">装作无事发生并走掉-->
+<!--    </label>-->
+<!--</div>-->
+<!--<img id="mh" src="" alt="">-->
+
+<!--<script src="JavaScript/practice2.js"></script>-->
+<!--<script src="JavaScript/heart.js"></script>-->
+</body>
+</html>

@@ -18,6 +18,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jsStudy" target="17" />
       <module name="MyBaticDemo" target="17" />
       <module name="StudentCRUD" target="17" />
     </bytecodeTargetLevel>

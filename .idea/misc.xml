@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
@@ -15,12 +16,14 @@
         <option value="$PROJECT_DIR$/MyBaticDemo/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatisDemo/pom.xml" />
         <option value="$PROJECT_DIR$/EmpManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/jsStudy/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/MyBaticDemo/pom.xml" />
         <option value="$PROJECT_DIR$/StudentCRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/jsStudy/pom.xml" />
       </set>
     </option>
   </component>

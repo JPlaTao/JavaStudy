@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EmpManagement" beforeDir="false" afterPath="$PROJECT_DIR$/EmpManagement" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
     </list>
@@ -53,10 +52,10 @@
         <option value="Jsp File" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -71,6 +70,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/EmpManagement/src/main/java/com/platao/empmanagement/domain/ObjectConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/jsStudy/1113/learning/learning.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -109,84 +109,84 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/EmpManagement/src/main/resources/templates&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/jsStudy/1113/learning/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.14758497",
+    "project.structure.side.proportion": "0.32037815",
+    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.splitter.proportion": "0.23166369",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;,
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT",
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\jsStudy\1113\learning\img" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\templates" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\static\img\other" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\static" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\SpringStudent\src\main\resources\static\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\jsStudy\1113\learning\img" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\jsStudy\1113_HomeWork\homeWork" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\com\platao\empmanagement" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\com\platao\mybatis\dao" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\MyBaticDemo\src\main\resources\com\platao\dao" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\SpringBootProjects\springstudent\src\main\resources\static" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platao.empmanagement.controller" />
       <recent name="com.platao.empmanagement.mapper" />
       <recent name="com.platao.empmanagement.dao" />
       <recent name="com.platao.mybatis.controller" />
       <recent name="com.platao.mybatis.dao" />
-      <recent name="com.platao.mybatis.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pm" />
@@ -204,49 +204,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.selectAllWithRoleList">
-    <configuration name="EmpManagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JavaScript Debug.learning.html">
+    <configuration name="UserControllerTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EmpManagement" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.*" />
+          <option name="PATTERN" value="com.platao.empmanagement.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.EmpManagementApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmpManagementApplicationTests.IPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmpManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.EmpManagementApplicationTests" />
-      <option name="METHOD_NAME" value="IPTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmpManagementApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmpManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.EmpManagementApplicationTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.platao.empmanagement.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.controller.UserControllerTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -268,21 +237,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.selectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmpManagement" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="selectByUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="learning.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaStudy/jsStudy/1113/learning/learning.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="heart.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jsStudy/1113/learning/JavaScript/heart.js" working-dir="$PROJECT_DIR$/jsStudy/1113/learning/JavaScript">
+      <method v="2" />
+    </configuration>
+    <configuration name="helloJS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jsStudy/helloJS.js" working-dir="$PROJECT_DIR$/jsStudy">
+      <method v="2" />
     </configuration>
     <configuration name="EmpManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
@@ -309,22 +271,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.EmpManagementApplicationTests" />
-      <item itemvalue="JUnit.EmpManagementApplicationTests.IPTest" />
-      <item itemvalue="JUnit.EmpManagementApplicationTests.test" />
+      <item itemvalue="JavaScript Debug.learning.html" />
+      <item itemvalue="JUnit.UserControllerTest.login" />
       <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
-      <item itemvalue="JUnit.UserMapperTest.selectByUsername" />
+      <item itemvalue="Node.js.heart.js" />
+      <item itemvalue="Node.js.helloJS.js" />
       <item itemvalue="Spring Boot.EmpManagementApplication" />
       <item itemvalue="Spring Boot.SpringStudentApplication" />
       <item itemvalue="Spring Boot.MyBatisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.learning.html" />
+        <item itemvalue="Node.js.heart.js" />
+        <item itemvalue="Node.js.helloJS.js" />
+        <item itemvalue="JUnit.UserControllerTest.login" />
         <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
-        <item itemvalue="JUnit.EmpManagementApplicationTests.IPTest" />
-        <item itemvalue="JUnit.EmpManagementApplicationTests.test" />
-        <item itemvalue="JUnit.EmpManagementApplicationTests" />
-        <item itemvalue="JUnit.UserMapperTest.selectByUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -632,6 +594,9 @@
       <workItem from="1699423074188" duration="32484000" />
       <workItem from="1699537350838" duration="7357000" />
       <workItem from="1699620042408" duration="2000" />
+      <workItem from="1699626093171" duration="5314000" />
+      <workItem from="1699682511159" duration="1929000" />
+      <workItem from="1699687019610" duration="25822000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
@@ -1072,6 +1037,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/jsStudy/helloJS.js</url>
+          <line>24</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
