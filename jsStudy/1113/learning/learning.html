@@ -68,7 +68,8 @@
     function setTotalPrice() {
         let totalPriceNum = 0;
         addUps.forEach((addUpPrice) => {
-            totalPriceNum += parseInt(addUpPrice.innerText);
+            let addUp = isNaN(parseInt(addUpPrice.innerText)) ? 0 : parseInt(addUpPrice.innerText)
+            totalPriceNum += addUp;
         });
         totalPrice.innerText = totalPriceNum;
     }
@@ -76,6 +77,7 @@
     for (let quantity of quantities) {
         quantity.onclick = () => {
             let quantityNum = parseInt(quantity.value);
+            quantityNum = isNaN(quantityNum) ? 0 : quantityNum
             let price = parseInt(quantity.parentElement.previousElementSibling.textContent);
             let addUp = quantity.parentElement.nextElementSibling;
             addUp.innerText = quantityNum * price;
@@ -116,29 +118,33 @@
                 if (checkedOptionsCount < 0) {
                     checkedOptionsCount = 0;
                 }
-                setTotalPrice();
+                let addUp = selectedGoods.parentElement
+                    .parentElement.parentElement
+                    .lastElementChild.innerText;
+                addUp = isNaN(parseInt(addUp))?0:parseInt(addUp);
+                totalPrice.innerText = parseInt(totalPrice.innerText) - addUp + '';
             }
             checkAllOption.checked = checkedOptionsCount === goods.length;
         }
     }
 </script>
-<!--<div id="theDiv"></div>-->
-<!--<img id="light" src="img/开灯.png" alt="灯泡坏了">-->
-<!--<p>当有一张一百元和一张五十元掉在地上，你会选择：</p>-->
-<!--<div class="optionGroup">-->
-<!--    <label>-->
-<!--        <input type="checkbox" name="op1">捡起一百元-->
-<!--    </label>-->
-<!--    <label>-->
-<!--        <input type="checkbox" name="op2">捡起五十元-->
-<!--    </label>-->
-<!--    <label>-->
-<!--        <input type="checkbox" name="op3">装作无事发生并走掉-->
-<!--    </label>-->
-<!--</div>-->
-<!--<img id="mh" src="" alt="">-->
+<div id="theDiv"></div>
+<img id="light" src="img/开灯.png" alt="灯泡坏了">
+<p>当有一张一百元和一张五十元掉在地上，你会选择：</p>
+<div class="optionGroup">
+    <label>
+        <input type="checkbox" name="op1">捡起一百元
+    </label>
+    <label>
+        <input type="checkbox" name="op2">捡起五十元
+    </label>
+    <label>
+        <input type="checkbox" name="op3">装作无事发生并走掉
+    </label>
+</div>
+<img id="mh" src="" alt="">
 
-<!--<script src="JavaScript/practice2.js"></script>-->
-<!--<script src="JavaScript/heart.js"></script>-->
+<script src="JavaScript/practice2.js"></script>
+<script src="JavaScript/heart.js"></script>
 </body>
 </html>

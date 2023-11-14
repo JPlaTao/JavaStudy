@@ -14,10 +14,11 @@ window.onclick = (event) => {
     let heart = document.createElement("label");
     heart.classList.add("heart");
     heart.innerText = "♥";
+    heart.style.userSelect = "none";
     heart.style.fontSize = '30px';
     heart.style.position = "absolute";
     heart.style.left = x - 8 + "px";
-    heart.style.top = y - 8 + "px";
+    heart.style.top = y - 40 + "px";
     heart.style.color = randomColorString();
     body.appendChild(heart);
     setTimeout(() => {
