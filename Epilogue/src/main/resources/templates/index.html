@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex-grow {
+            flex-grow: 0.95;
+        }
+    </style>
+    <title>学生信息表</title>
+</head>
+<body>
+<div id="app">
+    <el-container>
+        <el-header style="padding: 0">
+            <el-menu
+                    :default-active="activeIndex2"
+                    class="el-menu-demo"
+                    mode="horizontal"
+                    background-color="#545c64"
+                    text-color="#fff"
+                    active-text-color="#ffd04b"
+                    @select="handleSelect"
+            >
+                <el-menu-item index="0">
+                    <img
+                        src="/img/logo.png"
+                        style="width: 70px"
+                        alt="kfm logo"
+                    />
+                </el-menu-item>
+                <div class="flex-grow"></div>
+                <el-menu-item index="1">处理中心</el-menu-item>
+                <el-sub-menu index="2">
+                    <template #title>我的工作台</template>
+                    <el-menu-item index="2-1">意思</el-menu-item>
+                    <el-menu-item index="2-2">意思</el-menu-item>
+                    <el-menu-item index="2-3">没有内容</el-menu-item>
+                </el-sub-menu>
+                <el-menu-item index="3">首页</el-menu-item>
+            </el-menu>
+        </el-header>
+        <el-container>
+            <el-aside>
+                <el-menu
+                        default-active="2"
+                        class="el-menu-vertical-demo"
+                        @open="handleOpen"
+                        @close="handleClose"
+                >
+                    <el-sub-menu index="1">
+                        <template #title>
+                            <span>学工部</span>
+                        </template>
+                        <el-menu-item index="1-1">在校学生管理</el-menu-item>
+                        <el-menu-item index="1-2">学生升级/留级</el-menu-item>
+                        <el-menu-item index="1-3">学生就业情况</el-menu-item>
+                    </el-sub-menu>
+
+                    <el-sub-menu index="2">
+                        <template #title>
+                            <span>咨询部</span>
+                        </template>
+                        <el-menu-item index="2-1">在校学生管理</el-menu-item>
+                        <el-menu-item index="2-2">学生升级/留级</el-menu-item>
+                        <el-menu-item index="2-3">学生就业情况</el-menu-item>
+                    </el-sub-menu>
+
+                    <el-sub-menu index="3">
+                        <template #title>
+                            <span>教研部</span>
+                        </template>
+                        <el-menu-item index="3-1">在校学生管理</el-menu-item>
+                        <el-menu-item index="3-2">学生升级/留级</el-menu-item>
+                        <el-menu-item index="3-3">学生就业情况</el-menu-item>
+                    </el-sub-menu>
+
+                </el-menu>
+            </el-aside>
+            <el-main>
+                <el-row>
+                    <el-col :span="22">
+                        <h2 style="margin: 0">学生列表</h2>
+                    </el-col>
+                    <el-col :span="2">
+                        <el-button type="primary">添加学生</el-button>
+                    </el-col>
+                </el-row>
+                <el-table :data="table">
+                    <el-table-column prop="empId" label="id"></el-table-column>
+                    <el-table-column prop="empName" label="员工姓名"></el-table-column>
+                    <el-table-column prop="birthday" label="生日"></el-table-column>
+                    <el-table-column prop="gender" label="性别"></el-table-column>
+                    <el-table-column prop="salary" label="工资"></el-table-column>
+                    <el-table-column prop="deptId" label="部门号"></el-table-column>
+                    <el-table-column label="操作">
+                        <el-button type="warning">修改</el-button>
+                        <el-popconfirm
+                                title="确定删除吗?">
+                            <template #reference>
+                                <el-button type="danger">删除</el-button>
+                            </template>
+                        </el-popconfirm>
+                    </el-table-column>
+                </el-table>
+            </el-main>
+        </el-container>
+    </el-container>
+</div>
+
+<script src="/js/axios.js"></script>
+<script src="/js/vue.js"></script>
+<script src="/js/element-plus.js"></script>
+<!--<script src="../static/js/vue.js"></script>-->
+<script>
+    const app = {
+        data() {
+            return {
+                message: "hello Vue!",
+                student: {
+                    name: "张三",
+                    age: 18
+                },
+                count: 1,
+                table: null
+            }
+        },
+        methods: {
+            plusPlus() {
+                this.count++;
+            },
+            getTable() {
+                axios.get("http://localhost/employees")
+                    .then(response => {
+                        this.table = response.data.data;
+                    })
+                    .catch(reason => {
+                        console.log(reason)
+                    })
+            },
+            delete(){
+
+            }
+        },
+        created() {
+            this.getTable()
+        }
+
+    }
+    const vm = Vue.createApp(app)
+    vm.use(ElementPlus)
+    vm.mount('#app')
+</script>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Vue</title>
+</head>
+</html>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.platao.epilogue.mapper.EmployeeMapper">
+
+    <resultMap id="BaseResultMap" type="com.platao.epilogue.domain.Employee">
+            <id property="empId" column="emp_id" jdbcType="INTEGER"/>
+            <result property="empName" column="emp_name" jdbcType="VARCHAR"/>
+            <result property="birthday" column="birthday" jdbcType="DATE"/>
+            <result property="gender" column="gender" jdbcType="VARCHAR"/>
+            <result property="salary" column="salary" jdbcType="DOUBLE"/>
+            <result property="deptId" column="dept_id" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        emp_id,emp_name,birthday,
+        gender,salary,dept_id
+    </sql>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from employee
+        where  emp_id = #{empId,jdbcType=INTEGER} 
+    </select>
+    <select id="selectAll" resultType="com.platao.epilogue.domain.Employee">
+        select * from mis.employee
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete from employee
+        where  emp_id = #{empId,jdbcType=INTEGER} 
+    </delete>
+    <insert id="insert" keyColumn="emp_id" keyProperty="empId" parameterType="com.platao.epilogue.domain.Employee" useGeneratedKeys="true">
+        insert into employee
+        ( emp_id,emp_name,birthday
+        ,gender,salary,dept_id
+        )
+        values (#{empId,jdbcType=INTEGER},#{empName,jdbcType=VARCHAR},#{birthday,jdbcType=DATE}
+        ,#{gender,jdbcType=VARCHAR},#{salary,jdbcType=DOUBLE},#{deptId,jdbcType=INTEGER}
+        )
+    </insert>
+    <insert id="insertSelective" keyColumn="emp_id" keyProperty="empId" parameterType="com.platao.epilogue.domain.Employee" useGeneratedKeys="true">
+        insert into employee
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="empId != null">emp_id,</if>
+                <if test="empName != null">emp_name,</if>
+                <if test="birthday != null">birthday,</if>
+                <if test="gender != null">gender,</if>
+                <if test="salary != null">salary,</if>
+                <if test="deptId != null">dept_id,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+                <if test="empId != null">#{empId,jdbcType=INTEGER},</if>
+                <if test="empName != null">#{empName,jdbcType=VARCHAR},</if>
+                <if test="birthday != null">#{birthday,jdbcType=DATE},</if>
+                <if test="gender != null">#{gender,jdbcType=VARCHAR},</if>
+                <if test="salary != null">#{salary,jdbcType=DOUBLE},</if>
+                <if test="deptId != null">#{deptId,jdbcType=INTEGER},</if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.platao.epilogue.domain.Employee">
+        update employee
+        <set>
+                <if test="empName != null">
+                    emp_name = #{empName,jdbcType=VARCHAR},
+                </if>
+                <if test="birthday != null">
+                    birthday = #{birthday,jdbcType=DATE},
+                </if>
+                <if test="gender != null">
+                    gender = #{gender,jdbcType=VARCHAR},
+                </if>
+                <if test="salary != null">
+                    salary = #{salary,jdbcType=DOUBLE},
+                </if>
+                <if test="deptId != null">
+                    dept_id = #{deptId,jdbcType=INTEGER},
+                </if>
+        </set>
+        where   emp_id = #{empId,jdbcType=INTEGER} 
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.platao.epilogue.domain.Employee">
+        update employee
+        set 
+            emp_name =  #{empName,jdbcType=VARCHAR},
+            birthday =  #{birthday,jdbcType=DATE},
+            gender =  #{gender,jdbcType=VARCHAR},
+            salary =  #{salary,jdbcType=DOUBLE},
+            dept_id =  #{deptId,jdbcType=INTEGER}
+        where   emp_id = #{empId,jdbcType=INTEGER} 
+    </update>
+</mapper>

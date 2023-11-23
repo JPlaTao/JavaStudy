@@ -15,8 +15,6 @@
     <list default="true" id="0bcbfec9-3db3-447d-ab7c-cb1997643b71" name="Changes" comment="exam test">
       <change beforePath="$PROJECT_DIR$/EmpManagement" beforeDir="false" afterPath="$PROJECT_DIR$/EmpManagement" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootProjects/SpringBootDemo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsStudy/1113/learning/JavaScript/heart.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsStudy/1113/learning/JavaScript/heart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsStudy/1113/learning/learning.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsStudy/1113/learning/learning.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="CSS File" />
         <option value="Jsp File" />
         <option value="JUnit3 Test Class" />
         <option value="JUnit4 Test Class" />
@@ -58,6 +55,8 @@
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -111,86 +110,87 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowByte Code Viewer.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last.edited.regexp&quot;: &quot;15 / 59    &quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/4.WorkSpace/JAVA/java-study/jsStudy/1113/learning/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14758497&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.32037815&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.23166369&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowByte Code Viewer.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "com.intellij.ide.FileNotInSourceRootChecker.no.check": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last.edited.regexp": "15 / 59    ",
+    "last_opened_file_path": "D:/4.WorkSpace/JAVA/java-study/Epilogue/src/main/resources/static/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14758497",
+    "project.structure.side.proportion": "0.32037815",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.23166369",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;,
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module",
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;,
-      &quot;JAVA&quot;
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT",
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Epilogue\src\main\resources\static\img" />
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Epilogue\src\main\resources\static" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\jsStudy\1113\learning\img" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\templates" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\static\img\other" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\4.WorkSpace\JAVA\java-study\Epilogue\src\main\resources\static\img" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\jsStudy\1113\learning\img" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\jsStudy\1113_HomeWork\homeWork" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources" />
       <recent name="D:\4.WorkSpace\JAVA\java-study\EmpManagement\src\main\resources\com\platao\empmanagement" />
-      <recent name="D:\4.WorkSpace\JAVA\java-study\MyBatisDemo\src\main\resources\com\platao\mybatis\dao" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.platao.epilogue.mapper" />
+      <recent name="com.platao.epilogue.service" />
       <recent name="com.platao.empmanagement.controller" />
       <recent name="com.platao.empmanagement.mapper" />
       <recent name="com.platao.empmanagement.dao" />
-      <recent name="com.platao.mybatis.controller" />
-      <recent name="com.platao.mybatis.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.platao.epilogue.domain" />
       <recent name="pm" />
     </key>
   </component>
@@ -206,52 +206,73 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.learning.html">
-    <configuration name="UserControllerTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmpManagement" />
+  <component name="RunManager" selected="Spring Boot.EpilogueApplication">
+    <configuration name="EmployeeMapperTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Epilogue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.controller.*" />
+          <option name="PATTERN" value="com.platao.epilogue.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="PACKAGE_NAME" value="com.platao.epilogue.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.epilogue.mapper.EmployeeMapperTest" />
+      <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserMapperTest.selectAllWithRoleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="EmpManagement" />
+    <configuration name="EmployeeMapperTest.selectByPrimaryKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Epilogue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.platao.empmanagement.mapper.*" />
+          <option name="PATTERN" value="com.platao.epilogue.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.platao.empmanagement.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.platao.empmanagement.mapper.UserMapperTest" />
-      <option name="METHOD_NAME" value="selectAllWithRoleList" />
+      <option name="PACKAGE_NAME" value="com.platao.epilogue.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.epilogue.mapper.EmployeeMapperTest" />
+      <option name="METHOD_NAME" value="selectByPrimaryKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Epilogue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.platao.epilogue.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.platao.epilogue.service" />
+      <option name="MAIN_CLASS_NAME" value="com.platao.epilogue.service.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaStudy/Epilogue/src/main/resources/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="learning.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaStudy/jsStudy/1113/learning/learning.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="heart.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jsStudy/1113/learning/JavaScript/heart.js" working-dir="$PROJECT_DIR$/jsStudy/1113/learning/JavaScript">
-      <method v="2" />
-    </configuration>
-    <configuration name="helloJS.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/jsStudy/helloJS.js" working-dir="$PROJECT_DIR$/jsStudy">
       <method v="2" />
     </configuration>
     <configuration name="EmpManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="EmpManagement" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.platao.empmanagement.EmpManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EpilogueApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Epilogue" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.platao.epilogue.EpilogueApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,22 +294,23 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.learning.html" />
-      <item itemvalue="JUnit.UserControllerTest.login" />
-      <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
-      <item itemvalue="Node.js.heart.js" />
-      <item itemvalue="Node.js.helloJS.js" />
+      <item itemvalue="JUnit.EmployeeMapperTest.selectAll" />
+      <item itemvalue="JUnit.EmployeeMapperTest.selectByPrimaryKey" />
+      <item itemvalue="JUnit.EmployeeServiceTest.findAllTest" />
+      <item itemvalue="Spring Boot.EpilogueApplication" />
       <item itemvalue="Spring Boot.EmpManagementApplication" />
       <item itemvalue="Spring Boot.SpringStudentApplication" />
       <item itemvalue="Spring Boot.MyBatisApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmployeeServiceTest.findAllTest" />
+        <item itemvalue="JUnit.EmployeeMapperTest.selectByPrimaryKey" />
+        <item itemvalue="JUnit.EmployeeMapperTest.selectAll" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.learning.html" />
-        <item itemvalue="Node.js.heart.js" />
-        <item itemvalue="Node.js.helloJS.js" />
-        <item itemvalue="JUnit.UserControllerTest.login" />
-        <item itemvalue="JUnit.UserMapperTest.selectAllWithRoleList" />
       </list>
     </recent_temporary>
   </component>
@@ -601,6 +623,15 @@
       <workItem from="1699687019610" duration="25869000" />
       <workItem from="1699921806485" duration="4819000" />
       <workItem from="1699967750174" duration="1096000" />
+      <workItem from="1699975778924" duration="8097000" />
+      <workItem from="1700099648397" duration="16481000" />
+      <workItem from="1700185816922" duration="555000" />
+      <workItem from="1700200346081" duration="1318000" />
+      <workItem from="1700212320648" duration="1762000" />
+      <workItem from="1700274157248" duration="596000" />
+      <workItem from="1700534106476" duration="3550000" />
+      <workItem from="1700721149878" duration="4457000" />
+      <workItem from="1700726857179" duration="11170000" />
     </task>
     <task id="LOCAL-00068" summary="programing in exam_Q4 Q3_insertValueToArray">
       <created>1691938356369</created>
